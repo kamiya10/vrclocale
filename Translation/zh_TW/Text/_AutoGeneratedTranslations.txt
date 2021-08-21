@@ -1,9 +1,9 @@
-﻿// 
+﻿//
 // VRChat 繁體中文語言翻譯
 // 翻譯、維護: XoF_eLtTiL, Kamiya
-// 版本 1110
-// License under CC-BY-NC-ND-4.0
-// 
+// 版本 1102
+// License under Creative Commons BY-NC-SA
+//
 
 // 讀取畫面
 LOADING...=載入中...
@@ -12,51 +12,14 @@ Done=完畢
 LOGIN=登入
 Go!=前往！
 Go to default Home=前往預設的家
-Join!=加入！
-
 
 // ---------- Quick Menu ----------
 
 Aim at other users and select them for social actions=瞄準其他玩家來使用更多社交動作
 
-// 邀請通知管理
-Hide Invite Photos=隱藏邀請照片
-No Invites - You're all caught up!=沒有邀請 - 你都趕上了！
-Friend Requests (0)=好友請求 (0)
-Invites (0)=邀請 (0)
-Other (0)=其他 (0)
-View Friend Request Notifications=查看好友請求通知
-No Friend Requests - You're all caught up!=沒有好友請求 - 你都趕上了！
-View Other Notifications=查看其他通知
-No Notifications - You're all caught up!=沒有通知 - 你都趕上了！
-View Invite and Response Notifications=查看邀請和回覆通知
-Toggle display of custom invite photos on notifications.=用來開關邀請通知的自訂圖片
-
-// 社交動作
-User Profile=玩家個人資料
-Unfriend This User=解除好友
-Hide Avatar=隱藏角色
-Use Safety\nSettings=使用安全\n設定
-Not\nBlocked=未封鎖
-User Details=玩家詳細資訊
-Blocked=已封鎖
-Show Avatar=顯示角色
-Show\nAvatar \nStats=顯示\n角色\n數據
-Voice Off=關閉語音
-Voice On=開啟語音
-Show\nAvatar\nAuthor=顯示\n角色\n作者
-Clone\nPublic\nAvatar=複製\n公開\n角色
-View\nPlaylists=查看\n遊玩列表
-User\nVolume:=玩家\n音量:
--Volume=音量-
-+Volume=音量+
-Send Invite=發送邀請
-Add Message=添加訊息	
-Send=送出
-
 // 下方資訊
 Early Access=早期測試
-Build 1110=版本 1110
+Build 1128=版本 1128
 
 // 分頁
 Main Menu=主選單
@@ -64,6 +27,7 @@ Notifications=通知
 
 // 選單按鈕、敘述
 Worlds=世界
+WORLDS=世界
 Discover and Visit New Worlds=探索新世界
 Avatar=角色
 Change Your Avatar=更換你的角色
@@ -88,17 +52,6 @@ Emote=角色動畫
 Make Your Avatar Wave, Dance, and More=讓你的角色揮手、跳舞等等
 Emoji=表情符號
 Express Yourself with Emojis=用表情符號來表達自己
-
-TOGGLE: Select to No Longer Hear or See This User=切換:選擇以後不必聽到或看到此玩家
-Turn this User's Microphone Off=關閉此玩家的麥克風
-TOGGLE: Select to Mute This User's Voice Channel=切換:選擇靜音此玩家的語音通道
-Select to have Safety Settings determine the avatar features of this selected user=選擇以具有安全設置，確定此選定玩家的角色功能
-Ask this User to be Your Friend=讓這個玩家成為你的好友
-See More About this User=查看關於此玩家的更多資訊
-Select to turn off all Avatar features but voice on this selected=選擇以關閉所有角色功能，但選擇的聲音
-Select to see all Avatar features of this selected user=選擇查看此選定玩家的所有角色功能
-TOGGLE: Select to See and Hear This User=切換:選擇查看和聽到此玩家
-TOGGLE: Select to Hear This User's Mute Channel=切換:選擇以聽到此玩家的靜音通道a
 
 // 左側按鈕
 Mute=靜音
@@ -131,7 +84,7 @@ Random=隨機
 Avatar Worlds=角色世界
 Games=遊戲
 Updated Recently=最近更新
-New=新玩家
+New=新地圖
 Recent=最近紀錄
 Mine=我的地圖
 Classics=經典
@@ -430,7 +383,7 @@ Go=前往
 Drop Portal=放傳送門
 
 // 傳送門錯誤
-Cannot Create Portal=無法放置傳送門
+Cannot Create Portal=無法放置傳送們
 Portal too close to spawn.=你要放置的地方太靠近重生點
 Could not find surface on which to place it.=你要放置的地方沒有地面
 Portal too close to a player.=你要放置的地方太靠近玩家
@@ -450,13 +403,8 @@ Only your friends may join.=只有你的好友可以加入
 You can invite others. Joiners can accept requests.=你可以邀請其他人，已加入的人可以接受請求
 You can invite others. Only you can accept requests=你可以邀請其他人，只有你可以接受請求
 
-// 搜尋功能
-Delete=刪除
-Search Results=搜尋結果
-Search In:=搜尋:
-Save Search 0/3=保存搜尋0/3
-
 // ---------- 角色 ----------
+
 Avatars=角色
 My Creations=我的創作
 Favorite Avatars (0/25)=最愛角色 (0/25)
@@ -511,34 +459,16 @@ Original: Poor=原始: 不良
 Original: Very Poor=原始: 非常不良
 Learn More about Avatar Optimization in the VRChat Documentation=了解有關VRChat文檔中的角色優化的更多資訊
 Open Documentation=開啟文檔
-Excellent=完美
-Good=良好
-Medium=中等
-Poor=不良
-Very Poor=非常不良
 
 // ---------- 社交 ----------
-Unfriend=解除好友
-Invite=邀請
-Join=加入
-Trust Level:=信任等級:
-Online=在線的
-Vote to Kick=投票踢出
-offline=離線
-Req Invite=請求邀請
-online in a private world=在私人世界
-VRC+ Supporter=VRC+支持者
-Edit Profile=編輯個人檔案
+
+Edit Profile=個人檔案
 Edit Status=編輯狀態
 In Room=在房間裡
 Friend Requests=好友請求
 Online Friends=在線好友
 Offline Friends (Expand to Show)=離線好友 (展開顯示)
 Find new friends in active worlds below! (Expand to Show)=在下面的世界中尋找新朋友！ (展開顯示)
-Playlist 1=遊玩列表1
-Playlist 2=遊玩列表2
-Playlist 3=遊玩列表3
-Playlist 4=遊玩列表4
 Favorite 0/192=最愛 0/192
 Favorite 1/192=最愛 1/192
 Favorite 2/192=最愛 2/192
@@ -930,7 +860,6 @@ Unfavorite 192/192=取消最愛 192/192
 Change Bookmark Name=變更最愛名稱
 
 // 個人檔案
-
 Change Profile Pic=更換個人檔案圖片
 Playlists=地圖列表
 Edit Bio=編輯自介
@@ -943,10 +872,6 @@ Mic Off=關麥克風
 Warn=警告
 Kick=踢出
 Moderate=管理選單
-Moderator Warn=警告管理
-Moderator Kick=踢出管理
-Force Mic Off=強制關閉麥克風
-Reset=重置
 Use Avatar Image=使用角色圖片
 0/512 characters remaining...=已達字數上限            
 1/512 characters remaining...=還剩下 1 個字元          
@@ -1470,203 +1395,44 @@ Online: See join requests.=在線: 顯示加入請求
 Ask Me: Hide location, see join requests.=詢問我: 隱藏地點，顯示加入請求
 Do Not Disturb: Hide location, hide join requests.=忙碌: 隱藏地點和加入請求
 Update=變更
-History=紀錄  
+History=紀錄
 Status History=狀態紀錄
-0/32 characters remaining...=已達字數上限            
-1/32 characters remaining...=還剩下 1 個字元           
-2/32 characters remaining...=還剩下 2 個字元           
-3/32 characters remaining...=還剩下 3 個字元           
-4/32 characters remaining...=還剩下 4 個字元           
-5/32 characters remaining...=還剩下 5 個字元           
-6/32 characters remaining...=還剩下 6 個字元           
-7/32 characters remaining...=還剩下 7 個字元           
-8/32 characters remaining...=還剩下 8 個字元           
-9/32 characters remaining...=還剩下 9 個字元           
-10/32 characters remaining...=還剩下 10 個字元          
-11/32 characters remaining...=還剩下 11 個字元          
-12/32 characters remaining...=還剩下 12 個字元          
-13/32 characters remaining...=還剩下 13 個字元          
-14/32 characters remaining...=還剩下 14 個字元          
-15/32 characters remaining...=還剩下 15 個字元          
-16/32 characters remaining...=還剩下 16 個字元          
-17/32 characters remaining...=還剩下 17 個字元          
-18/32 characters remaining...=還剩下 18 個字元          
-19/32 characters remaining...=還剩下 19 個字元          
-20/32 characters remaining...=還剩下 20 個字元          
-21/32 characters remaining...=還剩下 21 個字元          
-19/32 characters remaining...=還剩下 19 個字元          
-20/32 characters remaining...=還剩下 20 個字元          
-21/32 characters remaining...=還剩下 21 個字元          
-22/32 characters remaining...=還剩下 22 個字元          
-23/32 characters remaining...=還剩下 23 個字元          
-24/32 characters remaining...=還剩下 24 個字元          
-25/32 characters remaining...=還剩下 25 個字元          
-26/32 characters remaining...=還剩下 26 個字元          
-27/32 characters remaining...=還剩下 27 個字元          
-28/32 characters remaining...=還剩下 28 個字元          
-29/32 characters remaining...=還剩下 29 個字元          
-30/32 characters remaining...=還剩下 30 個字元          
-31/32 characters remaining...=還剩下 31 個字元          
-32/32 characters remaining...=還剩下 32 個字元      
-
-
-// ---------- VRChat+功能 ----------
-VRChat Plus (Monthly)=VRChat Plus(月付)
-Next Billing Date=下個續訂日期
-Amount=價格
-Manage Subscription=管理訂閱
-Select PC=選擇\nPC
-Manage User Icons=管理玩家圖標
-Upload on VRChat.com=在VRChat.com上傳
-Close=關閉
-Manage\nIcons=管理圖標
-Move\nCamera=移動相機
-Timed\n(3s)=計時器\n(3秒)
-Take Photo=拍照
-Flip=翻轉
-Take a user icon photo.\n The camera can be aimed with the [Move] button.=拍設玩家圖標,你可以按下[移動相機]調整相機視角
-Manage Your User Icons=管理你的玩家圖標
-Learn More About VRC+=了解有關VRC+的更多資訊
-VRC+ Supporter=VRC+支持者
-Expired=已到期
-Expires=訂閱到期日期
-My User Icons (1/64)=我的圖標 (1/64)
-My User Icons (2/64)=我的圖標 (2/64)
-My User Icons (3/64)=我的圖標 (3/64)
-My User Icons (4/64)=我的圖標 (4/64)
-My User Icons (5/64)=我的圖標 (5/64)
-My User Icons (6/64)=我的圖標 (6/64)
-My User Icons (7/64)=我的圖標 (7/64)
-My User Icons (8/64)=我的圖標 (8/64)
-My User Icons (9/64)=我的圖標 (9/64)
-My User Icons (10/64)=我的圖標 (10/64)
-My User Icons (11/64)=我的圖標 (11/64)
-My User Icons (12/64)=我的圖標 (12/64)
-My User Icons (13/64)=我的圖標 (13/64)
-My User Icons (14/64)=我的圖標 (14/64)
-My User Icons (15/64)=我的圖標 (15/64)
-My User Icons (16/64)=我的圖標 (16/64)
-My User Icons (17/64)=我的圖標 (17/64)
-My User Icons (18/64)=我的圖標 (18/64)
-My User Icons (19/64)=我的圖標 (19/64)
-My User Icons (20/64)=我的圖標 (20/64)
-My User Icons (21/64)=我的圖標 (21/64)
-My User Icons (22/64)=我的圖標 (22/64)
-My User Icons (23/64)=我的圖標 (23/64)
-My User Icons (24/64)=我的圖標 (24/64)
-My User Icons (25/64)=我的圖標 (25/64)
-My User Icons (26/64)=我的圖標 (26/64)
-My User Icons (27/64)=我的圖標 (27/64)
-My User Icons (28/64)=我的圖標 (28/64)
-My User Icons (29/64)=我的圖標 (29/64)
-My User Icons (30/64)=我的圖標 (30/64)
-My User Icons (31/64)=我的圖標 (31/64)
-My User Icons (32/64)=我的圖標 (32/64)
-My User Icons (33/64)=我的圖標 (33/64)
-My User Icons (34/64)=我的圖標 (34/64)
-My User Icons (35/64)=我的圖標 (35/64)
-My User Icons (36/64)=我的圖標 (36/64)
-My User Icons (37/64)=我的圖標 (37/64)
-My User Icons (38/64)=我的圖標 (38/64)
-My User Icons (39/64)=我的圖標 (39/64)
-My User Icons (40/64)=我的圖標 (40/64)
-My User Icons (41/64)=我的圖標 (41/64)
-My User Icons (42/64)=我的圖標 (42/64)
-My User Icons (43/64)=我的圖標 (43/64)
-My User Icons (44/64)=我的圖標 (44/64)
-My User Icons (45/64)=我的圖標 (45/64)
-My User Icons (46/64)=我的圖標 (46/64)
-My User Icons (47/64)=我的圖標 (47/64)
-My User Icons (48/64)=我的圖標 (48/64)
-My User Icons (49/64)=我的圖標 (49/64)
-My User Icons (50/64)=我的圖標 (50/64)
-My User Icons (51/64)=我的圖標 (51/64)
-My User Icons (52/64)=我的圖標 (52/64)
-My User Icons (53/64)=我的圖標 (53/64)
-My User Icons (54/64)=我的圖標 (54/64)
-My User Icons (55/64)=我的圖標 (55/64)
-My User Icons (56/64)=我的圖標 (56/64)
-My User Icons (57/64)=我的圖標 (57/64)
-My User Icons (58/64)=我的圖標 (58/64)
-My User Icons (59/64)=我的圖標 (59/64)
-My User Icons (60/64)=我的圖標 (60/64)
-My User Icons (61/64)=我的圖標 (61/64)
-My User Icons (62/64)=我的圖標 (62/64)
-My User Icons (63/64)=我的圖標 (63/64)
-My User Icons (64/64)=我的圖標 (64/64)
-My Images (1/64)=我的相片 (1/64)
-My Images (2/64)=我的相片 (2/64)
-My Images (3/64)=我的相片 (3/64)
-My Images (4/64)=我的相片 (4/64)
-My Images (5/64)=我的相片 (5/64)
-My Images (6/64)=我的相片 (6/64)
-My Images (7/64)=我的相片 (7/64)
-My Images (8/64)=我的相片 (8/64)
-My Images (9/64)=我的相片 (9/64)
-My Images (10/64)=我的相片 (10/64)
-My Images (11/64)=我的相片 (11/64)
-My Images (12/64)=我的相片 (12/64)
-My Images (13/64)=我的相片 (13/64)
-My Images (14/64)=我的相片 (14/64)
-My Images (15/64)=我的相片 (15/64)
-My Images (16/64)=我的相片 (16/64)
-My Images (17/64)=我的相片 (17/64)
-My Images (18/64)=我的相片 (18/64)
-My Images (19/64)=我的相片 (19/64)
-My Images (20/64)=我的相片 (20/64)
-My Images (21/64)=我的相片 (21/64)
-My Images (22/64)=我的相片 (22/64)
-My Images (23/64)=我的相片 (23/64)
-My Images (24/64)=我的相片 (24/64)
-My Images (25/64)=我的相片 (25/64)
-My Images (26/64)=我的相片 (26/64)
-My Images (27/64)=我的相片 (27/64)
-My Images (28/64)=我的相片 (28/64)
-My Images (29/64)=我的相片 (29/64)
-My Images (30/64)=我的相片 (30/64)
-My Images (31/64)=我的相片 (31/64)
-My Images (32/64)=我的相片 (32/64)
-My Images (33/64)=我的相片 (33/64)
-My Images (34/64)=我的相片 (34/64)
-My Images (35/64)=我的相片 (35/64)
-My Images (36/64)=我的相片 (36/64)
-My Images (37/64)=我的相片 (37/64)
-My Images (38/64)=我的相片 (38/64)
-My Images (39/64)=我的相片 (39/64)
-My Images (40/64)=我的相片 (40/64)
-My Images (41/64)=我的相片 (41/64)
-My Images (42/64)=我的相片 (42/64)
-My Images (43/64)=我的相片 (43/64)
-My Images (44/64)=我的相片 (44/64)
-My Images (45/64)=我的相片 (45/64)
-My Images (46/64)=我的相片 (46/64)
-My Images (47/64)=我的相片 (47/64)
-My Images (48/64)=我的相片 (48/64)
-My Images (49/64)=我的相片 (49/64)
-My Images (50/64)=我的相片 (50/64)
-My Images (51/64)=我的相片 (51/64)
-My Images (52/64)=我的相片 (52/64)
-My Images (53/64)=我的相片 (53/64)
-My Images (54/64)=我的相片 (54/64)
-My Images (55/64)=我的相片 (55/64)
-My Images (56/64)=我的相片 (56/64)
-My Images (57/64)=我的相片 (57/64)
-My Images (58/64)=我的相片 (58/64)
-My Images (59/64)=我的相片 (59/64)
-My Images (60/64)=我的相片 (60/64)
-My Images (61/64)=我的相片 (61/64)
-My Images (62/64)=我的相片 (62/64)
-My Images (63/64)=我的相片 (63/64)
-My Images (64/64)=我的相片 (64/64)
-GALLERY=相簿
-or=或
-Add Photo=添加圖片
-Early supporters earn me as a badge! =早期的支持者可獲得的徽章！ 
-Take New Photo=拍新照片
-You must be a VRC+ supporter to use this group.\n\nSelect an avatar and click Move to remove it from this group and add it to Favorite Avatars.=你必須是VRC +支持者來使用此組。\n\n選擇一個角色，然後單擊“移動”以從此組中刪除它，並將其添加到收藏的角色中。
-VRC+ Supporter Required=需要VRC +支持者   
-
-
+0/32 characters remaining...=已達字數上限
+1/32 characters remaining...=還剩下 1 個字元
+2/32 characters remaining...=還剩下 2 個字元
+3/32 characters remaining...=還剩下 3 個字元
+4/32 characters remaining...=還剩下 4 個字元
+5/32 characters remaining...=還剩下 5 個字元
+6/32 characters remaining...=還剩下 6 個字元
+7/32 characters remaining...=還剩下 7 個字元
+8/32 characters remaining...=還剩下 8 個字元
+9/32 characters remaining...=還剩下 9 個字元
+10/32 characters remaining...=還剩下 10 個字元
+11/32 characters remaining...=還剩下 11 個字元
+12/32 characters remaining...=還剩下 12 個字元
+13/32 characters remaining...=還剩下 13 個字元
+14/32 characters remaining...=還剩下 14 個字元
+15/32 characters remaining...=還剩下 15 個字元
+16/32 characters remaining...=還剩下 16 個字元
+17/32 characters remaining...=還剩下 17 個字元
+18/32 characters remaining...=還剩下 18 個字元
+19/32 characters remaining...=還剩下 19 個字元
+20/32 characters remaining...=還剩下 20 個字元
+21/32 characters remaining...=還剩下 21 個字元
+19/32 characters remaining...=還剩下 19 個字元
+20/32 characters remaining...=還剩下 20 個字元
+21/32 characters remaining...=還剩下 21 個字元
+22/32 characters remaining...=還剩下 22 個字元
+23/32 characters remaining...=還剩下 23 個字元
+24/32 characters remaining...=還剩下 24 個字元
+25/32 characters remaining...=還剩下 25 個字元
+26/32 characters remaining...=還剩下 26 個字元
+27/32 characters remaining...=還剩下 27 個字元
+28/32 characters remaining...=還剩下 28 個字元
+29/32 characters remaining...=還剩下 29 個字元
+30/32 characters remaining...=還剩下 30 個字元
+31/32 characters remaining...=還剩下 31 個字元
+32/32 characters remaining...=還剩下 32 個字元
 
 // 檢舉
 Report user=檢舉玩家
@@ -1714,30 +1480,31 @@ Customize which avatar features you want to see for each user Trust Rank.=自訂
 // 功能
 <i>Voice</i> mutes or unmutes audio that emits from a user's microphone input for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>語音：</i>靜音或是取消靜音玩家的麥克風輸入
 <i>Avatar</i> shows or hides the avatar for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>角色：</i> 顯示或隱藏玩家的角色模型
-<i>User Icons</i> shows or hides the custom User Icon for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>玩家圖標：</i>顯示或隱藏自訂玩家圖標 
+<i>User Icons</i> shows or hides the custom User Icon for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>玩家圖標：</i>顯示或隱藏自訂玩家圖標
 <i>Audio</i> mutes or unmutes sound effects that emit from a user's avatar for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>音效：</i>靜音或是取消靜音玩家的角色發出的聲音效果
 <i>Shaders</i> turns on or off shaders on a user's avatar for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>著色器：</i>開啟或關閉玩家的角色上的著色器。
 <i>Particles and Lights</i> turns on or off particles and lights on a user's avatar for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>. <i>Particles</i> are components that shoot out effects, like graphics, fire, etc.=<i>光源、粒子和效果：</i>開啟或關閉玩家的角色光源、粒子和效果 \n<i>粒子</i> 是射出效果的组件，如圖形，火等。
 <i>Custom Animations</i> turns on or off custom animations on a user's avatar for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>自訂動畫：</i>開啟或關閉玩家的角色上自訂動作
 
 // 效能設定
-Max Simulated Bones:=最大模擬骨骼:
-Max Collision Checks:=最大碰撞檢查:
 Avatar Perf.=角色效能
 Avatar Performance=角色效能設定
 Minimum Displayed Performance Rank:=最低顯示效能等級
 VeryPoor=非常不良
-Very Poor=非常不良
 Poor=不良
+Low=低
 Medium=中等
+High=高
+Ultra=終極
 Maximum Avatar Download Size:=最大角色下載大小
 Avatars with a performance rank below the selected level will be replaced with the blocked avatar placeholder. Please refer to our documentation for more information on the Avatar Performance Rating system.=效能等級低於所選級別的角色將替換為被封鎖的角色\n有關角色效能評分系統的更多資訊，請參閱我們的文檔
 Dynamic Bone=動態骨骼
 Dynamic Bone is a script that provides physics motion on avatar bones at the cost of performance.  Adjust the settings below to balance fidelity and performance.=動態骨骼是一個腳本，可在效能成本上為角色骨骼提供物理運動。\n調整下面的設定以平衡保真度和效能。
 Limit Dynamic Bone Usage=限制動態骨骼
-If limiting is enabled, all Dynamic Bones and/or Colliders will be removed if the limits are exceeded. This limit is checked and applied per avatar. If you wish to customize these limits, see our documentation below for editing the configuration file. Changes to the configuration file require a restart to take effect.=如果啟用限制，則如果超出限制，所有動態骨骼和/或碰撞器將被移除。 每個角色都會檢查和應用此限制。 如果您希望自訂這些限制，請參閱我們的文檔來編輯設定檔。設定檔的變更需要重新啟動才能生效。
+If limiting is enabled, all Dynamic Bones and/or Colliders will be removed if the limits are exceeded. This limit is checked and applied per avatar. If you wish to customize these limits, see our documentation below for editing the configuration file.\nChanges to the configuration file require a restart to take effect.</color>=如果啟用限制，則如果超出限制，所有動態骨骼和/或碰撞器將被移除。 每個角色都會檢查和應用此限制。 如果您希望自訂這些限制，請參閱我們的文檔來編輯設定檔。設定檔的變更需要重新啟動才能生效。
 Adv. Graphics=進階影像
 Advanced Graphics=進階影像設定
+Graphics Quality:=畫質
 Multisample Antialiasing:=多重採樣抗鋸齒
 Disabled=已停用
 Multisample Antialiasing smooths out the edges of geometry at the cost of increased rendering and VRAM usage. Try reducing this setting if you are experiencing GPU or VRAM performance issues.=多重採樣抗鋸齒以增加渲染和 VRAM 用量為代價平滑幾何體的邊緣\n如果您遇到 GPU 或 VRAM 效能問題，請嘗試降低此設定
@@ -1752,10 +1519,6 @@ Bindings=按鍵設定
 Advanced Settings=進階設定
 LOGOUT=登出帳號
 EXIT VRCHAT=退出遊戲
-Avatar Check=角色檢查
-Height Measurement=高度調整
-Streamer Mode=直播模式
-Controller Bindings=控制器按鍵設定
 
 // 舒適和安全
 Comfort and Safety=舒適和安全
@@ -1764,17 +1527,18 @@ COMFORT TURNING=舒適轉向
 PERSONAL SPACE=個人空間
 ALLOW UNTRUSTED URLS=允許不受信任的網址
 STREAMER MODE=直播模式
+Streamer Mode=直播模式
 
 // 控制
 Mouse=控制
 Sensitivity=滑鼠靈敏度
-INVERT MOUSE LOOK=反轉滑鼠方向
+INVERT MOUSE LOOK=反轉滑鼠
 
 // 語音選項
 Voice Options=語音選項
 TOGGLE VOICE=語音切換
-MIC DEFAULTS ON=麥克風預設開啟
-DISABLE MIC BUTTON=禁用麥克風按鈕
+MIC DEFAULTS ON=預設開啟麥克風
+DISABLE MIC BUTTON=禁用麥克風快捷鍵
 
 // 其他選項
 Other Options=其他選項
@@ -1790,8 +1554,9 @@ SHOW COMMUNITY LABS=顯示社群實驗室
 Audio Volume=音量
 Master\n=主音量\n
 UI/Menu=UI/選單
+World=世界
 Voices=語音
-AVATARS=角色
+Avatar=角色
 
 // 麥克風
 Microphone=麥克風
@@ -1824,19 +1589,19 @@ No=取消
 // ---------- UI/介面 ----------
 
 Nameplates\nShown=顯示\n玩家名牌
-Show full nameplates.=顯示完整名牌
 Icons Only=只顯示\n玩家圖標
-Show nameplates with icons only.=名牌只顯示玩家圖標
 Nameplates\nHidden=隱藏\n玩家名牌
+Show full nameplates.=顯示完整名牌
+Show nameplates with icons only.=名牌只顯示玩家圖標
 Hide nameplates.=隱藏玩家名牌
 QM Info On=詳細資訊
 QM Info Off=簡單資訊
 Show extra nameplate information while the Quick Menu is open.=當快速選單開啟時在名牌上顯示更多資訊
 Status\nShown=顯示\n狀態
-Always show a player's status on their nameplate.=總是在玩家名牌上顯示狀態
 Status On\nQM Open=QM開啟\n時顯示
-When the Quick Menu is open show a player's status on the nameplate.=當快速選單開啟時在玩家名牌上顯示狀態
 Status\nHidden=隱藏\n狀態
+Always show a player's status on their nameplate.=總是在玩家名牌上顯示狀態
+When the Quick Menu is open show a player's status on the nameplate.=當快速選單開啟時在玩家名牌上顯示狀態
 Never show a player's status on their nameplate.=永不在玩家名牌上顯示狀態
 Nameplate\nSettings=名牌\n設定
 Show additional nameplate options in the Action Menu.=開啟動作選單來顯示額外的名牌設定
@@ -1955,17 +1720,13 @@ Known User=高級玩家
 Known=高級玩家
 Trusted User=最高玩家
 Trusted=最高玩家
-Veteran User=資深玩家
-Veteran=資深玩家
-Legendary=傳說級玩家
-Legendary User=傳說級玩家
 Nuisance=公害
 Friend (Visitor)=好友 (訪客)
 Friend (New)=好友 (新玩家)
 Friend (New User)=好友 (新玩家)
 Friend (User)=好友 (一般玩家)
-Friend (Known User)=好友 (高級玩家)
 Friend (Known)=好友 (高級玩家)
+Friend (Known User)=好友 (高級玩家)
 Friend (Trusted)=好友 (最高玩家)
 Friend (Trusted User)=好友 (最高玩家)
 Friend (Veteran)=好友 (資深玩家)
@@ -1975,42 +1736,91 @@ Friend (Legendary User)=好友 (傳說級玩家)
 Friend (Nuisance)=好友 (公害)
 Friend (Nuisance User)=好友 (公害)
 
+// USharpVideo
+Enter Video URL... (anyone)=輸入影片網址... (任何人)
+Enter Video URL...=輸入影片網址...
+Master:=房主:
+Video Owner:=影片主人:
+Current Video:=目前影片:
+Last Video:=上一個影片:
+USharpVideo v1.0.0 U# Video Player=USharpVideo v1.0.0 U# 影片播放器
+USharpVideo v0.3.0 U# Video Player=USharpVideo v0.3.0 U# 影片播放器
+USharpVideo v0.2.1 U# Video Player=USharpVideo v0.2.1 U# 影片播放器
+USharpVideo v0.2.0 U# Video Player=USharpVideo v0.2.0 U# 影片播放器
+USharpVideo v0.1.0 U# Video Player=USharpVideo v0.1.0 U# 影片播放器
+Video=影片
+Stream=直播
 
-// ---------- 單手快速選單 ----------
 
+// ---------- 動作選單 ----------
+// Root
 Options=選項
+Expressions=人物動作選單
+Emojis=表情符號
+
+// Root/Options
 Nameplates=名牌
 Gestures=手勢
 Mic=麥克風
 Config=設定
 Close Menu=關閉選單
+
+// Root/Options/Config
 Menu Size=選單大小
 Menu Opacity=選單透明度
 On Hud=顯示在頭顯
-HUD Position=介面位置	
+HUD Position=選單位置
 Flick Select=輕彈選擇
 One Handed Movement=單手移動
 AFK Detection=AFK偵測
-Emojis=表情符號
-Expressions=人物動作選單
 Debug=除錯
+
+// Root/Options/Nameplates
 Visibility=能見度
 Size=大小
 Opacity=透明度
-Status=狀態\n隱藏
+Status=狀態
 Quickmenu\nInfo=快速選單\n資訊
+
+// Root/Options/Nameplates/Size
+Large=大
+Small=小
+Tiny=迷你
+
+// Root/Emojis
+Page 1=第 1 頁
+Page 2=第 2 頁
+Page 3=第 3 頁
+Page 4=第 4 頁
+Fall=秋季
+Winter=冬季
+Summer=夏季
 
 // ---------- UNCATEGORIZED ----------
 
-
+More features for VRC+ are coming soon! =VRC+將會推出更多功能!
+Search...=尋找...
+SAFETY=安全
+SETTINGS=設定
+SOCIAL=社交
+USER ICONS=玩家圖標
+Title=標題
+Favorite=加入最愛
+Offline=離線
+Reset Custom Settings=重置自訂設定
 
 Friends=好友
 
 Off=關
 On=開
-
-
-
+Expired=已到期
+Expires=訂閱到期日期
+Delete=刪除
+Search Results=搜尋結果
+Search In:=搜尋:
+Save Search 0/3=保存搜尋0/3
+Max Simulated Bones:=最大模擬骨骼:
+Max Collision Checks:=最大碰撞檢查:
 Report=檢舉
 Back=返回
 Loading=載入中
@@ -2021,11 +1831,20 @@ Processing Transaction...=處理交易......
 If you don’t see the Steam Transaction Overlay, try the following:\r\n=如果你沒有看到Steam遊戲疊層，請嘗試以下操作:\r\n
 CLOSE=關閉
 $99.99 / year=$99.99/年
-
-
-
+Unfriend=解除好友
+Invite=邀請
+Join=加入
+Trust Level:=信任等級:
+Online=在線
+Vote to Kick=投票踢出
+offline=離線
+Req Invite=請求邀請
+online in a private world=在私人世界
+VRC+ Supporter=VRC+支持者
+Avatar Check=角色檢查
+Height Measurement=高度調整
 Okay=好的
-
+Controller Bindings=控制器按鍵設定
 All Reset\n(Master)=全部重置\n(房主)
 All Clear\n(Local)=全部刪除\n(本地)
 Respawn\n(Global)=重生\n(全域)
@@ -2038,52 +1857,224 @@ Tags=標籤
 For urgent issues contact us at moderation@vrchat.com=如有其他問題請聯繫 moderation@vrchat.com
 Search=搜尋
 Name=名稱
+VRChat Plus (Monthly)=VRChat Plus(月付)
+Next Billing Date=下個續訂日期
+Amount=價格
+Manage Subscription=管理訂閱
 
-Respawn\n<size%3D14>(Global)</size>=重生\n<size%3D14>(全域的)</size>
-Clear\n<size%3D14>(Global)</size>=刪除\n<size%3D14>(全域的)</size>
-Clear All\n<size%3D14>(Local)</size>=刪除所有\n<size%3D14>(本地的)</size>
-Hide\n<size%3D14>(Local)</size>=隱藏\n<size%3D14>(本地的)</size>
-<size%3D18>Reset All</size>\n\n<size%3D8>[Only master can do]</size>\n\n<size%3D14>(Global)</size>=<size%3D18>重置全部</size>\n\n<size%3D8>[只有主人可以做]</size>\n\n<size%3D14>(全域的)</size>
-<size%3D18>Disable</size>\nPen ↔ Eraser\n<size%3D8>[Double-click the pen]</size>\n<size%3D14>(Local)</size>=<size%3D18>禁用</size>\n鋼筆橡皮擦\n<size%3D8>[雙擊筆]</size>\n<size%3D14>(本地的)</size>
-<size%3D18>Reset All</size>\n\n<size%3D8>[Only Kamiya4047 can do]</size>\n\n<size%3D14>(Global)</size>=<size%3D18>重置全部</size>\n\n<size%3D8>[只有Kamiya4047可以做]</size>\n\n<size%3D14>(全域的)</size>
-Enter Video URL...=輸入影片網址 ...
-Video=影片
-Stream=直播
+Select PC=選擇\nPC
+Manage User Icons=管理玩家圖標
+Upload on VRChat.com=在VRChat.com上傳
+Close=關閉
+Manage\nIcons=管理圖標
+Move\nCamera=移動相機
+Timed\n(3s)=計時器\n(3秒)
+Take Photo=拍照
+Flip=翻轉
+Take a user icon photo.\n The camera can be aimed with the [Move] button.=拍設玩家圖標,你可以按下[移動相機]調整相機視角
+My User Icons (1/64)=我的圖標 (1/64)
+My User Icons (2/64)=我的圖標 (2/64)
+My User Icons (3/64)=我的圖標 (3/64)
+My User Icons (4/64)=我的圖標 (4/64)
+My User Icons (5/64)=我的圖標 (5/64)
+My User Icons (6/64)=我的圖標 (6/64)
+My User Icons (7/64)=我的圖標 (7/64)
+My User Icons (8/64)=我的圖標 (8/64)
+My User Icons (9/64)=我的圖標 (9/64)
+My User Icons (10/64)=我的圖標 (10/64)
+My User Icons (11/64)=我的圖標 (11/64)
+My User Icons (12/64)=我的圖標 (12/64)
+My User Icons (13/64)=我的圖標 (13/64)
+My User Icons (14/64)=我的圖標 (14/64)
+My User Icons (15/64)=我的圖標 (15/64)
+My User Icons (16/64)=我的圖標 (16/64)
+My User Icons (17/64)=我的圖標 (17/64)
+My User Icons (18/64)=我的圖標 (18/64)
+My User Icons (19/64)=我的圖標 (19/64)
+My User Icons (20/64)=我的圖標 (20/64)
+My User Icons (21/64)=我的圖標 (21/64)
+My User Icons (22/64)=我的圖標 (22/64)
+My User Icons (23/64)=我的圖標 (23/64)
+My User Icons (24/64)=我的圖標 (24/64)
+My User Icons (25/64)=我的圖標 (25/64)
+My User Icons (26/64)=我的圖標 (26/64)
+My User Icons (27/64)=我的圖標 (27/64)
+My User Icons (28/64)=我的圖標 (28/64)
+My User Icons (29/64)=我的圖標 (29/64)
+My User Icons (30/64)=我的圖標 (30/64)
+My User Icons (31/64)=我的圖標 (31/64)
+My User Icons (32/64)=我的圖標 (32/64)
+My User Icons (33/64)=我的圖標 (33/64)
+My User Icons (34/64)=我的圖標 (34/64)
+My User Icons (35/64)=我的圖標 (35/64)
+My User Icons (36/64)=我的圖標 (36/64)
+My User Icons (37/64)=我的圖標 (37/64)
+My User Icons (38/64)=我的圖標 (38/64)
+My User Icons (39/64)=我的圖標 (39/64)
+My User Icons (40/64)=我的圖標 (40/64)
+My User Icons (41/64)=我的圖標 (41/64)
+My User Icons (42/64)=我的圖標 (42/64)
+My User Icons (43/64)=我的圖標 (43/64)
+My User Icons (44/64)=我的圖標 (44/64)
+My User Icons (45/64)=我的圖標 (45/64)
+My User Icons (46/64)=我的圖標 (46/64)
+My User Icons (47/64)=我的圖標 (47/64)
+My User Icons (48/64)=我的圖標 (48/64)
+My User Icons (49/64)=我的圖標 (49/64)
+My User Icons (50/64)=我的圖標 (50/64)
+My User Icons (51/64)=我的圖標 (51/64)
+My User Icons (52/64)=我的圖標 (52/64)
+My User Icons (53/64)=我的圖標 (53/64)
+My User Icons (54/64)=我的圖標 (54/64)
+My User Icons (55/64)=我的圖標 (55/64)
+My User Icons (56/64)=我的圖標 (56/64)
+My User Icons (57/64)=我的圖標 (57/64)
+My User Icons (58/64)=我的圖標 (58/64)
+My User Icons (59/64)=我的圖標 (59/64)
+My User Icons (60/64)=我的圖標 (60/64)
+My User Icons (61/64)=我的圖標 (61/64)
+My User Icons (62/64)=我的圖標 (62/64)
+My User Icons (63/64)=我的圖標 (63/64)
+My User Icons (64/64)=我的圖標 (64/64)
+Respawn\n<size%3D14>(Global)</size>=重生\n<size%3D14>(全域)</size>
+Clear\n<size%3D14>(Global)</size>=刪除\n<size%3D14>(全域)</size>
+Clear All\n<size%3D14>(Local)</size>=刪除所有\n<size%3D14>(本地)</size>
+Hide\n<size%3D14>(Local)</size>=隱藏\n<size%3D14>(本地)</size>
+<size%3D18>Reset All</size>\n\n<size%3D8>[Only master can do]</size>\n\n<size%3D14>(Global)</size>=<size%3D18>重置全部</size>\n\n<size%3D8>[只限房主]</size>\n\n<size%3D14>(全域)</size>
+<size%3D18>Disable</size>\nPen ↔ Eraser\n<size%3D8>[Double-click the pen]</size>\n<size%3D14>(Local)</size>=<size%3D18>禁用</size>\n筆 ↔ 橡皮擦\n<size%3D8>[雙擊筆]</size>\n<size%3D14>(本地)</size>
 Learn More=了解更多
-
+Manage Your User Icons=管理你的玩家圖標
+Learn More About VRC+=了解有關VRC+的更多資訊
 Select this user for social actions=選擇此玩家進行社交操作
-
+Hide Invite Photos=隱藏邀請照片
+No Invites - You're all caught up!=沒有邀請 - 你都趕上了！
+Friend Requests (0)=好友請求(0)
+Invites (0)=邀請(0)
+Other (0)=其他(0)
+View Friend Request Notifications=查看好友請求通知
+No Friend Requests - You're all caught up!=沒有好友請求 - 你都趕上了！
+View Other Notifications=查看其他通知
+No Notifications - You're all caught up!=沒有通知 - 你都趕上了！
+View Invite and Response Notifications=查看Invite和反應(?)通知
+Toggle display of custom invite photos on notifications.=用來開關邀請通知的自訂圖片
 VRChat is supported by users like you!=VRCHAT需要像你這樣的支持者！
 Go Back to the Quick Menu=返回快速選單
 
+You must be a VRC+ supporter to use this group.\n\nSelect an avatar and click Move to remove it from this group and add it to Favorite Avatars.=你必須是VRC +支持者來使用此組。\n\n選擇一個角色，然後單擊“移動”以從此組中刪除它，並將其添加到收藏的角色中。
 CANCEL=取消
 Renew=更新
-
+VRC+ Supporter Required=需要VRC +支持者
 Return to Home=回到家里
-
+Hide Avatar=隱藏角色
+Use Safety\nSettings=使用安全\n設定
+Not\nBlocked=未封鎖
+User Details=玩家詳細資訊
+Blocked=已封鎖
+Show Avatar=顯示角色
+Show\nAvatar \nStats=顯示\n角色\n數據
+Voice Off=關閉語音
+Voice On=開啟語音
+Show\nAvatar\nAuthor=顯示\n角色\n作者
+Clone\nPublic\nAvatar=複製\n公開\n角色
+View\nPlaylists=查看\n遊玩列表
+User\nVolume:=玩家\n音量:
+-Volume=音量-
++Volume=音量+
+Reset=重置
 Alert the Moderators of a Nuisance User=用來警告公害玩家
 Use the buttons below to interact with this user=使用下面的按鈕與此玩家互動
 Next=下一步
 Prev=上一步
-User Real Height=玩家身高
-Photo Camera=照相功能
+TOGGLE: Select to No Longer Hear or See This User=切換:選擇以後不必聽到或看到此玩家
+Turn this User's Microphone Off=關閉此玩家的麥克風
+TOGGLE: Select to Mute This User's Voice Channel=切換:選擇靜音此玩家的語音通道
+Select to have Safety Settings determine the avatar features of this selected user=選擇以具有安全設置，確定此選定玩家的角色功能
+Ask this User to be Your Friend=讓這個玩家成為你的好友
+See More About this User=查看關於此玩家的更多資訊
+Select to turn off all Avatar features but voice on this selected=選擇以關閉所有角色功能，但選擇的聲音
+Select to see all Avatar features of this selected user=選擇查看此選定玩家的所有角色功能
+TOGGLE: Select to See and Hear This User=切換:選擇查看和聽到此玩家
+TOGGLE: Select to Hear This User's Mute Channel=切換:選擇以聽到此玩家的靜音通道
+Playlist 2=遊玩列表2
+Playlist 1=遊玩列表1
+Playlist 3=遊玩列表3
 
-Report User=檢舉玩家
-WORLDS=世界
-SOCIAL=社交
-SETTINGS=設定
-SAFETY=安全
-Reset Custom Settings=重置自訂設定
-View Documentation=了解更多資訊
-Remove as Profile Pic=移除個人檔案圖片	
-Create User Icon=建立玩家圖標
-Save To Disk=儲存至硬碟	
-Image Details=圖片資訊	
-Search...=搜尋...	
-Images=圖片
-Region=地區
-Regions=地區
-You cannot create a portal to a private world created by \nanother user.=你無法開啟其他玩家的私人世界傳送門
-Creating an instance in the region closest to you will result in a lower ping and better experience.=開房間時選取較近的地區可得到較低的延遲和最佳體驗
-View Full=查看全部
-Exercise=運動
+User Profile=玩家個人資料
+Unfriend This User=解除好友
+GALLERY=相簿
+
+
+Add Photo=添加圖片
+or=或
+Add Message=添加訊息
+Send=送出
+Send Invite=發送邀請
+My Images (1/64)=我的相片 (1/64)
+My Images (2/64)=我的相片 (2/64)
+My Images (3/64)=我的相片 (3/64)
+My Images (4/64)=我的相片 (4/64)
+My Images (5/64)=我的相片 (5/64)
+My Images (6/64)=我的相片 (6/64)
+My Images (7/64)=我的相片 (7/64)
+My Images (8/64)=我的相片 (8/64)
+My Images (9/64)=我的相片 (9/64)
+My Images (10/64)=我的相片 (10/64)
+My Images (11/64)=我的相片 (11/64)
+My Images (12/64)=我的相片 (12/64)
+My Images (13/64)=我的相片 (13/64)
+My Images (14/64)=我的相片 (14/64)
+My Images (15/64)=我的相片 (15/64)
+My Images (16/64)=我的相片 (16/64)
+My Images (17/64)=我的相片 (17/64)
+My Images (18/64)=我的相片 (18/64)
+My Images (19/64)=我的相片 (19/64)
+My Images (20/64)=我的相片 (20/64)
+My Images (21/64)=我的相片 (21/64)
+My Images (22/64)=我的相片 (22/64)
+My Images (23/64)=我的相片 (23/64)
+My Images (24/64)=我的相片 (24/64)
+My Images (25/64)=我的相片 (25/64)
+My Images (26/64)=我的相片 (26/64)
+My Images (27/64)=我的相片 (27/64)
+My Images (28/64)=我的相片 (28/64)
+My Images (29/64)=我的相片 (29/64)
+My Images (30/64)=我的相片 (30/64)
+My Images (31/64)=我的相片 (31/64)
+My Images (32/64)=我的相片 (32/64)
+My Images (33/64)=我的相片 (33/64)
+My Images (34/64)=我的相片 (34/64)
+My Images (35/64)=我的相片 (35/64)
+My Images (36/64)=我的相片 (36/64)
+My Images (37/64)=我的相片 (37/64)
+My Images (38/64)=我的相片 (38/64)
+My Images (39/64)=我的相片 (39/64)
+My Images (40/64)=我的相片 (40/64)
+My Images (41/64)=我的相片 (41/64)
+My Images (42/64)=我的相片 (42/64)
+My Images (43/64)=我的相片 (43/64)
+My Images (44/64)=我的相片 (44/64)
+My Images (45/64)=我的相片 (45/64)
+My Images (46/64)=我的相片 (46/64)
+My Images (47/64)=我的相片 (47/64)
+My Images (48/64)=我的相片 (48/64)
+My Images (49/64)=我的相片 (49/64)
+My Images (50/64)=我的相片 (50/64)
+My Images (51/64)=我的相片 (51/64)
+My Images (52/64)=我的相片 (52/64)
+My Images (53/64)=我的相片 (53/64)
+My Images (54/64)=我的相片 (54/64)
+My Images (55/64)=我的相片 (55/64)
+My Images (56/64)=我的相片 (56/64)
+My Images (57/64)=我的相片 (57/64)
+My Images (58/64)=我的相片 (58/64)
+My Images (59/64)=我的相片 (59/64)
+My Images (60/64)=我的相片 (60/64)
+My Images (61/64)=我的相片 (61/64)
+My Images (62/64)=我的相片 (62/64)
+My Images (63/64)=我的相片 (63/64)
+My Images (64/64)=我的相片 (64/64)
+Early supporters earn me as a badge! =早期的支持者可獲得的徽章！
+Take New Photo=拍新照片
+Playlist 4=遊玩列表4
+Join!=加入！
+Logout=登出
