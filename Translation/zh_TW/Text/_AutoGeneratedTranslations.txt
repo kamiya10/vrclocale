@@ -1,7 +1,7 @@
 ﻿//
 // VRChat 繁體中文語言翻譯
 // 翻譯、維護: XoF_eLtTiL, Kamiya
-// 版本 1102
+// 版本 1128
 // License under Creative Commons BY-NC-SA
 //
 
@@ -402,6 +402,9 @@ Any friend of a user in the instance may join.=房間內任何玩家的好友可
 Only your friends may join.=只有你的好友可以加入
 You can invite others. Joiners can accept requests.=你可以邀請其他人，已加入的人可以接受請求
 You can invite others. Only you can accept requests=你可以邀請其他人，只有你可以接受請求
+Region=地區
+Regions=地區
+Creating an instance in the region closest to you will result in a lower ping and better experience.=把房間創建在離你最近的區域可以讓你獲得更低的延遲和更好的遊戲體驗。
 
 // ---------- 角色 ----------
 
@@ -1955,7 +1958,7 @@ View Friend Request Notifications=查看好友請求通知
 No Friend Requests - You're all caught up!=沒有好友請求 - 你都趕上了！
 View Other Notifications=查看其他通知
 No Notifications - You're all caught up!=沒有通知 - 你都趕上了！
-View Invite and Response Notifications=查看Invite和反應(?)通知
+View Invite and Response Notifications=查看邀請和回覆通知
 Toggle display of custom invite photos on notifications.=用來開關邀請通知的自訂圖片
 VRChat is supported by users like you!=VRCHAT需要像你這樣的支持者！
 Go Back to the Quick Menu=返回快速選單
@@ -1983,8 +1986,8 @@ User\nVolume:=玩家\n音量:
 Reset=重置
 Alert the Moderators of a Nuisance User=用來警告公害玩家
 Use the buttons below to interact with this user=使用下面的按鈕與此玩家互動
-Next=下一步
-Prev=上一步
+Next=     下一個
+Prev=上一個     
 TOGGLE: Select to No Longer Hear or See This User=切換:選擇以後不必聽到或看到此玩家
 Turn this User's Microphone Off=關閉此玩家的麥克風
 TOGGLE: Select to Mute This User's Voice Channel=切換:選擇靜音此玩家的語音通道
