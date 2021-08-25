@@ -71,6 +71,7 @@ Report Issues with this World=檢舉這個世界
 Appear as\n=顯示為\n
 Appearing as\n=顯示為\n
 Appear as\n           Rank=顯示為\n           玩家
+Appearing as\n           Rank=顯示為\n           玩家
 TOGGLE (Known or Higher Trust Rank): Display Your Trust Rank as User=切換 (已知或更高信任): 顯示你的信任等級為一般玩家
 TOGGLE (Known or Higher Trust Rank): Display Your Actual Trust Rank=切換 (已知或更高信任): 顯示你的信任等級為實際等級
 
