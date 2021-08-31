@@ -1,5 +1,5 @@
 ﻿//
-// VRChat 繁體中文語言翻譯: USharoPlayer 追加
+// VRChat 繁體中文語言翻譯: USharpPlayer 追加
 // 翻譯、維護: Kamiya
 // 版本 1128
 // License under Creative Commons BY-NC-SA
