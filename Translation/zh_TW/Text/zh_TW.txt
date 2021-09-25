@@ -1,7 +1,7 @@
 ﻿//
 // VRChat 繁體中文語言翻譯
 // 翻譯、維護: XoF_eLtTiL, Kamiya
-// 版本 1128
+// 版本 1133
 // License under Creative Commons BY-NC-SA
 //
 
@@ -13,17 +13,59 @@ LOGIN=登入
 Go!=前往！
 Go to default Home=前往預設的家
 
+// ---------- 登入頁面 ------------
+Please complete registration on the web page\nwe've just opened.=請在網頁上完成VRChat註冊步驟    \n我們才剛剛打開
+Login=登入
+Once you have completed registration and\nverified your email, come back here and select\n"Login".=當你完成了註冊並且\n         完成電子郵件認證\n                       再回來按下"登入"
+Welcome to the world of=歡迎來到
+Login with=登入使用..
+OR=或是
+CREATE ACCOUNT=建立帳號
+User Name=使用者名稱
+Password=密碼
+If you have a VR headset, remove it now.=如果你帶著 VR 頭盔，請拿下它
+About Us=關於我們
+Enter User Name...=輸入使用者名稱...
+Enter Password...=輸入密碼...
+Click Anywhere on this panel to close=點擊這面板任意處來關閉
+VRChat is a social VR platform for user generated content.  Most of what you'll see within was created by our wonderful community. For more information visit https:%2F%2FVRChat.com=VRChat是個可創作的VR社交平台。\n你能所看到大多數的創作都是由我們美好的社區創作的。\n更多信息，請參訪 https:%2F%2Fvrchat.com
+sr:"^Logging in as (.+)$"=正在以 $1 登入
+sr:"^Logging in through Steam as (.+)$"=正在透過Steam以 $1 登入
+
 // ---------- Quick Menu ----------
 
 Aim at other users and select them for social actions=瞄準其他玩家來使用更多社交動作
 
 // 下方資訊
+
 Early Access=早期測試
-Build 1128=版本 1128
-sr:"^(Hi), (.+)"=$1，$2
-Hi=嗨
-sr:"^(Png): (\d+)"=$1: $2
-Png=延遲
+sr:"^Build (\d+)$"=版本 $1 中文化 By XoF_eLtTiL & Kamiya
+sr:"^Hi, (.+)$"=嗨，$1
+sr:"^Png: (\d+)$"=延遲: $1
+
+sr:"^(.+):(\d+) (.+)$"=$1:$2 $3
+
+//通知頁面
+
+sr:"^Invites \((\d+)\)"=邀請 ($1)
+sr:"^Other \((\d+)\)"=其他 ($1)
+sr:"^Friend Requests \((\d+)\)$"=好友邀請 ($1)
+Hide Invite Photos=隱藏邀請圖片
+No Notifications - You're all caught up!=沒有通知 - 看來你都趕上了!
+No Invites - You're all caught up!=沒有邀請 - 看來你都趕上了!
+No Friend Requests - You're all caught up!=沒有好友邀請 - 看來你都趕上了!
+sr:"^(.+) would like you to join them in (.+).$"=$1 想邀請你一起加入 $2
+sr:"^(.+) has been notified that you wish to join them.$"=你已通知 $1 你想要加入他們
+Unable To Invite=無法邀請
+sr:"^(.+) is currently in Do Not Disturb mode, and is not allowing anyone to to join them at this tsr:"^(.+) is currently in Do Not Disturb mode, and is not allowing anyone to to join them at this time.$"=由於 $1 現在處於請勿打擾狀態\n所以目前不允許任何人加入他
+sr:"^(.+) is currently in Do Not Disturb mode, and isn't accepting invites at this time.$"=由於 $1 現在處於請勿打擾狀態\n目前不接受任何邀請
+A few seconds ago=幾秒鐘前
+sr:"^(.+) would like to be your friend.$"=$1 想要成為你的好友
+sr:"^(.+) replied to your invite:(.+)$"=$1 回覆了你的邀請:$2
+sr:"^(\d+) minutes ago$"=$1分鐘前
+sr:"^(\d+) hours ago$"=$1小時前
+sr:"^(\d+) months ago$"=$1個月前
+sr:"^(\d+) years ago$"=$1年前
 
 // 分頁
 Main Menu=主選單
@@ -78,10 +120,12 @@ TOGGLE (Known or Higher Trust Rank): Display Your Actual Trust Rank=切換 (已�
 // ---------- 世界 ----------
 
 You Are In=  你目前在
+sr:"^(.+) #(\d+) (.+)$"=$1 #$2 $3
 
 // 世界類別
 Hot=熱門
-World Jam: Drawing=世界果醬: 繪畫
+World Jam: Drawing=世界果醬：繪畫
+World Jam: Obstacle Course=世界果醬：障礙賽
 Udon Alpha Spotlight=Udon Alpha焦點地圖
 Spotlight=焦點地圖
 Active Cross Platform=跨平台地圖
@@ -176,16 +220,17 @@ Legacy VRChat Avatars=VRChat 經典角色
 Avatar Worlds (Random) (Expand to Show)=角色世界 (隨機) (展開展示)
 Avatar Worlds (What's Hot) (Expand to Show)=角色世界 (熱門) (展開展示)
 My Creations For Quest Viewers=我為 Quest 玩家的創作
-Public Avatars For Quest Viewers=顯示給 Quest 玩家的公開角色
+Public Fallback Avatars=公開後備角色
 
 // 左側
-Hide\nQuest=隱藏\nQuest
-Show\nQuest=顯示\nQuest
-Change into Avatar=變更角色
-Change into Avatars=變更角色
-Select Quest=選擇\nQuest
+Hide\nFallback=隱藏\n後備
+Show\nFallback=顯示\n後備
+Change Into Avatar=變更角色
+Change Into Avatars=變更角色
+Choose Fallback=選擇\n後備
+Choose Main=選擇\n主要
 Avatar Stats=   角色統計資料
-This represents how you\nappear to Quest users=這是你在 Quest 玩家眼中的樣子
+Fallback is used when viewing main avatar is restricted due to platform or performance.=後備角色是當對方主要角色被性能遮蔽或平台不相容時顯示
 
 // 角色統計資料 (待補)
 Overall Performance:=整體表現
@@ -204,6 +249,7 @@ Very Poor=非常不良
 
 // ---------- 社交 ----------
 Unfriend=解除好友
+Unfriend This User=解除這玩家好友
 Invite=邀請
 Join=加入
 Trust Level:=信任等級:
@@ -250,6 +296,14 @@ Reset=重置
 Use Avatar Image=使用角色圖片
 0/512 characters remaining...=已達字數上限
 r:"^(\d+)/\d+ characters remaining\.\.\.$"=還剩下 $1 個字元
+sr:"^Are you sure you want to initiate a vote to kick (.+)?$"=你確定要發起投票踢出 $1?
+Moderation=管理玩家
+Unable to start a vote to kick=無法發起投票踢出
+sr:"^Are you sure you want to kick user: (.+)\? They will not be able to join this instance for one hour.$"=你確定要踢出玩家 $1 嗎? 他將會在一小時內無法進入此房間
+sr:"^Are you sure you want to warn user: (.+)\?$"=你確定要警告玩家 $1 嗎?
+You have been warned for your behavior. If you continue, you may be kicked out of the instance=你因為你的舉止被房主警告了\n如果屢勸不聽將可能被踢出
+Disconnected=斷線
+You has been kicked out=你已經被踢出了
 
 // 狀態
 UPDATE STATUS=變更狀態
@@ -263,7 +317,28 @@ History=紀錄
 Status History=狀態紀錄
 
 // ---------- VRChat+功能 ----------
-VRChat Plus (Monthly)=VRChat Plus(月付)
+VRChat Plus=VRChat+
+$9.99 / month=$9.99/月
+Processing Transaction...=處理交易中......
+sr:"^VRChat Plus \((Monthly|Yearly)\) (Steam|Oculus)$"=VRChat+ ($1) $2
+Monthly=月付
+Yearly=年付
+
+sr:"^(January|February|March|April|May|June|July|August|September|October|November|December) (\d+), (\d+)$"=$3年$1月$2日
+
+January=1
+February=2
+March=3
+April=4
+May=5
+June=6
+July=7
+August=8
+September=9
+October=10
+November=11
+December=12
+
 Next Billing Date=下個續訂日期
 Amount=價格
 Manage Subscription=管理訂閱
@@ -281,13 +356,16 @@ Manage Your User Icons=管理你的玩家圖標
 Learn More About VRC+=了解有關VRC+的更多資訊
 Expired=已到期
 Expires=訂閱到期日期
-sr:"^(My User Icons) (\(\d+\/\d+\))$"=$1 $2
-My User Icons=我的圖標
-sr:"^(My Images) (\(\d+\/\d+\))$"=$1 $2
-My Images=我的相片
+sr:"^My User Icons (\(\d+\/\d+\))$"=我的圖標 $1
+sr:"^My Images (\(\d+\/\d+\))$"=我的相片 $1
 GALLERY=相簿
 or=或
 Add Photo=添加圖片
+Add Message=添加訊息
+Send=送出
+Send Invite=送出邀請
+Request Invite=請求邀請
+Request Sent=請求邀請送出
 Early supporters earn me as a badge! =早期贊助者可獲得的徽章！
 Take New Photo=拍新照片
 You must be a VRC+ supporter to use this group.\n\nSelect an avatar and click Move to remove it from this group and add it to Favorite Avatars.=你必須是 VRC+ 贊助者來使用此組。\n\n選擇一個角色，然後單擊“移動”以從此組中刪除它，並將其添加到收藏的角色中。
@@ -425,8 +503,7 @@ Voices=語音
 // 麥克風
 Microphone=麥克風
 Level=音量
-sr:"(Default) - (.+)"=$1 - $2
-Default=預設
+sr:"Default - (.+)"=預設 - $2
 
 // 玩家音量
 User Volumes=玩家音量
@@ -451,6 +528,23 @@ Your local avatar data will be deleted. Are you sure?=你的本地角色資料�
 
 Yes=確定
 No=取消
+
+//升級帳號
+UPGRADE ACCOUNT=升級帳號
+Upgrade to a Full VRChat Account=升級成完整的VRChat帳號
+Upgrading from Steam to VRChat will allow you to create your own Avatars\nand Worlds once you reach the New User trust rank. Your friends and trust rank will be merged with your VRChat account. Upgrade now! It only\ntakes a few minutes.\nNote: This merges a Steam account and VRChat account.=從 Steam 升級到 VRChat 當你達到「新玩家」信任等級將允許你創建自己的角色和世界\n  你的朋友和信任等級將會合併到你的VRChat帳號\n         現在升級吧！只要花個幾分鐘就好了\n         注意：這將會合併Steam帳號與VRChat帳號
+
+Step 1 of 3:=第一步驟:
+Step 2 of 3:=第二步驟:
+Step 3 of 3:=第三步驟:
+•⚫  Select Generate to create \n    a merge token.\n•  Copy it to your clipboard.\n    You will paste it into the \n    website later. =•⚫點擊「產生」取得 合併驗證碼\n•點選「複製」將複製到剪貼簿，稍後貼到網頁上
+Generate=產生
+Copy=複製
+Launch=啟動
+•⚫  Select Launch to open the Upgrade \n    page in a browser window.\n•  In your browser, login or register a\n    new VRChat account, then link it.\n•  VR users may want to remove their\n    headsets.=•⚫點選「啟動」將開啟瀏覽器  到升級帳號網頁\n•在你的瀏覽器中，登入或者註冊VRChat帳號，然後合併	\n•VR用户需要拿下頭盔操作
+Log Out=登出
+•  Once you've linked your accounts \non the website, logout here. Then\nlog back into your now unified\naccount via Steam or VRChat login.=•完成合併後，請點選「登出」\n然後透過Steam或VRChat帳號 重新登入。
+
 
 // ---------- UI/介面 ----------
 
@@ -672,9 +766,6 @@ Report=檢舉
 Back=返回
 Loading=載入中
 Terms & Conditions=服務條款和條件
-VRChat Plus=VRChat Plus
-$9.99 / month=$9.99/月
-Processing Transaction...=處理交易中......
 If you don’t see the Steam Transaction Overlay, try the following:\r\n=如果你沒有看到 Steam 交易疊層，請嘗試以下操作:\r\n
 CLOSE=關閉
 $99.99 / year=$99.99/年
@@ -697,7 +788,7 @@ Return to Home=回到家里
 Hide Avatar=隱藏角色
 Use Safety\nSettings=使用安全\n設定
 Not\nBlocked=未封鎖
-User Details=玩家詳細資訊
+User Profile=玩家詳細資訊
 Blocked=已封鎖
 Show Avatar=顯示角色
 Show\nAvatar \nStats=顯示\n角色\n數據
@@ -742,3 +833,4 @@ If you have a VR headset, remove it now.=如果你帶著VR頭盔,請下它
 Calibrate=全身校準
 Join!=加入！
 Logout=登出
+EXIT=離開

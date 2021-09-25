@@ -7,9 +7,10 @@
 
 All Reset\n(Master)=全部重置\n(房主)
 All Clear\n(Local)=全部清除\n(本地)
-Respawn\n(Global)=重置\n(全域)
+Respawn\n(Global)=重生\n(全域)
 Clear\n(Global)=清除\n(全域)
 r:"^Reset All\n<size%3D8>[Only (.+) can do]</size>\n<size%3D14>(Global)</size>"=重置全部\n<size%3D8>[只有 $1 可以這樣做]</size>\n<size%3D14>(全域)</size>
+Occupied=使用中
 
 Respawn\n<size%3D14>(Global)</size>=重生\n<size%3D14>(全域)</size>
 Clear\n<size%3D14>(Global)</size>=清除\n<size%3D14>(全域)</size>
