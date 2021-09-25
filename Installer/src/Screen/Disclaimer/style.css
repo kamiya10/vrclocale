@@ -1,0 +1,67 @@
+#disclaimer-container {
+    border: 1px solid #888;
+    overflow-y: scroll;
+    height: 220px;
+    width: 640px;
+    margin: 0 auto;
+}
+
+#disclaimer-text {
+    text-indent: 2em;
+    color: #aaa;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+a {
+    color: var(--theme);
+    transition: color ease-in-out .1s;
+}
+
+a:hover {
+    color: var(--theme-light);
+}
+
+a:active {
+    color: var(--theme-dim);
+}
+
+a.external::after {
+    content: "open_in_new";
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    vertical-align: text-bottom;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    margin-left: 5px;
+    text-indent: 0;
+}
+
+code {
+    background-color: #111;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-family: "consolas", monospace;
+    margin: 0 5px;
+    padding: 2px;
+}
+
+blockquote {
+    border-left: 4px solid #444;
+    padding-left: 1em;
+    margin-left: 1rem;
+}
+
+#accept-disclaimer {
+    margin: 10px 0 0 80px;
+}

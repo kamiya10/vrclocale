@@ -1,0 +1,28 @@
+<div class="upper">
+    <div class="upper-title-number">
+        <div class="noselect">2 </div>
+    </div>
+    <div class="upper-title noselect">VRChat 安裝位置</div>
+</div>
+<div id="vrchat-path" class="input-list">
+    <div class="input-item">
+        <span class="input-title noselect">VRChat 安裝位置</span>
+        <div class="input-field">
+            <div class="flex-container">
+                <input type="text" id="vrchatpath-text" class="input-text">
+                <span id="vrchatpath-text-helper" class="input-helper"><span
+                        class="material-icons-outlined icon">error</span>無效的路徑</span>
+            </div>
+            <div>
+                <label for="vrchatpath-file" class="material-icons-outlined noselect input-hover">folder_open</label>
+                <input type="file" id="vrchatpath-file" class="input-file" webkitdirectory directory>
+            </div>
+            <div id="main-container" class="container">
+                <div id="find-vrchat" class="input-button noselect input-hover" onclick="findVRChat();">偵測</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="prev-button" class="step-button prev noselect" onclick="changeview('Disclaimer');">上一步</div>
+<div id="next-button" class="step-button next noselect disabled" onclick="changeview('Path');">下一步</div>
+<script defer src="./scripts/install.js"></script>

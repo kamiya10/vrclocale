@@ -1,0 +1,33 @@
+.upper {
+    padding-top: 20px;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .06);
+    margin-bottom: 20px;
+}
+
+.upper .upper-title {
+    color: #eee;
+    font-size: 30px;
+    font-family: "Google Sans", "Noto Sans TC", sans-serif;
+    font-weight: 500;
+}
+
+.upper .upper-title-number {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 0 40px;
+    background-color: var(--theme);
+    border-radius: 80px;
+}
+
+
+.upper .upper-title-number>div {
+    line-height: 40px;
+    text-align: center;
+    color: #eee;
+    font-size: 26px;
+    font-family: "Google Sans", "Noto Sans TC", sans-serif;
+    font-weight: 700;
+}

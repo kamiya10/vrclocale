@@ -1,0 +1,225 @@
+.input-text {
+    all: initial;
+    background-color: transparent;
+    border: 1px solid #444;
+    border-radius: 8px;
+    color: #aaa;
+    font-size: 16px;
+    font-family: "Googl eSans", "Noto Sans TC", sans-serif;
+    padding: 6px 8px;
+    transition: background-color ease-in-out .1s,border ease-in-out .1s, color ease-in-out .1s;
+}
+
+.input-helper {
+    height: 0;
+    overflow: hidden;
+    color: #888;
+    font-size: 16px;
+    font-family: "Googl eSans", "Noto Sans TC", sans-serif;
+    vertical-align: top;
+    margin: 5px 0 0 5px;
+    transition: color ease-in-out .1s, height ease-in-out .2s;
+}
+
+.input-helper .icon {
+    font-size: 22px;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.error + .input-helper {
+    height: 40px;
+    color: #f77;
+}
+
+.input-text.error {
+    background-color: #322;
+}
+
+.input-text:hover {
+    border: 1px solid #567;
+    color: #bbb;
+}
+
+.input-text:focus {
+    border: 1px solid #69d;
+    color: #ccc;
+}
+
+.input-file {
+    display: none;
+    visibility: hidden;
+}
+
+.input-button {
+    color: #ccc;
+}
+
+.input-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.input-item {
+    display: flex;
+    height: 32px;
+}
+
+.input-field {
+    display: flex;
+    height: 32px;
+    justify-content: center;
+}
+
+.input-field > * {
+    display: inline-block;
+    margin: auto 5px;
+}
+
+.input-title {
+    font-family: "Googl eSans", "Noto Sans TC", sans-serif;
+    color: #eee;
+    margin: auto 5px;
+}
+
+.input-hover {
+    color: #aaa;
+    transition: color ease-in-out .1s;
+}
+
+.input-hover:hover {
+    color: #eee;
+}
+
+.input-hover:active {
+    color: #888;
+}
+
+.error {
+    border: 1px solid #f77 !important;
+    color: #f77 !important;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#vrchatpath-text {
+    height: 22px;
+    width: 400px;
+}
+
+.step-button {
+    position: fixed;
+    display: inline-block;
+    color: var(--theme);
+    font-weight: 700;
+    text-align: center;
+    padding: 6px 12px;
+    transition: background-color ease-in-out .2s, color ease-in-out .2s;
+}
+.step-button.prev {
+    left: 20px;
+    bottom: 12px;
+}
+.step-button.next {
+    right: 20px;
+    bottom: 12px;
+}
+.step-button:hover {
+    background-color: rgba(255, 255, 255, .05);
+}
+
+.step-button:active {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.step-button.disabled {
+    pointer-events: none;
+    color: #666;
+}
+.step-button.disabled:hover {
+    background: transparent !important;
+}
+.step-button.disabled:active {
+    background: transparent !important;
+}
+
+
+.input-checkbox {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    z-index: -1;
+    position: absolute;
+    left: -10px;
+    top: -8px;
+    display: block;
+    margin: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6);
+    box-shadow: none;
+    outline: none;
+    opacity: 0;
+    transform: scale(1);
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.2s;
+}
+
+.input-checkbox-text {
+    color: #aaa;
+}
+
+.input-checkbox-text::before {
+    content: "";
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 3px 8px 3px 1px;
+    border: solid 2px;
+    border-color: #888;
+    border-radius: 2px;
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.input-checkbox-text::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -22px;
+    left: 1px;
+    width: 10px;
+    height: 5px;
+    border: solid 2px transparent;
+    border-right: none;
+    border-top: none;
+    transform: translate(3px, 4px) rotate(-45deg);
+}
+
+.input-checkbox:checked,
+.input-checkbox:indeterminate {
+    background-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+}
+
+.input-checkbox:checked + .input-checkbox-text::before,
+.input-checkbox:indeterminate + .input-checkbox-text::before {
+    border-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+    background-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+}
+
+.input-checkbox:checked + .input-checkbox-text::after,
+.input-checkbox:indeterminate + .input-checkbox-text::after {
+    border-color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+}
+
+.input-checkbox:indeterminate + .input-checkbox-text::after {
+    border-left: none;
+    transform: translate(4px, 3px);
+}

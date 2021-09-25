@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@electron/remote": "^2.0.1",
+    "electron": "^15.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.4.0",
+    "electron-reloader": "^1.2.1",
+    "eslint": "^7.32.0"
+  }
+}
