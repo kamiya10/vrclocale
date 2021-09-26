@@ -1,3 +1,13 @@
+function getInstallOptions() {
+	return new Promise((resolved)=>{
+		window.api.send("getInstallOptions");
+		window.api.receive("InstallOptions", (data) => {
+			console.log(data);
+			resolved(data);
+		});
+	});
+}
+
 function findVRChat() {
 	window.api.send("findVRChat");
 }
@@ -14,7 +24,7 @@ $("#vrchatpath-text").on("input", () => {
 });
 
 $("#vrchatpath-file").change(() => {
-	console.log($("#vrchatpath-file").files[0].path);
+	console.log($("#vrchatpath-file"));
 	$("#vrchatpath-text").val();
 });
 
