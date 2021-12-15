@@ -1,0 +1,19 @@
+﻿//
+// VRChat 繁體中文語言翻譯: USharoPlayer 追加
+// 翻譯、維護: Kamiya , XoF eLtTiL
+// 更新日期 2021/10/25
+// License under Creative Commons BY-NC-SA
+//
+
+Enter Video URL... (anyone)=輸入影片網址... (任何人)
+Enter Video URL...=輸入影片網址...
+Master:=房主:
+Video Owner:=影片主人:
+Video Owner=影片主人
+Current Video:=目前影片:
+Current Video=目前影片
+Last Video:=上一個影片:
+Last Video=上一個影片
+sr:"^USharpVideo (.+) U# Video Player$"=USharpVideo $1 U# 影片播放器
+Video=影片
+Stream=直播

@@ -1,0 +1,87 @@
+﻿//
+// VRChat 繁體中文語言翻譯: VRWare 追加
+// 翻譯、維護: Kamiya , XoF eLtTiL
+// 更新日期 2021/11/6
+// License under Creative Commons BY-NC-SA
+//
+created by Haï=由 Haï 製作
+Select language!=選擇語言！
+Loading...=讀取中...
+
+Shoot with the left hand if you are left handed\n左利きの場合は左手で撃つ=如果你是左撇子就用左手射擊\n左利きの場合は左手で撃つ
+r:"^(\d+) points$"=$1 分
+r:"Hit the red box (\d+) times\nto start the game!"=點擊红盒子 $1 次\n來開始遊戲！
+
+Game starts in 5 seconds!=遊戲將在 5 秒後開始！
+Turn that mirror off!=把鏡子關掉！
+Success!=成功！
+Failure!=失敗！
+Don't stop walking sideways!=學螃蟹走路！
+Some minigames require 2 players.\nInvite some friends!=有些遊戲需要 2 名玩家。\n快邀請朋友來玩吧！
+r:"^(\d+) points$"=$1 分
+0 points=0 分
+Touch the cyan laser!=觸碰雷射！
+Rocket jump!=火箭跳！
+r:"Everyone, hold to shoot (/d+) times!"=大家，按住並擊中 $1 次！
+Shoot and dodge!=射擊並閃躲！
+Hookshot to the platform!=勾到平台上！
+Outrun the lasers!=逃離雷射！
+Catch!=抓住！
+Sink it!=進球！
+Scroll up and down to zoom the camera=向上或下滾動來縮放鏡頭
+
+Hold left and right click down and don't move!=按住左右鍵並不要移動！
+Don't move a muscle!=不要動!
+Release your mouse!=放開！
+Move now!=動起來!
+
+r:"^Eat (\d+) chips!$"=吃 $1 個洋芋片！
+Shake that bottle!=搖動瓶子！
+
+Watch carefully...=仔細看......
+Shoot in the same order!=以相同的順序擊中它們！
+
+Click and drag to climb!=點擊並拖曳來攀爬！
+Climb to the ceiling!=爬到天花板!
+Respawn!=重生！
+Jump!=跳！
+Don't stop running!=不要停止跑步！
+Move to a blind spot!=移動到盲點！
+Blue area with MOST players!=移動到最多玩家的區域！
+Blue area with FEWEST players!=移動到最少玩家的區域！
+r:"^Counting\.\.\. (\d+) VS (\d+)$"=計算中... $1 vs $2
+sr:"^Counting\.\.\. (\d+) VS (\d+) (Tie)=$"=計算中... $1 vs $2 (平手)
+
+Hands up!=手舉高！
+Look up!=往上看！
+Double jump!=二段跳！
+Use left and right click!=使用滑鼠左右按鍵！
+
+sr:"^Assets in use:((?:.|\n|\r\n)+)"=使用素材：$1
+sr:"^Tools in use:((?:.|\n|\r\n)+)"=使用工具：$1
+
+sr:"^Stay away from (.+)!$"=遠離 $1！
+sr:"^Stay between (.+) and (.+)!$"=待在 $1 和 $2 之間！
+
+r:"^Hit (\d+) times!$"=擊中 $1 次！
+Hit exactly once!=擊中剛好一下！
+r:"^Hit exactly (\d+) times!$"=剛好擊中 $1 次！
+Hit!=擊中它！
+Don't hit!=不要打！
+Stop!=停下！
+r:"^Everyone, hit (\d+) times!"=每個人合力擊中 $1 次！
+r:"^Everyone, hold to shoot (\d+) times!"=每個人按住並合力擊中 $1 次！
+r:"^Time's up! Counting\.\.\. \((\d+) hits remaining\)$"=時間到！\n計算中......（剩下 $1 次）
+r:"^You hit (\d+) out of (\d+)!$"=全部 $2 次中你擊中了 $1 次！
+
+Game over!=遊戲結束！
+
+r:"^The winner is (.+)!$"=獲勝者是 $1！
+r:"^The winners are: ((?:.|\r?\n)+)!$"=獲勝者是 $1！
+r:"^The winners are: (.+) and (.+)!$"=獲勝者是 $1 和 $2！
+Thank you for playing!\nNew minigames will be added every month.=謝謝你的遊玩！\n新的小遊戲將在每個月新增
+Don't fall!=別掉下去!
+sr:"^Headshot (.+)\!$"=爆頭 $1!
+Race!=賽跑!
+Shoot the targets!=射中全部目標!
+

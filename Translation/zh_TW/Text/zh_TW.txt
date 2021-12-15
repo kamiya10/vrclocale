@@ -1,0 +1,1241 @@
+﻿//
+// VRChat 繁體中文語言翻譯
+// 翻譯、維護: XoF_eLtTiL, Kamiya
+// 更新日期 2021/11/15
+// License under Creative Commons BY-NC-SA
+//
+
+// 相機
+
+Aperture=光圈
+Focal Distance=焦距
+Anchor=位置固定
+Default=預設
+Local=角色身邊
+Smoothed=平滑
+Look-At-Me=自動自拍
+Auto Level=自動高度固定
+Focus=聚焦
+Full Auto=全自動
+Semi Auto=半自動
+Manual=手動
+Pins=標籤
+Pin 1=標籤 1
+Pin 2=標籤 2
+Pin 3=標籤 3
+Timed (5s)=計時器 (5秒)
+Mask=疊層
+Local Player=玩家本身
+Remote Player=其他玩家
+GreenScreen=綠幕
+UI=使用者介面
+Lens Visibility=鏡頭可見度
+Blueprint=藍圖
+Ghost=半透明
+Solid=完全可見
+Filters=濾鏡
+BluePrint=藍圖
+Glitch=電磁波
+Speed=速度
+Hypno=龍捲
+Pixelate=像素
+Sketch=草圖
+Sparkle=星星
+Trippy=迷幻
+Olde=老舊
+Stream Mode=直播模式
+Lock=鎖定
+NONE=無
+
+// 讀取畫面
+LOADING...=載入中...
+Cancel=取消
+Done=完畢
+LOGIN=登入
+Go!=前往！
+Go to default Home=前往預設的家
+
+// ---------- 登入頁面 ------------
+
+If you have a VR headset, remove it now.=如果你帶著VR頭盔,請下它
+Please complete registration on the web page\nwe've just opened.=請在網頁上完成VRChat註冊步驟    \n我們才剛剛打開
+Login=登入
+Once you have completed registration and\nverified your email, come back here and select\n"Login".=當你完成了註冊並且\n         完成電子郵件認證\n                       再回來按下"登入"
+Welcome to the world of=歡迎來到
+Login with=登入使用..
+OR=或是
+CREATE ACCOUNT=建立帳號
+Username/Email=使用者名稱/電子郵件
+User Name=使用者名稱
+Password=密碼
+If you have a VR headset, remove it now.=如果你帶著 VR 頭盔，請拿下它
+About Us=關於我們
+Enter User Name...=輸入使用者名稱...
+Enter Password...=輸入密碼...
+Click Anywhere on this panel to close=點擊這面板任意處來關閉
+VRChat is a social VR platform for user generated content.  Most of what you'll see within was created by our wonderful community. For more information visit https:%2F%2FVRChat.com=VRChat是個可創作的VR社交平台。\n你能所看到大多數的創作都是由我們美好的社區創作的。\n更多信息，請參訪 https:%2F%2Fvrchat.com
+sr:"^Logging in as (.+)$"=正在以 $1 登入
+sr:"^Logging in through Steam as (.+)$"=正在透過Steam以 $1 登入
+
+// ---------- Quick Menu ----------
+
+Aim at other users and select them for social actions=瞄準其他玩家來使用更多社交動作
+
+// 下方資訊
+
+Early Access=早期測試
+sr:"^Build (\d+)$"=版本 $1 
+sr:"^Hi, (.+)$"=嗨，$1
+sr:"^PING: (\d+)$"=延遲: $1
+sr:"^FPS: (\d+)$"=幀數: $1 
+Early Access=早期測試
+Build=版本
+sr:"^Hi, (.+)$"=嗨，$1
+Ping=延遲
+FPS=幀數
+Pin FPS & Ping=效能顯示(上方)
+sr:"^(.+):(\d+) (.+)$"=$1:$2 $3
+
+//通知頁面
+sr:"^(.+) is now your friend.$"=$1 現在是你的好友了
+Clear All=全部清除
+View Invite and Response Notifications=查看邀請和回覆邀請通知
+View Friend Request Notifications=查看好友請求通知
+View Other Notifications=查看其他通知
+sr:"^Invites \((\d+)\)"=邀請 ($1)
+sr:"^Other \((\d+)\)"=其他 ($1)
+sr:"^Friend Requests \((\d+)\)$"=好友邀請 ($1)
+Hide Invite Photos=隱藏邀請圖片
+No Notifications - You're all caught up!=沒有通知 - 看來你都趕上了!
+No Invites - You're all caught up!=沒有邀請 - 看來你都趕上了!
+No Friend Requests - You're all caught up!=沒有好友邀請 - 看來你都趕上了!
+sr:"^(.+) would like you to join them in (.+).$"=$1 想邀請你一起加入 $2
+sr:"^(.+) would like to join you.$"=$1 想邀請加入你這裡
+sr:"^(.+) has been notified that you wish to join them.$"=你已通知 $1 你想要加入他們
+Unable To Invite=無法邀請
+sr:"^(.+) is currently in Do Not Disturb mode, and is not allowing anyone to to join them at this tsr:"^(.+) is currently in Do Not Disturb mode, and is not allowing anyone to to join them at this time.$"=由於 $1 現在處於請勿打擾狀態\n所以目前不允許任何人加入他
+sr:"^(.+) is currently in Do Not Disturb mode, and isn't accepting invites at this time.$"=由於 $1 現在處於請勿打擾狀態\n目前不接受任何邀請
+A few seconds ago=幾秒鐘前
+sr:"^(.+) would like to be your friend.$"=$1 想要成為你的好友
+sr:"^(.+) replied to your invite:(.+)$"=$1 回覆了你的邀請:$2
+sr:"^(\d+) minutes ago$"=$1分鐘前
+sr:"^(\d+) minute ago$"=$1分鐘前
+sr:"^(\d+) hour ago$"=$1小時前
+sr:"^(\d+) days ago$"=$1天前
+sr:"^(\d+) months ago$"=$1個月前
+sr:"^(\d+) years ago$"=$1年前
+Decline With Reply=拒絕並回復
+More Actions=更多動作
+
+// 分頁
+Launch Pad=啟動介面
+Main Menu=主選單
+Notifications=通知
+
+
+// 選單按鈕、敘述
+Quick Links=快速捷徑 
+Quick Actions=快速動作
+Go to the Main Menu for more options=打開主選單來獲取更多設定
+Worlds=世界
+WORLDS=世界
+Discover and visit new worlds=探索新世界
+Avatar=角色
+Change your avatar=更換你的角色
+Social=社交
+SOCIAL=社交
+Browse users in the room and your friends=瀏覽在房間內的玩家和你的好友
+Safety=安全
+Adjust what you see and hear from other users=調整你從玩家看到和聽到的
+Go Home=回家
+Go to your Home World=回到你溫暖的家
+Respawn=重生
+Teleport to the start of this world=回到世界重生點
+Standing Play=站立遊玩
+Seated Play=坐姿遊玩
+TOGGLE: Select to Change to Standing Mode=切換：選擇你遊玩的方式
+Settings=設定
+Tune Control, Audio and Video Settings. Log Out or Quit.=用來設定音訊和影像設定\n登出或退出
+UI\nElements=UI 介面(中文化By XoF_eLtTiL & Kamiya)
+Set UI Elements On or Off=設定 UI 介面顯示
+Camera=相機
+Use a Variety of Cameras=使用各種相機功能
+Emote=角色動畫
+Make your avatar wave, dance, and more=讓你的角色揮手、跳舞等等
+Emoji=表情符號
+Express yourself with Emojis=用表情符號來表達自己
+Calibrate FBT=全身校準
+Full Body Tracking=全身追蹤
+Disable FBT=關閉全身追蹤
+Disable full body tracking=關閉全身追蹤
+Calibrate full body tracking=校正全身追蹤
+Select User=選擇玩家
+Free look to select a user in the world. Alternatively hold [Shift] =使用自由視角選擇世界中的玩家. 你也可以按住 [Shift] 來使用
+
+// Wing
+Profile=個人資料
+Jump to Profile Menu=轉到個人檔案選單
+Jump to Gallery Menu=轉到相簿選單
+Jump to Avatar Menu=轉到角色選單
+Jump to World Details Menu=轉到世界資訊選單
+Jump to Social Menu=轉到社交選單
+Update Your Status=更新你的狀態
+sr:"^Click to Appear as (User|Trusted) (User|Rank)$"=點擊來顯示成$1
+APPEARING AS=信任等級顯示
+Early Supporter=早期贊助者
+STATUS=狀態
+AVATAR=角色
+WORLD=所在世界
+FRIENDS=好友
+sr:"^(\d+) Online$"=$1個上線中
+View User Details=查看玩家資訊
+View your user details=查看你的玩家資訊
+View your online friends=查看你的上線好友
+View your avatars=查看你的角色
+Open or close this Wing=打開或收起快捷選單
+sr:"^Online \((\d+)\)$"=上線 ($1)
+Previous Group=上一個群組
+Next Group=下一個群組
+Sorting & Filters=分類 & 篩選
+SHOW=顯示
+SORT BY=排序方式
+Location=地點
+sr:"^Favorites (.+)$"=最愛角色 $1
+sr:"^Uploaded (.+)$"=上傳的角色 $1
+Date Added=新增日期
+Last Updated=最後更新
+sr:"^Change to avatar: (.+)$"=變更角色為: $1
+sr:"^You are currently using this avatar: (.+)$"=你現在正在使用這個角色: $1
+Click to view user details=點擊來查看玩家詳細資訊
+Wing Menu=雙翼選單
+Wings=雙翼
+
+// 左側按鈕
+Mute=靜音
+Unmute=取消靜音
+
+// 右側按鈕
+User Actions=玩家動作
+Gallery=相簿
+Manage Your User Icons & Images=管理你的玩家圖標和圖片
+Report World=檢舉世界
+Report world=檢舉世界
+Report Issues with this World=檢舉這個世界
+Appear as\n=顯示為\n
+Appearing as\n=顯示為\n
+Appear as\n           Rank=顯示為\n           玩家
+Appearing as\n           Rank=顯示為\n           玩家
+TOGGLE (Known or Higher Trust Rank): Display Your Trust Rank as User=切換 (已知或更高信任): 顯示你的信任等級為一般玩家
+TOGGLE (Known or Higher Trust Rank): Display Your Actual Trust Rank=切換 (已知或更高信任): 顯示你的信任等級為實際等級
+
+// ---------- 世界 ----------
+
+Here=當前房間
+You Are In=  你目前在
+sr:"^(.+) #(\d+) (.+)$"=$1 #$2 $3
+World not available=世界無法訪問
+
+// 世界類別
+Hot=熱門
+Spookality 2021 Winners=怪異2021的獲勝者
+Spookality 2021=怪異2021
+World Jam: Drawing=世界果醬：繪畫
+World Jam: Obstacle Course=世界果醬：障礙賽
+Spookality 2021 Participants=2021詭異的參與者
+Udon Alpha Spotlight=Udon Alpha焦點地圖
+Spotlight - Cross Platform=焦點地圖-跨平台
+Spotlight - PC=焦點地圖-PC平台
+Active - Cross Platform=活躍地圖-跨平台
+Active - My Platform=活躍地圖-我使用的平台
+Random=隨機
+Avatar Worlds=角色世界
+Games=遊戲
+Updated Recently=最近更新
+New=新地圖
+Recent=最近紀錄
+Mine=我的地圖
+Classics=經典
+Community Labs=社群實驗室
+
+// 遊玩清單
+EDIT PLAYLIST=編輯遊玩清單
+Enter Playlist Title...=輸入遊玩清單標題...
+Public=公開
+Friend=好友
+Private=私人
+CLEAR=刪除
+UPDATE=更新
+
+// 世界詳細
+INSTANCE DETAILS=房間資訊
+sr:"^#(\d+) - (.+)$"=#$1 - $2
+sr:"^Users - (\d+)$"=當前房間玩家 - $1人
+World Name=世界名稱
+World Author=世界作者
+Instance Region, Number, and Type=房間的地區、房號、和公開類型
+Instance Population=房間人數
+Friends in this instance=好友在此房間人數
+Rejoin World=重新加入
+Rejoin the current world instance=重新進入現在的世界房間
+Remove From Playlist=從遊玩清單移除
+Remove this world from a playlist=從遊玩清單中移除這個世界
+sr:"^Do you want to remove this world from '(.+)'\?$"=你確定要從 '$1' 移除這世界嗎?
+Create a new instance of this world=創立目前所在世界的新房間
+Add To Playlist=添加到\n遊玩清單
+Add this world to a playlist=把這個世界添加到遊玩清單裡
+Submit a report if this world contains inappropriate content=提交舉報假如這世界有不當的內容
+You are here=你在這裡
+invite=僅限邀請
+friends+=好友+
+friends=好友
+invite+=邀請+
+public=公開
+Author:=作者:
+Open to Friends=對好友開放
+Size:=大小:
+Public:=公開:
+Private:=私人:
+Description:=描述:
+Tags:=標籤:
+
+// 世界詳細: 右側按鈕
+r:"^Favorite ([0-9]+)/256$"=最愛 $1/256s
+Unfavorite=取消最愛
+Home=已設為家
+Make Home=設為家
+Reset Home=重置家
+CHOOSE A PLAYLIST=選擇一個遊玩列表
+ADD=新增
+
+// 縮圖下方按鈕
+Go=前往
+Drop Portal=放傳送門
+
+// 錯誤
+Cannot Create Portal=無法放置傳送們
+Portal too close to spawn.=你要放置的地方太靠近重生點
+Could not find surface on which to place it.=你要放置的地方沒有地面
+Portal too close to a player.=你要放置的地方太靠近玩家
+You can't invite a Quest user to a PC-only world. Try going to a cross-platform world and inviting them.=你沒辦法邀請Quest玩家到只能PC進的世界。 \n嘗試到一張可跨平台地圖再去邀請他們
+Subscribe Error=訂閱錯誤
+That user is not trusted!=你的信任等級未達到!
+Disconnected=斷線
+VRChat experienced an internal error.=VRChat遇到內部錯誤
+ERROR=錯誤
+Could not log in. Please try again later.=無法登入，請重新稍後再嘗試
+Failed to connect to VRChat.=VRChat連線失敗
+
+// 其他房間
+Other Instances=其他房間
+New Instance=創建房間
+
+// 創建房間
+NEW INSTANCE=新房間
+Friends+= 好友＋
+Invite+=邀請＋
+Invite Only=僅限邀請
+Anyone can join.=任何人可以加入
+Any friend of a user in the instance may join.=房間內任何玩家的好友可以加入
+Only your friends may join.=只有你的好友可以加入
+You can invite others. Joiners can accept requests.=你可以邀請其他人，已加入的人可以接受請求
+You can invite others. Only you can accept requests=你可以邀請其他人，只有你可以接受請求
+Region=地區
+Regions=地區
+Creating an instance in the region closest to you will result in a lower ping and better experience.=把房間創建在離你最近的區域可以讓你獲得更低的延遲和更好的遊戲體驗。
+
+// 搜尋功能
+Delete=刪除
+Search Results=搜尋結果
+Search In:=搜尋:
+Save Search 0/3=保存搜尋0/3
+
+// 檢舉系統
+
+SUBMIT=提交
+World Actions=世界動作
+sr:"^(.+) – What is Wrong\?$"=$1 - 怎麼了嗎?
+Image=圖片
+World Image=世界圖片
+Report =檢舉 
+Behavior =行為 
+NEXT	=    下一步	
+Where is the issue?=請問要檢舉什麼？
+Environment=地圖場景
+Text (Title, Description)=文字(標題,敘述)
+World Image=圖片
+Tags=標籤
+For urgent issues contact us at moderation@vrchat.com=如有其他問題請聯繫 moderation@vrchat.com
+Report=檢舉
+Submit=提交
+Abusive/disruptive visuals=辱罵/破壞性視覺
+Poor performance=使遊戲卡頓
+Nudity=裸露
+What is wrong?=怎麼了？
+Inappropiate=不當使用
+Broken=破碎的
+Loud/disruptive audio=大聲/破壞性音訊
+Hateful=可恨
+Malicious=惡意
+Harrassing=騷擾
+Text=文本
+Harassing=騷擾
+Sexual=性方面暗示
+Chill=冷門(?)
+
+// ---------- 角色 ----------
+
+Avatars=角色
+Test This Avatar=測試這個角色
+AVATARS=角色
+My Creations=已上傳的角色
+Unfavorite Avatar=移除角色最愛
+Remove From Favorites=移除最愛
+Do you want to remove this avatar from your favorites?=你確定從角色最愛列表中移除此角色嗎?
+Add To Favorites=新增至最愛
+Avatar added to favorites=角色已新增至最愛
+Remove From Avatar Favorites=從角色最愛列表移除
+Avatar removed from favorites=角色已從最愛移除
+r:"^Favorite Avatars \((\d+)/(\d+)\)$"=我的最愛  ($1/$2)
+Favorite Avatars (25/25)=我的最愛 (25/25)
+Get More Favorites=  獲得更多最愛欄
+Other=其他
+Legacy VRChat Avatars=VRChat 經典角色
+Avatar Worlds (Random) (Expand to Show)=角色世界 (隨機) (展開展示)
+Avatar Worlds (What's Hot) (Expand to Show)=角色世界 (熱門) (展開展示)
+My Creations For Quest Viewers=我為 Quest 玩家的創作
+Public Fallback Avatars=公開後備角色
+
+// 左側
+Hide\nFallback=隱藏\n後備
+Show\nFallback=顯示\n後備
+Change Into Avatar=變更角色
+Change Into Avatars=變更角色
+Choose Fallback=選擇\n後備
+Choose Main=選擇\n主要
+Avatar Stats=   角色統計資料
+Fallback is used when viewing main avatar is restricted due to platform or performance.=後備角色是當對方主要角色\n被性能遮蔽或平台不相容時後顯示出來的角色
+
+// 角色統計資料 (待補)
+Overall Performance:=角色整體表現:
+
+Learn More about Avatar Optimization in the VRChat Documentation=了解有關VRChat文檔中的角色優化的更多資訊
+Open Documentation=開啟文檔
+Excellent=完美
+Good=良好
+Medium=中等
+Poor=不良
+Very Poor=非常不良
+
+
+
+// ---------- 社交 ----------
+Ask this User to be Your Friend=請求此玩家成為你的好友
+See More About this User=查看更多關於此玩家
+TOGGLE: Select to No Longer Hear or See This User=切換：點擊來不再聽到或看到此玩家
+TOGGLE: Select to See and Hear This User=切換：點擊來重新聽到或看到此玩家
+Select to have Safety Settings determine the avatar features of this selected user=點擊讓安全設定決定此選擇的玩家角色功能
+Select to see all Avatar features of this selected user=點擊來開啟此玩家所有角色功能
+Select to turn off all Avatar features but voice on this selected=點擊來關閉此玩家所有角色功能但可聽到玩家語音
+TOGGle: Select to Hear This User's Mute Channel=切換：點擊來解除此玩家靜音
+Turn this User's Microphone Off=按下這個來控制玩家的麥克風音量
+Control the volume of this user's microphone=控制此玩家的麥克風音量
+Unfriend=解除好友
+Unfriend User=解除玩家好友
+Unfriend This User=解除這玩家好友
+Unfriend this User=對玩家解除好友
+Unfriend this user=對玩家解除好友
+User Voice=玩家聲音
+Mute this user=靜音此玩家
+Unmute this user=解除靜音此玩家
+sr:"^(.+) is now Muted$"=$1 已被靜音
+sr:"^(.+) is no longer Muted$"=$1 已解除靜音
+Invite user to World=邀請玩家到此世界
+Join user in world=加入玩家所在世界
+Block this user=封鎖此玩家
+Block User=封鎖玩家
+sr:"^Are you sure you want to block '(.+)'?$"=你確定你要封鎖 $1?
+YES=是
+NO=否
+Unblock User=解除封鎖玩家
+sr:"^(.+) is now Blocked$"=$1 已被封鎖
+sr:"^(.+) is no longer Blocked$"=$1 已解除封鎖
+Unblock this user=解除封鎖此玩家
+sr:"^Are you sure you want to unfriend user: (.+)\?$"=你確定你要解除 $1 的好友嗎?
+Friend Request Sent=已發送好友邀請
+sr:"^Are you sure you want to join (.+)\?$"=你確定你要加入到 $1 所在的世界嗎?
+Invite=邀請
+Remove Friend=移除好友
+Remove Friend From Favorites=將好友從最愛列表移除
+Gift VRChat+=贈送VRChat+
+Gift VRChat+ to this user=贈送VRChat+給此玩家
+This user already has an active VRChat+ Subscription.=此玩家已經有 VRChat+ 訂閱了
+Add Friend To Favorites=將好友加入到最愛列表
+sr:"^Are you sure you want to unfriend (.+)\?$"=你確定要移除 $1 好友嗎?
+
+Join=加入
+Trust Level:=信任等級:
+Online=在線的
+Vote to Kick=投票踢出
+offline=離線
+Req Invite=請求邀請
+online in a private world=在私人世界
+VRC+ Supporter=VRC+贊助者
+Edit Profile=個人檔案
+Edit Status=編輯狀態
+In Room=在房間裡
+Friend Requests=好友請求
+Friend Request=請求加入好友
+Send Friend Request=送出好友邀請
+sr:"^(.+) is no longer your Friend$"=$1 不再是你的好友了
+
+
+sr:"^Friend Request sent to (.+)$"=已對 $1 送出好友邀請
+Online Friends=在線好友
+Offline Friends (Expand to Show)=離線好友 (展開顯示)
+Find new friends in active worlds below! (Expand to Show)=在下面的世界中尋找新朋友！ (展開顯示)
+r:"^Favorite (\d+)/(\d+)$"=最愛 $1/$2
+sr:"^(Unfavorite) ([0-9]+)/([0-9]+)$"=$1 $2/$3
+sr:"^(.+) wants to be your friend$"=$1 想成為你的朋友
+Accept=接受
+Decline=拒絕
+Avatar Display=角色顯示
+Show the selected user's avatar=顯示此玩家的角色
+Hide the selected user's avatar=隱藏此玩家的角色
+Use Safety settings to determine if the selected user's avatar is displayed=使用安全設定來決定此玩家的角色是否顯示
+Add To Avatar Favorites=加入到最愛角色
+Clone Avatar=複製角色
+You are already using this avatar=你已經正在使用此角色
+Avatar enabled=角色顯示
+Avatar will follow Safety Settings=角色會根據安全設定啟用
+Avatar hidden=角色隱藏
+Favorite\nAvatar=加入\n最愛角色
+Change into this user's avatar=變更此玩家的角色
+View Avatar Details=查看角色詳細
+View Avatar Author=查看角色作者
+Warn User=警告玩家
+Kick User=踢出玩家
+Force User's Mic Off=強制關閉玩家麥克風
+Are you sure you want to warn this user about their behavior?=你確定你想要警告此玩家他的行為嗎?
+Are you sure you want to kick this user? They will not be able to join this instance for one hour.=你確定你想要踢出此玩家嗎? 他們會在一小時內無法禁入此房間
+Force Microphone Off=強制關閉麥克風
+Are you sure you want to turn this user's microphone off?=你確定你想要關閉此玩家的麥克風嗎?
+Instance Moderator Actions=房主管理功能
+
+
+// 最愛
+CHOOSE A BOOKMARK=選擇一個最愛
+Change Bookmark Name=變更最愛名稱
+
+// 個人檔案
+Change Profile Pic=更換個人檔案圖片
+Playlists=遊玩列表
+Playlist 1=遊玩列表 1
+Playlist 2=遊玩列表 2
+Playlist 3=遊玩列表 3
+Playlist 4=遊玩列表 4
+Edit Bio=編輯自介
+View on\nVRChat.com=在 VRChat\n網頁上查看
+Current World=現在所在世界
+Moderate User=管理玩家
+General Moderation=一般管理
+Instance Owner=房主管理
+Mic Off=關麥克風
+Warn=警告
+Kick=踢出
+Moderate=管理選單
+Moderator Warn=警告管理
+Moderator Kick=踢出管理
+Force Mic Off=強制關閉麥克風
+Reset=重置
+Use Avatar Image=使用角色圖片
+0/512 characters remaining...=已達字數上限
+r:"^(\d+)/\d+ characters remaining\.\.\.$"=還剩下 $1 個字元
+sr:"^Are you sure you want to initiate a vote to kick (.+)?$"=你確定要發起投票踢出 $1?
+Moderation=管理玩家
+Unable to start a vote to kick=無法發起投票踢出
+sr:"^Are you sure you want to kick user: (.+)\? They will not be able to join this instance for one hour.$"=你確定要踢出玩家 $1 嗎? 他將會在一小時內無法進入此房間
+sr:"^Are you sure you want to warn user: (.+)\?$"=你確定要警告玩家 $1 嗎?
+You have been warned for your behavior. If you continue, you may be kicked out of the instance=你因為你的舉止被房主警告了\n如果屢勸不聽將可能被踢出
+
+You has been kicked out=你已經被踢出了
+
+// 狀態
+UPDATE STATUS=變更狀態
+Enter Status...=設定狀態...
+Join Me: Auto-accept join requests.=加入我: 自動接受加入請求
+Online: See join requests.=在線: 顯示加入請求
+Ask Me: Hide location, see join requests.=詢問我: 隱藏地點，顯示加入請求
+Do Not Disturb: Hide location, hide join requests.=忙碌: 隱藏地點和加入請求
+Update=變更
+History=紀錄
+Status History=狀態紀錄
+
+// ---------- VRChat+功能 ----------
+VRChat Plus=VRChat+
+$9.99 / month=$9.99/月
+Processing Transaction...=處理交易中......
+sr:"^VRChat Plus \((.+)\) (.+)$"=VRChat Plus ($1) $2
+Monthly=月付
+Yearly=年付
+
+sr:"^(January|February|March|April|May|June|July|August|September|October|November|December) (\d+), (\d+)$"=$3年$1月$2日
+
+January=1
+February=2
+March=3
+April=4
+May=5
+June=6
+July=7
+August=8
+September=9
+October=10
+November=11
+December=12
+
+Next Billing Date=下個續訂日期
+Close Camera Menu=關閉相機選單
+Save this photo and apply as your Icon.=儲存這張圖片並套用在個人圖標
+Amount=價格
+Manage Subscription=管理訂閱
+Select PC=選擇\nPC
+Manage User Icons=管理玩家圖標
+Save & Apply=儲存並套用
+Try \nAgain=重新\n拍攝
+Successfully saved to library!\nIcon applied to profile.=成功儲存到相簿中!\n已套用在個人圖標上
+Successfully saved to library!=成功儲存到相簿中!
+Successfully saved to library!\nProcessing image...=成功儲存到相簿中!\n正在處理圖片...
+Processing image...=正在處理圖片...
+Saving Image...=正在儲存圖片...
+Uploading image...=正在上傳圖片...
+Delete User Icon?=刪除玩家圖標?	
+Delete Image?=刪除圖片?
+The selected image will be deleted. Are you sure?=你選擇的圖片將會被刪除\n你確定嗎?
+The selected user icon will be deleted. Are you sure?=你選擇的玩家圖標將會被刪除\n你確定嗎?
+Upload on VRChat.com=在VRChat.com上傳
+Close=關閉
+Take Picture=拍照
+Take Another=再拍一張
+Flip Camera=翻轉相機
+Manage\nIcons=管理圖標
+Go to the Gallery=前往相簿
+Go to the Gallery Menu for more options=打開相簿選單來獲取更多設定
+
+Go back to the User Icon camera=回到玩家圖標相機
+Add Photo To Gallery=新增相片到相簿
+Manage Images=管理圖片
+Move\nCamera=移動相機
+Timed\n(3s)=計時器\n(3秒)
+Add User Icon=新增玩家圖標
+Grab and drag to pan the view=抓住並拖曳來拍照視角
+Change the camera placement=改變相機位置
+Wait 3 seconds before taking a picture=等待3秒來拍照
+Capture the image in the viewfinder=在取景器中拍攝圖片
+Reverse the camera view=翻轉相機視角
+Zoom the view in or out=控制視角放大或縮小
+Take Photo=拍照
+TAKE PHOTO=拍照
+Flip=翻轉
+Take a user icon photo.\nThe camera can be aimed with the [Move] button.=拍攝玩家圖標,你可以按下[移動相機]調整相機視角
+Manage Your User Icons=管理你的玩家圖標
+Learn More About VRC+=了解有關VRC+的更多資訊
+Expired=已到期
+Expires=訂閱到期日期
+sr:"^My User Icons (\(\d+\/\d+\))$"=我的圖標 $1
+sr:"^My Images (\(\d+\/\d+\))$"=我的圖片 $1
+GALLERY=相簿
+or=或
+Add Photo=添加圖片
+Add Message=添加訊息
+ADD PHOTO=添加圖片
+ADD MESSAGE=添加訊息
+Send=送出
+Send Invite=送出邀請
+SEND INVITE=送出邀請
+Use the camera to capture a new image=使用相機拍張新圖片
+Choose an image from your Gallery=從相簿選擇一張圖片
+Add a message to the invite=添加一條訊息在邀請裡
+Request invite to World=請求加入世界
+Request Invite=請求邀請
+Request Invite to World=請求邀請
+Request Sent=請求邀請送出
+sr:"^Request invite sent to (.+)$"=請求邀請送出到 $1
+SEND REQUEST=送出請求
+Request An Invite=請求邀請
+Send An Invite=送出邀請
+Select Gallery Image=選擇相簿圖片
+Early supporters earn me as a badge! =早期贊助者\n可獲得一個徽章!
+Take New Photo=拍新照片
+You must be a VRC+ supporter to use this group.\n\nSelect an avatar and click Move to remove it from this group and add it to Favorite Avatars.=你必須是 VRC+ 贊助者來使用此組。\n\n選擇一個角色，然後單擊“移動”以從此組中刪除它，並將其添加到收藏的角色中。
+VRC+ Supporter Required=需要 VRC+ 贊助者
+Image Profile Picture=個人檔案圖片
+User Icon Created=玩家圖標已建立
+Set As Current Icon=變更成現在圖標
+Successfully saved to library!\nImage processed.=成功儲存到圖庫中!\n圖片已處理完畢
+Image has been set as your Profile Picture.=已將圖片設定成你的檔案圖片了
+Image has been removed as your Profile Picture.=已將圖片從你的檔案圖片移除了
+Set As Profile Pic=設定個人檔案圖片
+Take A User Icon Photo=拍個玩家圖標
+Take a timed photo, delayed by 3 seconds.=計時拍照,將會倒數3秒
+Take a photo.=拍張圖片
+Flip the camera's direction.=旋轉相機方向
+Move the camera to look around the scene.=移動相機來環視場景
+Manage your previously saved icons in the Main Menu.=在主選單管理你之前所儲存的圖標
+
+// 檢舉
+Report User=檢舉玩家
+Report user=檢舉玩家
+Behavior=行為
+Text (Name, Status)=文字 (名稱、狀態)
+User Icon=玩家圖標
+
+// 管理
+Block=封鎖
+Unblock=取消封鎖
+
+// ---------- 安全 ----------
+
+Set Avatar Feature Shield Settings=角色功能遮蔽設定
+Performance Options=效能設定
+Close menu for changes to take effect=關閉選單後套用變更
+
+// 功能
+Voice=語音
+User Icons=玩家圖標
+Audio=音效
+Lights and Particles=光源、粒子和\n效果
+Shaders=著色器
+Custom \nAnimations=自訂動畫\n
+
+// 安全等級
+Select "Custom" to change settings=選擇"自訂"來設定選項
+Shield Level=安全等級
+None=無
+See almost all avatar features on all users, excluding nuisance users. <b>WARNING</b>: This mode is not recommended, as it exposes you to everything on all users!=查看所有玩家的幾乎所有角色功能，不​​包括公害玩家。 <b>警告</b>:不建議使用此模式，因為它將你暴露於所有玩家的一切！
+Normal=普通
+Turns off avatar features for less trusted users and enables more features for trusted users.=關閉無限制玩家的角色功能，並為受信任玩家提供更多功能。
+Maximum=最強
+This is the safest mode, it turns off most avatar features for all user trust ranks.=這是安全模式，它會關閉所有玩家的角色功能。
+Custom=自訂
+Customize which avatar features you want to see for each user Trust Rank.=自訂為每個信任等級能顯示的角色功能。
+
+// 信任敘述
+<i>Visitors</i> are newcomers that have not yet earned any <i>trust</i> and cannot yet upload content. They can earn <i>trust</i> by spending time in VRChat and making friends. <i>Visitors</i> have the least amount of avatar features visible to other users on the <i>Normal</i> safety setting.=<i>訪客</i> 他們是未獲取任何 <i>信任等級</i> ,并且無法上傳內容 \n他們可以賺取 <i>信任等級</i> 透過在花時間VRChat和結交更多好友 \n<i>訪客</i> 在其他玩家的 <i>普通</i> 安全設定是以最少量角色效果顯現的。
+<i>New Users</i> have earned enough <i>trust</i> to allow them to upload content. Some <i>New User</i> avatar features will not be visible on the <i>Normal</i> safety setting.=<i>新玩家</i> 已經賺了足夠的 <i>信任等級</i> 讓他們可以上傳內容 \n一些 <i>新玩家</i> 在 <i>普通</i> 安全設定中角色部分功能是看不見的
+<i>Users</i> have built up more <i>trust</i> by spending time in VRChat, making friends, and possibly making content. <i>Users</i> have more avatar features visible to others on the <i>Normal</i> safety setting.=<i>一般玩家</i> 他們獲得了更多 <i>信任等級</i> 通過在 VRChat 中花時間，結交好友，和製作內容。 <i>一般玩家</i> 有更多的角色功能可以對其他人可見 <i>普通</i> 安全設定。
+<i>Known Users</i> have been citizens in VRChat for a while. They have spent time making friends and making content. More of their avatar features are visible to other users. They can turn off their <i>Known User</i> tag and appear as a <i>User</i>.=<i>高階玩家</i> 一直都是 VRChat 的公民。\n他們花了很多時間結交好友和製作內容。\n其他玩家可以看到更多的角色效果。\n他們可以關掉他們的 <i>高階玩家</i> 標簽，看起來是一個 <i>一般玩家</i>.
+<i>Trusted Users</i> have been citizens in VRChat for a long time. They have spent time making friends and making content. Most of their avatar features are visible to other users. They can turn off their <i>Trusted User</i> tag and appear as a <i>User</i>.=<i>值得信賴的玩家</i> 在 VRChat 中以待上很長一段時間。\n他們花了時間結交好友和製作。\n其他玩家可以看到其大部分的角色功能。\n他們可以關掉他們的 <i>最高玩家</i> 標簽，看起來是一個 <i>一般玩家</i>.
+<i>Friends</i> are users that you've added to your friend list. All of their avatar features are visible in most Safety Modes. =<i>好友</i> 是你添加玩家到你的好友列表中。\n它們的所有角色功能都在大多數安全模式下可見。
+
+// 功能
+<i>Voice</i> mutes or unmutes audio that emits from a user's microphone input for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>語音：</i>靜音或是取消靜音玩家的麥克風輸入
+<i>Avatar</i> shows or hides the avatar for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>角色：</i> 顯示或隱藏玩家的角色模型
+<i>User Icons</i> shows or hides the custom User Icon for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>玩家圖標：</i>顯示或隱藏自訂玩家圖標
+<i>Audio</i> mutes or unmutes sound effects that emit from a user's avatar for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>音效：</i>靜音或是取消靜音玩家的角色發出的聲音效果
+<i>Shaders</i> turns on or off shaders on a user's avatar for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>著色器：</i>開啟或關閉玩家的角色上的著色器。
+<i>Particles and Lights</i> turns on or off particles and lights on a user's avatar for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>. <i>Particles</i> are components that shoot out effects, like graphics, fire, etc.=<i>光源、粒子和效果：</i>開啟或關閉玩家的角色光源、粒子和效果 \n<i>粒子</i> 是射出效果的组件，如圖形，火等。
+<i>Custom Animations</i> turns on or off custom animations on a user's avatar for the combined <i>Safety Mode</i> and <i>User Trust Rank</i>.=<i>自訂動畫：</i>開啟或關閉玩家的角色上自訂動作
+
+// 效能設定
+View Documentation=查看文檔
+Max Simulated Bones:=最大模擬骨骼:
+Max Collision Checks:=最大碰撞檢查:
+Avatar Perf.=角色效能
+Avatar Performance=角色效能設定
+Minimum Displayed Performance Rank:=最低顯示效能等級
+VeryPoor=非常不良
+Low=低
+High=高
+Ultra=終極
+Maximum Avatar Download Size:=最大角色下載大小
+Avatars with a performance rank below the selected level will be replaced with the blocked avatar placeholder. Please refer to our documentation for more information on the Avatar Performance Rating system.=效能等級低於所選級別的角色將替換為被封鎖的角色\n有關角色效能評分系統的更多資訊，請參閱我們的文檔
+Dynamic Bone=動態骨骼
+Dynamic Bone is a script that provides physics motion on avatar bones at the cost of performance.  Adjust the settings below to balance fidelity and performance.=動態骨骼是一個腳本，可在效能成本上為角色骨骼提供物理運動。\n調整下面的設定以平衡保真度和效能。
+Limit Dynamic Bone Usage=限制動態骨骼
+If limiting is enabled, all Dynamic Bones and/or Colliders will be removed if the limits are exceeded. This limit is checked and applied per avatar. If you wish to customize these limits, see our documentation below for editing the configuration file.\nChanges to the configuration file require a restart to take effect.</color>=如果啟用了限制模式，所有超過限制的動態骨骼和碰撞器將被移除。 每個角色都會自動檢查並且應用此限制。 如果你想要自訂這些限制，請參閱我們的文檔來編輯設定檔。變更設定檔後需要重新啟動才能生效。
+Adv. Graphics=進階影像
+Advanced Graphics=進階影像設定
+Graphics Quality:=畫質
+Multisample Antialiasing:=多重採樣抗鋸齒
+Disabled=已停用
+Multisample Antialiasing smooths out the edges of geometry at the cost of increased rendering and VRAM usage. Try reducing this setting if you are experiencing GPU or VRAM performance issues.=多重採樣抗鋸齒以增加渲染和 VRAM 用量為代價平滑幾何體的邊緣\n如果你遇到 GPU 或 VRAM 效能問題，請嘗試降低此設定
+<color%3D#FFFFFFFF>If limiting is enabled, all Dynamic Bones and/or Colliders will be removed if the limits are exceeded.  This limit is checked and applied per avatar.\r  If you wish to customize these limits, see our documentation below for editing the configuration file. </color>\n<color%3D#F0F000FF>Changes to the configuration file require a restart to take effect.</color>=<color%3D#FFFFFFFF>啟用限制後，將會移除超出限制的動態骨骼和碰撞器\n每個角色都會自動檢查並且套用限制設定\n如果想自訂這些限制，請參閱下面的文黨來編輯設定文件 </color>\n<color%3D#F0F000FF>變更設定文件後需要重起遊戲來套用</color>
+
+
+// ---------- 回家 ----------
+
+Do you want to go back to your home world?=你確定你要回家嗎？
+
+// ---------- 設定 ----------
+
+Bindings=按鍵設定
+Advanced Settings=進階設定
+LOGOUT=登出帳號
+EXIT VRCHAT=退出遊戲
+Avatar Check=角色檢查
+Height Measurement=高度調整
+Streamer Mode=直播模式
+Controller Bindings=控制器按鍵設定
+Streamer Mode allows you to hide information about your location and your display name while using VRChat.\nIt also hides some methods users can get content on your screen, like images and thumbnails.\nThis can be useful for streaming.\n<color%3Dred>Streamer mode auto-declines friend requests.</color>=允許你遊玩VRChat時隱藏個人資訊和世界資訊\n它還隱藏一些用戶可以在你的螢幕上獲取內容的方法 像是圖片和縮略圖\n對直播主會很有幫助\n<color%3Dred>直播模式將會自動拒絕好友邀請</color>
+
+
+// 舒適和安全
+Comfort and Safety=舒適和安全
+HOLOPORT (3P Locomotion)=第三人稱移動 (HOLOPORT)
+COMFORT TURNING=舒適轉向
+PERSONAL SPACE=個人空間
+ALLOW UNTRUSTED URLS=允許不受信任的網址
+STREAMER MODE=直播模式
+
+// 控制
+Mouse=控制
+Sensitivity=滑鼠靈敏度
+INVERT MOUSE LOOK=反轉滑鼠
+
+// 語音選項
+Voice Options=語音選項
+TOGGLE VOICE=語音切換
+MIC DEFAULTS ON=預設開啟麥克風
+DISABLE MIC BUTTON=禁用麥克風快捷鍵
+
+// 其他選項
+Other Options=其他選項
+SHOW TOOLTIPS=顯示工具提示
+3RD PERSON ROTATION=第三人稱旋轉
+SKIP GO BUTTON IN LOAD=自動進入世界
+ALLOW AVATAR CLONING=允許角色複製
+DESKTOP RETICLE=桌面準心
+VIVE ADVANCED CONTROL=VIVE進階控制
+SHOW COMMUNITY LABS=顯示社群實驗室
+
+// 音量
+Volume=音量
+Audio Volume=音量
+Master\n=主音量\n
+UI/Menu=UI/選單
+World=世界
+Voices=語音
+
+// 麥克風
+Microphone=麥克風
+Level=音量
+Current Device:=目前設備:
+Change=變更
+sr:"^Default - (.+)$"=預設 - $1
+Control the master volume for all audio=控制所有聲音的主音量
+Control the volume of sounds in this world=控制目前所在世界音效
+Control the volume of other user's voices=控制其他玩家聲音
+Control the volume of sounds from avatars=控制來自角色的音效
+Change your current audio input device=變更目前你的音訊輸入裝置
+Control the volume of your microphone=控制你的麥克風音量
+
+// 玩家音量
+User Volumes=玩家音量
+Reset User Volume Settings=重置所有玩家音量
+
+// 進階設定
+Reset local data and settings.=重置本地資料和設定
+Clear Downloaded Content Cache=清除下載內容快取
+Delete all locally cached downloaded content.=刪除所有本地下載內容
+Clear Local Profile Data=清除本地玩家資料
+Reset all settings to default, and log out the current user.=重設所有設定並登出目前帳號
+Clear Local Avatar Data=清除本地角色資料
+Deletes all local avatar data stored on disk.=刪除所有儲存在硬碟上的本地角色資料
+
+Currently Used:=已使用:
+
+Clear Content Cache=清除內容快取
+All cached downloaded content will be deleted. Are you sure?=所有下載內容快取講會被刪除\n你確定嗎？
+Your cache will be cleared the next time you start VRChat. Please restart your client to finish clearing your cache.=你的快取將在下次啟動 VRChat 時被清除\n請重新啟動 VRChat 來完成快取清理
+The current user will be logged out. Are you sure?=目前帳號將會被登出\n你確定嗎？
+Your local avatar data will be deleted. Are you sure?=你的本地角色資料將會被刪除，你確定嗎？
+
+Yes=確定
+No=取消
+
+//升級帳號
+UPGRADE ACCOUNT=升級帳號
+Upgrade to a Full VRChat Account=升級成完整的VRChat帳號
+Upgrading from Steam to VRChat will allow you to create your own Avatars\nand Worlds once you reach the New User trust rank. Your friends and trust rank will be merged with your VRChat account. Upgrade now! It only\ntakes a few minutes.\nNote: This merges a Steam account and VRChat account.=從 Steam 升級到 VRChat 當你達到「新玩家」信任等級將允許你創建自己的角色和世界\n  你的朋友和信任等級將會合併到你的VRChat帳號\n         現在升級吧！只要花個幾分鐘就好了\n         注意：這將會合併Steam帳號與VRChat帳號
+
+Step 1 of 3:=第一步驟:
+Step 2 of 3:=第二步驟:
+Step 3 of 3:=第三步驟:
+•⚫  Select Generate to create \n    a merge token.\n•  Copy it to your clipboard.\n    You will paste it into the \n    website later. =•⚫點擊「產生」取得 合併驗證碼\n•點選「複製」將複製到剪貼簿，稍後貼到網頁上
+Generate=產生
+Copy=複製
+Launch=啟動
+•⚫  Select Launch to open the Upgrade \n    page in a browser window.\n•  In your browser, login or register a\n    new VRChat account, then link it.\n•  VR users may want to remove their\n    headsets.=•⚫點選「啟動」將開啟瀏覽器  到升級帳號網頁\n•在你的瀏覽器中，登入或者註冊VRChat帳號，然後合併	\n•VR用户需要拿下頭盔操作
+Log Out=登出
+•  Once you've linked your accounts \non the website, logout here. Then\nlog back into your now unified\naccount via Steam or VRChat login.=•完成合併後，請點選「登出」\n然後透過Steam或VRChat帳號 重新登入。
+
+
+// ---------- UI/介面 ----------
+
+Nameplate Display=名牌顯示
+Nameplates\nShown=顯示\n玩家名牌
+Icons Only=只顯示\n玩家圖標
+Nameplates\nHidden=隱藏\n玩家名牌
+Show nameplates and icons for all users=顯示所有玩家的名牌和圖標
+Show icons but hide nameplates for all users=只顯示所有玩家的圖標
+Hide nameplates and icons for all users=隱藏所有玩家的名牌和圖標
+Show full nameplates.=顯示完整名牌
+Show nameplates with icons only.=名牌只顯示玩家圖標
+Hide nameplates.=隱藏玩家名牌
+QM Info=詳細資訊
+Show extra nameplate information while the Quick Menu is open=當快速選單開啟時顯示名牌上顯示更多資訊
+Hide extra nameplate information while the Quick Menu is open=當快速選單開啟時隱藏名牌上顯示更多資訊
+Quick Menu info enabled=開啟快速選單詳細資訊
+Quick Menu info disabled=關閉快速選單詳細資訊
+Status\nShown=顯示\n狀態
+Status On\nQM Open=QM開啟\n時顯示
+Status\nHidden=隱藏\n狀態
+Fallback Icon=後備圖標
+Fallback icon enabled=開啟後備圖標
+Fallback icon disabled=關閉後備圖標
+Show Fallback Icon=顯示後備圖標
+Hide Fallback Icon=隱藏後備圖標
+HUD enabled=開啟HUD
+HUD disabled=關閉HUD
+Show HUD icons=顯示HUD圖標
+Hide all HUD icons=隱藏所有HUD圖標
+UI Haptics=UI震動
+UI Haptics enabled=開啟UI震動
+UI Haptics disabled=關閉UI震動
+Enable UI haptics=開啟UI震動
+Disable UI haptics=關閉UI震動
+Tooltips=小提示
+Tooltips enabled=開啟小提示
+Tooltips disabled=關閉小提示
+Show tooltips=顯示小提示
+Hide tooltips=隱藏小提示
+Pin the FPS and Ping stats to the top of the Quick Menu=釘選幀數和延遲狀態在快速選單上方
+Hide the FPS and Ping stats=隱藏幀數和延遲狀態
+Always show a player's status on their nameplate.=總是在玩家名牌上顯示狀態
+When the Quick Menu is open show a player's status on the nameplate.=當快速選單開啟時在玩家名牌上顯示狀態
+Never show a player's status on their nameplate.=永不在玩家名牌上顯示狀態
+Nameplate Settings=名牌設定
+Show additional nameplate options in the Action Menu.=開啟動作選單來顯示額外的名牌設定
+HUD On=HUD 開啟
+HUD Off=HUD 關閉
+TOGGLE: Select to Turn the HUD Off=開關: 點擊來開關抬頭顯示
+
+// ---------- 相機 ----------
+
+Screenshot=螢幕截圖
+Capture a screenshot image on your hard drive=在你的硬碟上拍攝一張螢幕截圖
+Panorama=全景圖
+Capture a Panorama Image on Your Hard Drive=在你的硬碟上拍攝一張全景圖
+VRChive\nPanorama=全景圖\n(VRChive)
+Upload a Panorama Image to VRChive=拍攝一張全景圖並上傳至 VRChive
+Photo Camera=照相功能
+Create a camera to take pictures and selfies=建立一個相機用來拍照和自拍
+Stream Camera=直播功能
+Create a Camera that Streams to Your Desktop=建立一個相機用來拍直播畫面到視窗上
+Disable Camera=關閉相機
+Remove Your Camera=移除你的相機
+Icon Camera=玩家圖標相機
+Gallery Camera=相簿相機
+
+// ---------- 角色動畫 ----------
+
+Reset Avatar=重置角色
+Play Emote=播放動畫
+Action\nMenu=動作\n選單
+Access Action Menu=開啟動作選單
+Access emotes with the Action Menu.\nWhile the Quick Menu is closed.\nVR : [Hold QM Button]\nDesktop: [R Button]\nOr press the button here....=使用動作選單查看表情符號\n在快速選單關閉時\nVR:[長按QM鍵] 桌面:[按R鍵]\n或點擊右方的按鈕
+This avatar uses the Action Menu for emotes.\nTo access use the instructions below.=此角色使用動作選單播放動畫\n請閱讀左下方說明
+
+// 預設動畫
+Wave=揮手
+Clap=拍手
+Point=指向
+Cheer=歡呼
+Die=死亡
+Dance=跳舞
+Sadness=傷心
+Backflip=後空翻
+
+// ---------- 表情符號 ----------
+
+See next page up of emojis=上一頁
+See next page down of emojis=下一頁
+Smileys & People=笑臉 & 人物
+Animals & Nature=動物 & 自然
+Food & Drink=食物 & 飲料
+Objects=物件
+Symbols=符號
+
+// 第一頁
+Create a Smile Emoji=創造一個微笑表情符號
+Create a Thumbs Up Emoji=創造一個豎起大拇指表情符號
+Create a Heart Emoji=創造一個心臟表情符號
+Create a Frown Emoji=創造一個皺眉的表情符號
+Create a Thumbs Down Emoji=創造一個拇指向下表情符號
+Create an Exclamation Emoji=創建一個感嘆號表情符號
+Create a Laugh Emoji=創造一個笑的表情符號
+Create a Wow Emoji=創造一個魔獸表情符號
+Create a Question Emoji=創建一個問題表情符號
+
+// 第二頁
+Create a Kiss Emoji=創造一個親吻表情符號
+Create an In Love Emoji=創造一個愛情表情符號
+Create a Crying Emoji=創造一個哭泣的表情符號
+Create a Stoic Emoji=創造一個堅忍表情符號
+Create a Tongue Out Emoji=創造一個吐舌表情符號
+Create a Blushing Emoji=創造一個臉紅的表情符號
+Create an Angry Emoji=創造一個憤怒的表情符號
+Create a Fire Emoji=創造一個火焰表情符號
+Create a Money Emoji=創造一個鈔票表情符號
+
+// 第三頁
+Create a Broken Heart Emoji=創造一個心碎表情符號
+Create a Gift Emoji=創建禮物表情符號
+Create a Beer Emoji=創造一個啤酒表情符號
+Create a Tomato Emoji=創造一個番茄表情符號
+Create a Zzz Emoji=創建一個Zzz表情符號
+Create a Thinking Emoji=創造一個思考表情符號
+Create a Pizza Emoji=創造一個披薩表情符號
+Create a Sunglasses Emoji=創造一個耍酷表情符號
+Create a Music Note Emoji=創建一個音符表情符號
+
+// 第四頁
+Create a Go Emoji=創建一個Go表情符號
+Create a Hand Wave Emoji=創建一個揮手表情符號
+Create a Stop Emoji=創建一個禁止表情符號
+Create a Cloud Emoji=創建一個雲朵表情符號
+
+// 第四頁: 萬聖節
+Create a Jack O Lantern Emoji=創建一個南瓜燈籠表情符號
+Create a Spooky Ghost Emoji=創造一個幽靈表情符號
+Create a Skull Emoji=創造一個骷髏頭表情符號
+Create a Candy Emoji=創造一個糖果表情符號
+Create a Candy Corn Emoji=創造一個玉米糖表情符號
+Create a Boo Emoji=創建一個噓聲表情符號
+Create Bats Emoji=創造一個蝙蝠表情符號
+Create a Web Emoji=創建一個蜘蛛網表情符號
+
+// 第五頁: 聖誕節
+Create a Mistletoe Emoji=創造一個槲寄生植物表情符號
+Create a Snowball Emoji=創造一個雪球表情符號
+Create a Snow Fall Emoji=創造一個落雪表情符號
+Create a Coal Emoji=創造煤炭表情符號
+Create a Candy Cane Emoji=創造一個拐杖糖表情符號
+Create a Gingerbread Emoji=創造一個薑餅人表情符號
+Create a Confetti Emoji=創造一個五彩紙屑表情符號
+Create a Champagne Emoji=創造一個香檳表情符號
+
+// 第六頁: 夏季
+Create a Beachball Emoji=創造一個海灘球表情符號
+Create a Drink Emoji=創造飲料表情符號
+Create a Hang Ten Emoji=創建一個沙卡手勢表情符號
+Create an Ice Cream Emoji=創造冰淇淋表情符號
+Create a Life Ring Emoji=創造一個救生圈表情符號
+Create a Neon Shades Emoji=創建霓虹太陽眼鏡表情符號
+Create a Pineapple Emoji=創建一個鳳梨表情符號
+Create a Splash Emoji=創建水滴表情符號
+Create a Sun Lotion Emoji=創造防曬乳表情符號
+
+// ---------- 信任等級 ----------
+
+Visitor=訪客
+New User=新玩家
+User=一般玩家
+Known User=高級玩家
+Known=高級玩家
+Trusted User=最高玩家
+Trusted=最高玩家
+Veteran User=資深玩家
+Veteran=資深玩家
+Legendary=早期玩家
+Legendary User=早期玩家
+Nuisance=公害
+Friend (Visitor)=好友 (訪客)
+Friend (New)=好友 (新玩家)ㄋ
+Friend (New User)=好友 (新玩家)
+Friend (User)=好友 (一般玩家)
+Friend (Known)=好友 (高級玩家)
+Friend (Known User)=好友 (高級玩家)
+Friend (Trusted)=好友 (最高玩家)
+Friend (Trusted User)=好友 (最高玩家)
+Friend (Veteran)=好友 (資深玩家)
+Friend (Veteran User)=好友 (資深玩家)
+Friend (Legendary)=好友 (早期玩家)
+Friend (Legendary User)=好友 (早期玩家)
+Friend (Nuisance)=好友 (公害)
+Friend (Nuisance User)=好友 (公害)
+
+
+// ---------- 動作選單 ----------
+
+Press [R] or [ESC] to close the Action Menu=按 [R] 或 [ESC] 來\n關閉動作選單
+Hold [Quick Menu] button to close the Action Menu=長按 [選單鍵] 來\n關閉動作選單
+
+// Root
+Options=選項
+Expressions=人物動作選單
+Emojis=表情符號
+
+// Root/Options
+Nameplates=名牌
+Gestures=手勢
+Mic=麥克風
+Config=設定
+Close Menu=關閉選單
+
+// Root/Options/Config
+Menu Size=選單大小
+Menu Opacity=選單透明度
+On Hud=顯示在頭顯
+HUD Position=選單位置
+Flick Select=輕彈選擇
+One Handed Movement=單手移動
+AFK Detection=AFK偵測
+Debug=除錯
+
+// Root/Options/Nameplates
+Visibility=能見度
+Size=大小
+Opacity=透明度
+Status=狀態
+Quickmenu\nInfo=快速選單\n資訊
+
+// Root/Options/Nameplates/Size
+Large=大
+Small=小
+Tiny=迷你
+
+// Root/Emojis
+Page 1=第 1 頁
+Page 2=第 2 頁
+Page 3=第 3 頁
+Page 4=第 4 頁
+Fall=秋季
+Winter=冬季
+Summer=夏季
+
+// ---------- UNCATEGORIZED ----------
+
+More features for VRC+ are coming soon! =VRC+將會推出更多功能!
+Search...=尋找...
+SAFETY=安全
+SETTINGS=設定
+USER ICONS=玩家圖標
+Title=標題
+Favorite=加入最愛
+Offline=離線
+Reset Custom Settings=重置自訂設定
+Friends=好友
+Off=關
+On=開
+
+Back=返回
+Loading=載入中
+Terms & Conditions=服務條款和條件
+If you don’t see the Steam Transaction Overlay, try the following:\r\n=如果你沒有看到 Steam 交易疊層，請嘗試以下操作:\r\n
+CLOSE=關閉
+$99.99 / year=$99.99/年
+Okay=好
+
+Search=搜尋
+Name=名稱
+Learn More=了解更多
+Select this user for social actions=選擇這個玩家來進行社交動作
+View more info about this user=查看這玩家的詳細資訊
+VRChat is supported by users like you!=VRCHAT需要像你這樣的贊助者！
+Go Back to the Quick Menu=返回快速選單
+CANCEL=取消
+Renew=更新
+Return to Home=回到家里
+Hide Avatar=隱藏角色
+Use Safety\nSettings=使用安全\n設定
+Not\nBlocked=未封鎖
+User Profile=玩家詳細資訊
+Blocked=已封鎖
+Show Avatar=顯示角色
+Show\nAvatar \nStats=顯示\n角色\n數據
+Voice Off=關閉語音
+Voice On=開啟語音
+Show\nAvatar\nAuthor=顯示\n角色\n作者
+Clone\nPublic\nAvatar=複製\n公開\n角色
+View\nPlaylists=查看\n遊玩列表
+User\nVolume:=玩家\n音量:
+-Volume=音量-
++Volume=音量+
+Alert the Moderators of a Nuisance User=用來警告公害玩家
+Use the buttons below to interact with this user=使用下面的按鈕與此玩家互動
+Next=下一個
+Prev=上一個
+User Real Height=玩家身高
+USER REAL HEIGHT=玩家身高
+
+View Documentation=了解更多資訊
+Remove as Profile Pic=移除個人檔案圖片
+Create User Icon=建立玩家圖標
+Save To Disk=儲存至硬碟
+Image Details=圖片資訊
+Search...=搜尋...
+Images=圖片
+You cannot create a portal to a private world created by \nanother user.=你無法開啟其他玩家的私人世界傳送門
+Creating an instance in the region closest to you will result in a lower ping and better experience.=開房間時選取較近的地區可得到較低的延遲和最佳體驗
+View Full=查看全部
+Exercise=運動
+About Us=關於我們
+Enter User Name...=輸入使用者名稱...
+Enter Password...=輸入密碼...
+Open Menu=開啟選單
+Welcome to the world of=歡迎來到
+Login with=登入使用..
+OR=或是
+CREATE ACCOUNT=建立帳號
+User Name=使用者名稱
+Password=密碼
+
+
+Join!=加入！
+Logout=登出
+EXIT=離開
+Open Web Browser=開啟網頁瀏覽器
+Yep! Let's Go.=是的!出發~
+Enable Safe Mode=啟動安全模式
+Disable Safe Mode=關閉安全模式
+Enable the current audio input device=開啟當前音頻輸入設備
+Disable the current audio input device=關閉當前音頻輸入設備
+Avatar Details=角色詳細
+Avatar Author=角色作者
+TAKE PHOPOH
+Next User=下一個玩家
+Previous User=上一個玩家
+Show additional nameplate options in the Action Menu=在動作選單中顯示其他名牌設定
+Exit=離開
+Really exit VRChat?=你真的要離開VRChat?
+Select User For More=選擇玩家查看更多
+Avatar cloned=角色已複製
+View more info about this world=查看更多關於這世界的資訊
+Thanks for being an Early Supporter! =感谢你當我們的早期支持者！ 
+Thank you for supporting VRChat!=感谢你支持VRCHAT！
+Safe Mode Active=安全模式啟動
+Streamer Mode Active=直播模式啟動
+Open wings to see\nfriends and more=打開雙翼來查看朋友或是更多
+Click to select users,\nor just hold SHIFT=點擊來選擇用駐，或是按住Shift
+This avatar cannot be cloned at this time.=這個角色現在無法複製
+This avatar cannot be favorited at this time.=這個角色現在無法加入最愛
+
+
+Free look to select a user in the world.  Alternatively hold [Shift]=進入自由視角來選擇在房間的玩家。或者按著 [Shift]
+Are you sure you would like to rejoin this world instance?=你確定你想要重新加入這世界房間嗎?
+DISABLE=關閉
+You already using this avatar=你已經正在使用這角色了
+View Photo=查看照片
+Author information is not available at this time.=目前看不到角色作者資訊
+Avatar details are not available at this time.=目前看不到角色作者資訊
+Link opened in web browser=連結已用瀏覽器打開
+Avatar Name=角色名稱
+PERFORMANCE=角色效能
+Vote To Kick User=投票踢出玩家
+1 Month=一個月
+1 Year=一年
+1 Month \n$9.99=一個月
+1 Year \n$99.99=一年
+This purchase grants the recipient a non-renewing \nVRChat+ Subscription for the specified time period. \nGift purchases are non-refundable.=此贈送的接收者在指定時間內是無法續訂的 VRChat+ 訂閱 贈送後事無法退款s的
+sr:"^Purchse Gift Sub for\: (.+)$"=贈送訂閱給:\n$1
