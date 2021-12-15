@@ -1,0 +1,21 @@
+﻿//
+// VRChat 繁體中文語言翻譯: QvPen 追加
+// 翻譯、維護: Kamiya
+// 更新日期 2021/10/25
+// License under Creative Commons BY-NC-SA
+//
+
+All Reset\n(Master)=全部重置\n(房主)
+All Clear\n(Local)=全部清除\n(本地)
+Respawn\n(Global)=重生\n(全域)
+Clear\n(Global)=清除\n(全域)
+r:"^Reset All\n<size%3D8>[Only (.+) can do]</size>\n<size%3D14>(Global)</size>"=重置全部\n<size%3D8>[只有 $1 可以這樣做]</size>\n<size%3D14>(全域)</size>
+Occupied=使用中
+<size%3D8>[Only master]</size>=<size%3D8>[只有房主]</size>
+r:"$<size%3D8>[Only (.+)]</size>^"=<size%3D8>[只有 $1]</size>
+Respawn\n<size%3D14>(Global)</size>=重生\n<size%3D14>(全域)</size>
+Clear\n<size%3D14>(Global)</size>=清除\n<size%3D14>(全域)</size>
+Clear All\n<size%3D14>(Local)</size>=全部清除\n<size%3D14>(本地)</size>
+Hide\n<size%3D14>(Local)</size>=隱藏\n<size%3D14>(本地)</size>
+<size%3D18>Reset All</size>\n\n<size%3D8>[Only master can do]</size>\n\n<size%3D14>(Global)</size>=<size%3D18>重置全部</size>\n\n<size%3D8>[只有房主可以這樣做]</size>\n\n<size%3D14>(全域)</size>
+<size%3D18>Disable</size>\nPen ↔ Eraser\n<size%3D8>[Double-click the pen]</size>\n<size%3D14>(Local)</size>=<size%3D18>禁用</size>\n筆 ↔ 橡皮擦\n<size%3D8>[雙擊筆]</size>\n<size%3D14>(本地)</size>

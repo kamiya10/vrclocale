@@ -1,0 +1,275 @@
+//
+// VRChat 繁體中文語言翻譯: Melon模組 追加
+// 翻譯、維護: XoF eLtTiL
+// 更新日期 2021/11/15
+// License under Creative Commons BY-NC-SA
+//
+
+////Melon主體////
+Enable=啟用
+Reset\nsettings=重設設定
+Are you sure you want to reset all settings in the following category:=你確定你想重設目前所選的設定嗎:
+sr:"^Reset \((\d+) clicks more...\)$"=重設 (再點$1下...)
+Also reset invisible settings=重設隱藏的設定
+sr:"^(.+) Mod settings (.+)$"=$1 模組設定 $2
+
+////ScreenShot Manager////
+//設定部分
+Screenshot Directory=圖片資料夾
+Image Metadata=圖片後設資料
+Enable File Organization=啟用圖片自動分類
+Disable File Organization=關閉圖片自動分類
+Organization Folder Name=圖片分類資料夾名稱
+Organization File Name=圖片分類檔案名稱
+Enable Discord Webhook=啟用Discord Webhook
+Disable Discord Webhook=關閉Discord Webhook
+Show rotation buttons=顯示旋轉按鈕
+Show Rotation Buttons=顯示旋轉按鈕
+Hide rotation buttons=隱藏選轉按鈕
+Reload all Webhook files=重新讀取所有Webhook設定檔
+TabButton Enabled=啟用分頁按鈕
+Use UIX=使用UIX
+Today Hour Offset=日光節約時間偏移值
+MultiView Enabled=多重預覽
+Last Category=最後一個類別
+Move Gallery Button=前往相簿按鈕
+Use File Creation Time=使用檔案建立時間
+Rotation Buttons=圖片旋轉按鈕
+
+//QM選單
+ScreenshotManager can sort and manage your photos (customizable)=ScreenshotManager 可以分類和管理你的圖片(客製化)
+Open Photos Folder=開啟\n圖片資料夾
+Open the folder where photos are saved=打開你圖片所在的資料夾
+Select Category=選擇類別
+All=全部
+All Images=所有圖片
+Today=今天
+Today's Images=今天的圖片
+Yesterday's Images=昨天的圖片
+Yesterdays's Pictures=昨天的圖片
+
+Favorites=最愛
+Favorite Images=最愛圖片
+Show all images=顯示所有圖片
+Show all images from today=顯示今天所有圖片
+Show all images from the last day=顯示昨天所有圖片
+Show all favorite images=顯示所有最愛圖片
+
+Reload=重新載入
+File Organization=圖片自動分類
+Previous=上一個
+Show File=顯示檔案
+Share=分享
+MultiView=多重預覽
+Switch to multi image view mode=切換到多重預覽模式
+Switch to single image view mode=切換到單一預覽模式
+Select a view category=選擇瀏覽類別
+Manage the current image=管理目前圖片
+Manage settings=管理設定
+CREATION TIME=建立日期
+SIZE=大小
+Gallery - Uploading image...=相簿 - 正在上傳圖片...
+Gallery - Image was uploaded successfully.=相簿 - 圖片上傳成功
+Steam - Image was imported successfully.=Steam - 圖片輸出成功
+Delete Image=刪除圖片
+Do you want to delete this image?=你想要刪除這張圖片?
+Single View=單一預覽
+Manually Organize=手動圖片分類
+Reset Organization=重設圖片分類
+Reset File Organization=重設圖片分類
+Are you sure to reset File Organization?=你確定要重設圖片分類嗎?
+Reload\nWebhooks=重新載入  Webhooks
+Hidden=隱藏
+TabButton=分頁按鈕
+Warning=警告
+Your selection is empty.=你未選擇任何圖片
+Tab Button=分頁按鈕
+Menu Button=QM選單按鈕
+Auto Select Latest=自動選擇最新圖片
+sr:"^(Enable|Disable) automatic selection of the latest picture on menu open$"=$1在開啟選單時自動選擇最新圖片分類
+sr:"^(Enable|Disable) saving of world metadata to images$"=$1在圖片中儲存世界位置
+File Settings=檔案設定
+Other Actions=其他動作
+World Metadata=圖片世界資訊
+Help=幫助
+ScreenshotManager Help=ScreenshotManager 幫助選單
+Image Loading=圖片載入
+Menu Settings=選單設定
+Files & Time=檔案 & 時間
+More details on GitHub=詳細內容在GitHub
+All Pictures=全部圖片
+Today's Pictures=今天的圖片
+Favorite Pictures=最愛的圖片
+Change Button Type=改變按鈕類型
+Use UIX as Menu Button=使用UIX作為選單按鈕
+Move Gallery Button to ScreenshotManager Menu=添加前往相簿按鈕到 ScreenshotManager選單上
+Reloads the DiscordWebhook files=重新載入 DiscordWebhook 設定檔
+Show/Hide Image rotation buttons=顯示/隱藏圖片旋轉按鈕
+GitHub Page=GitHub頁面
+Open GitHub=開啟\nGitHub頁面
+Open the GitHub page of this mod=開啟此模組的GitHub頁面
+Actions=動作
+Favorite this image=將這張圖片加入最愛
+Unfavorite this image=將這張圖片解除最愛
+Share this image on via Discord Webhook=使用 DiscordWebhook 來分享此圖片
+sr:"^Send to (.+)$"=分享到 $1
+Select Webhook=選擇 Webhook
+Upload to Gallery=上傳到相簿
+Upload this image to your VRChat Gallery (requires VRC+)=上傳這張圖片到你的VRChat相簿中(需要VRC+)
+Delete this image=刪除此圖片
+Import to Steam=輸出到Steam
+Import this image to Steam and make it uploadable for the Steam Cloud=將這張圖片輸出到Steam中，可讓此圖片上傳到Steam雲端
+Open Explorer=開啟檔案
+Open Windows Explorer and select this image=打開檔案總管並選擇這張圖片
+Indexing files...=正在處理...
+Finished indexing.=處理完畢
+Indexing...=處理中...
+Photo Actions=圖片動作
+sr:"^Image (\d+) of (\d+)$"=圖片 $1 之 $2
+Categories=類別
+Opens the GitHub Repository of this mod=開啟此模組的GitHub存儲庫
+Toggle File Organization-切換圖片分類
+Organize all files manually=手動圖片分類
+Organize all pictures (can cause lag)=分類所有圖片(可能會造成卡頓)
+Reset Organization (can cause lag)=重製所有圖片分類(可能會造成卡頓)
+Reset the whole file organization=重製所有已分類的圖片
+Switch to Camera Menu Button=切換成相機頁面按鈕
+Switch to Tab Button=切換成分頁按鈕
+Press to go back=點此返回
+sr:"^Version (.+)$"=版本 $1\n中文化By XoF_eLtTiL
+
+\\ IKTweak
+Use Pitch-Yaw Shoulders=使用肩膀修正
+Animations mode in FBT=全身追蹤的動畫模式
+Play all animations=播放所有動畫
+Ignore head animations=忽略頭部動畫
+Ignore hands animations=忽略手部動畫
+Ignore head and hands=忽略手跟頭部動畫
+Ignore all (always slide around)=全部忽略(無走路動畫)
+Feet stick to ground=腳部不離開地面
+Enable IKTweaks (use custom VRIK)=啟用IKTweaks (使用自訂VRIK)
+Enforce local NetIK (see what others see)=強制本地NetIK(看別人所看到的樣子)
+Map toes (use if your feet trackers move with your toes)=控制腳尖(啟用後請把Tracker放在腳尖位置)
+Use knee trackers=使用膝蓋追蹤
+Use elbow trackers=使用手肘追蹤
+Use chest tracker=使用胸部追蹤
+Avatar follows head when calibrating (recommended)=當全身追蹤時角色跟隨頭部(推薦)
+Freeze avatar on one trigger hold in follow head mode=使用單邊板機鍵停止頭部追隨模式
+Use universal calibration (requires follow head mode)=使用通用校正(需開啟頭部追隨)
+Store calibration per avatar (when not using universal calibration)=單一儲存角色全身校正(無使用通用校正時)
+Disable FBT even if trackers are present=即使Tracker啟用也禁用全身校正
+Enforce hip rotation match=強制腰部旋轉匹配
+Shift hip pivot (support inverted hip)=位移腰部樞軸(支持倒腰部樞軸)
+Pre-straighten spine (improve IK stability)=預先拉直脊椎(優化IK穩定)
+Straighten neck=拉直頸部
+Spine Relax Iterations (max 25)=脊椎伸展疊代 (最大25)
+Max neck angle forward (degrees)=最大頸部向前(角度)
+Max neck angle back (degrees)=最大頸部向前(角度)
+Max spine angle forward (degrees)=最大脊椎向前(角度)
+Max spine angle back (degrees)=最大脊椎向前(角度)
+Neck bend priority (1%3Deven with spine, 2%3Dtwice as much as spine)=頸部彎曲優先（1 %3D連脊椎一起，2 %3D脊椎的兩倍）
+Straight spine angle (degrees)=拉直脊椎角度
+Straight spine power=拉直脊椎力道
+Avatar scaling mode=角色縮放模式
+VRC default=VRC預設
+Wingspan (accurate)=手臂伸展 (精準)
+Height=身高
+A-pose calibration=A姿勢全身校正
+Allow more head rotation in 3/4-point tracking=允許在半身追蹤中更多頭部旋轉
+Improved wingspan adjustment factor=優化手臂張開校正調整係數
+One-handed calibration=單手全身校正
+Don't freeze head/hands inside walls=不要將頭/手凍在牆內
+Clear per-avatar stored calibrations=清除每隻角色的自動校正結果
+Open documentation in browser=用瀏覽器開啟文檔
+Adjust hand offsets=調整手部位移
+Adjust hand angles=調整手部角度
+Offsets:=位移:
+Angles:角度:
+High precision=微調
+More IKTweaks...=更多IKTweaks...
+
+\\Advanced Invitres
+Delete Notification After Successful Use=成功使用邀請後自動刪除通知
+Blacklist System=黑名單系統
+Whitelist System=白名單系統
+Notification Volume=通知音量
+Join Me Req Notification Sound="加入我"邀請通知音效
+Ignore Busy Status=忽略"請勿打擾"狀態
+Invite Sound=邀請音效
+Invite-Request Sound=邀請請求音效
+AdvancedInvites Reload Sounds=AdvancedInvites\n音效重新載入
+
+\\
+Auto Follow Invite Predownloads=自動下載邀請的世界
+Auto Join World Predownloads=自動加入下載完成的世界
+Auto Join Friend Predownloads=自動加入下載完成世界(好友)
+Display download status on QM=在快速選單顯示下載狀態
+Hide status on QM when not downloading=當無下載時自動隱藏下載狀態
+Display download status on HUD=在HUD顯示下載狀態
+Show HUD Messages=顯示HUD訊息
+Show popup On Complete=當完成時彈出視窗提醒
+Accept invites using AdvancedInvites popup=使用 AdvancedInvites 彈出視窗接受邀請和下載
+Predownload=預先下載
+Downloaded=已下載
+
+\\MultiplyaerDynamicBones
+Enabled by default=預設啟用多人動態骨骼
+Optimize bones, don't enable interaction [QM]=優化動態骨骼, 但不啟用互動功能 [QM]
+Only I can interact with other bones [QM]=只有我能互動其他人的動態骨骼 [QM]
+Only friends and I can interact w/ eachothers bones [QM]=只有我和好友們可以互相互動動態骨骼 [QM]
+Desktopers's colliders and bones won't be multiplayer'd [QM]=關閉桌面模式玩家的碰撞和動態骨骼互動 [QM]
+Only enable colliders in hands [QM]=只啟用手部的碰撞 [QM]
+Only the breast bones will be multiplayer'd [QM]=只啟用胸部動態骨骼互動 [QM]
+Add your colliders to your own bones (May cause buggy interactions) [QM]=新增碰撞在你角色所有的骨骼 (可能會造成奇怪的動骨互動) [QM]
+Add other avatar's colliders to their own bones (May cause buggy interactions) [QM]=新增碰撞在其炸人角色所有的骨骼 (可能會造成奇怪的動骨互動) [QM]
+Auto add hand colliders to avatars that don't have them (Requires reload of avatar) [QM]=自動在角色手部新增碰撞 (用來彌補角色沒有碰撞) [QM]
+Exclude Specific Bones from being Multiplayered [QM]=在多人動態骨骼中排除特定骨骼 [QM]
+Custom value for disabling bones if beyond a distance [QM]=使用距離限制動態骨骼(自訂數值) [QM]
+Distance limit=距離限制
+Disallow inside colliders from being multiplayered (Default Enabled) [QM]=不允許吸附碰撞使用多人動態骨骼 (預設啟用) [QM]
+Destroy inside colliders (Requires reload of avatar) [QM]=摧毀所有角色的吸附骨骼(需要重新載入角色) [QM]
+Collider size limit=碰撞大小限制
+Dynamic bone update rate=動態骨骼更新速率
+Adjust bone properties in a ratio from update rate change=根據動態骨骼速率調整骨骼屬性
+Enable dynamic bones only if they are in visible [QM]=只有在面對玩家時啟用動態骨骼 [QM]
+Visibility update rate (seconds)=能見度更新速率 (秒)
+Replace DB radius: Divisor - New Radius = BoneLegnth / ThisValue=取代動態骨骼的範圍:\n除數公式-新範圍=骨骼長度÷此數值
+Replace DB radius: This is the fallback radius if the calculated value is 0=取代動態骨骼範圍:\n者是一個備用範圍數值如果計算結果為0
+Replace DB radius: Excludes bone with a radius of 0 from being changed=取代動態骨骼範圍:\n不變更排除特定動態骨骼的範圍
+Replace DB radius: Adjust All Zero Radius Bones - Replace the radius for all bones with a radius of 0 on all avatars=取代動態骨骼範圍:\n調整所有動態骨骼如數值為0-在所有角色上取代數值為0的動態骨骼範圍
+Disable all Dynamic Bones in Scene [QM]=關閉場景中所有動態骨骼 [QM]
+Enable keyboard actuation(F1, F4 and F8)=啟用快捷按鍵(F1,F4和F8)
+A value of 2 will notify the user when a new version of the mod is available, while 1 will not.=新版本通知(打上1不會通知,打上2會通知)
+EnableEditor (F5)=啟用編輯器 (F5)
+Quick Menu Button - 1:Settings Menu, 2:Just Toggle, 0:None (Restart Req)=快速選單按鈕-1:設定選單, 2:就只放開關, 0:什麼都不放 (需要重新來生效)
+Console Logging Level:=控制台日誌級別:
+Info=信息
+Debug Loops=除錯循環
+Debug Deep Loops(Very laggy)=除錯深度循環(非常卡頓)
+All Possible(Very laggy)=所有(非常卡頓)
+Silent Mode=不顯示
+MoarBones: I hear you like bones~(Makes all bones Dynamic)=MoarBones:我聽說你喜歡動骨~(全部都變成動骨)
+MoarBones: Performance Limit=MoarBones:效能限制
+MoarBones: Don't effect local avatar=MoarBones:不套用在本地角色(SDK Test)
+
+\\QM
+Press to disable Dynamic Bones mod=點擊關閉\n多人動骨模組
+Press to enable Dynamic Bones mod=點擊開啟\n多人動骨模組
+Optimize bones, don't enable interaction=優化動態骨骼, 但不啟用互動功能
+Only I can interact with other bones=\n只有我能互動\n其他人的動態骨骼
+Only friends and I can interact w/ eachother=只有我和好友們\n可以互相互動
+Desktopers's colliders and bones won't be multiplayer'd=關閉\n桌面模式玩家的\n碰撞和動態骨骼互動
+Only enable colliders in hands=\n只啟用手部的碰撞
+Only the breast bones will be multiplayer'd=\n只啟用胸部動態骨骼互動
+Add your own colliders to yourself=新增碰撞在你\n角色的所有骨骼
+Add others colliders to themselves=新增碰撞在其他人\n角色的所有骨骼
+AutoAdd Hand Colliders to All (Require Avi Reload)=自動在所有人角色的\n手部新增碰撞\n(需要重新載入角色)
+Exclude Specific Objects per avatar=在每隻角色\n排除特定骨骼
+Include Specific Objects per avatar=在每隻角色\n包含特定骨骼
+Use custom value for disabling bones if beyond a distance=使用距離限制\n動態骨骼
+Destroy inside colliders=\n摧毀所有角色的吸附骨骼
+Enable dynamic bones only if they are in view=只有在面對玩家時\n啟用動態骨骼
+Disable All Bones=關閉所有動態骨骼
+Reset 'DisableAllDB' on join=加入時重設\n"關閉所有動骨"選項
+<-- These can cause buggy interaction=<--\n這可能會\n造成奇怪的\n互動回饋
+MDB Settings=多人動骨設定

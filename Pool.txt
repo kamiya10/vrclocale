@@ -1,0 +1,35 @@
+//
+// VRChat 繁體中文語言翻譯: VRCBilliards 追加
+// 翻譯、維護: XoF eLtTiL
+// 更新日期 2021/11/15
+// License under Creative Commons BY-NC-SA
+//
+
+
+Game Modes=遊戲模式
+American 8-Ball=美式 8號球
+American 9-Ball=美式 9號球
+Japanese 4-Ball=日式 4號球
+Korean 4-Ball=韓式 4號球
+Guides=輔助線
+Guideline On=輔助線開啟
+Guideline Off=輔助線關閉
+Timer=計時
+Teams=隊伍模式
+Teams: NO=隊伍模式:關閉
+Teams: YES=隊伍模式:開啟
+10s=10秒
+15s=15秒
+30s=30秒
+60s=60秒
+Players=玩家
+Player 1=玩家1
+Player 2=玩家2
+Player 3=玩家3
+Player 4=玩家4
+sr:"^(\d+) seconds remaining$"=還剩 $1 秒
+Team A=隊伍 A
+Team B=隊伍 B
+sr:"^(.+) and  win!$"=$1 和 獲勝!
+sr:"^(.+) and (.+) win!$"=$1 和 $2 獲勝!
+sr:"^(.+) wins!$"=$1 獲勝!
