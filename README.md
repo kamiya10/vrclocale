@@ -6,8 +6,8 @@
 * [XUnity AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) by bbepis
 
 ⚠️注意
-Installer 只有安裝 MelonLoader 和 XUnity 翻譯模組
-必須下載 Updater 來繁體中文更新安
+Installer 只有安裝 MelonLoader 和 XUnity 翻譯模組  
+必須下載 Updater 來繁體中文更新
 
 # ❓如何使用
 1.請先關閉VRChat  
