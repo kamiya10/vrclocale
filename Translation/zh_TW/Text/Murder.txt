@@ -1,0 +1,103 @@
+//
+// VRChat 繁體中文語言翻譯 : Murder 系列
+// 翻譯、維護: XoF_eLtTiL, Kamiya
+// 更新日期 2022/2/11
+// License under Creative Commons BY-NC-SA
+//
+
+sr:"MURDER (\d+)"=殺手$1
+HOW TO PLAY=遊戲玩法
+Snake-phobia Safe=貓貓蛇蛇
+Teams Enabled=團隊啟用
+You're locked in a mansion and a murderer is on the loose. But who is it?\nSearch for clues, find weapons, and learn the murderer's identity to survive.=你被鎖在一棟豪宅裡,\n凶手還在逍遙法外,但是到底是誰呢？\n尋找關鍵線索，找到武器\n並且想辦法得知凶手的身份且生存下去
+Teams of Two ♥ 10+ Players Minimum=倆倆一隊♥只少要10名玩家
+♛ GAME MODIFIERS=♛ 遊戲修改類
+sr:"^(\d+) patron here now!"=現在有 $1 位贊助者在這裡！
+Start=開始
+sr:"^(\d+) Players$"=$1 位玩家
+1 Player=1 位玩家
+Extra Jar Supporters=額外Jar贊助者
+Loading Patreon Data...=正在載入入Patreon數據......
+VIP Supporters!=VIP贊助者！
+r:"(.+) supporters here now!"=現在這裡有 $1 位贊助者！
+Certified Jar Supporters=認證Jar贊助者
+If you like this world and want to see more, please consider supporting at:=如果你喜歡這個世界並希望看到更多這種內容\n\n不妨考慮支持我吧：
+\nLoading Patreon Data....\n=\n正在載入入Patreon數據....\n
+Super Jar Supporters=超级Jar贊助者
+Start Now (Master)=立即開始(房主)
+Background Music=背景音樂
+Music Cues=線索音效
+r:"Next game in (\d+)"=下一場遊戲將在$1秒開始
+Unspoken by Myuu | https:%2F%2Fsoundcloud.com/myuu\nCreative Commons Attribution 3.0 Unported License\nhttps:%2F%2Fcreativecommons.org/licenses/by/3.0/deed.en_US=Unspoken 由 Myuu 製作| https:%2F%2Fsoundcloud.com/myuu\nCreative 姓名標示3.0授權\nhttps:%2F%2Fcreativecommons.org/licenses/by/3.0/deed.en_US
+Patron Flair=贊助者效果
+by jar=由 Jar 製作
+3+ players required=需要3位玩家以上
+Enable team circles in the lobby=在等待室中開啟隊伍圈圈
+Everyone starts in a random place=每個人都會隨機重生
+Bystander: Search for hidden clues. If you collect enough clues, a weapon will spawn so you can defend yourself. You win if the murderer dies.=旁觀者:\n尋找隱藏的線索,如果收集足夠多的線索\n將會重生一把武器在你身旁\n由此可以用來保護自己\n如果殺手死亡,你就會獲勝
+Music: Myuu=音樂:MURU.
+Partners In Crime=共同犯罪的夥伴
+Room Name Popups=房間名稱的彈出字樣
+Invisible Knives=隱藏刀具
+Only the murderer can see knives on the ground=只有殺手可以看到刀具
+Scrambled Spawns=分散重生
+Game Master:=遊戲房主:
+Murderer: Find weapons and kill all the other players. You win if you are the only person left alive. Search for clues to disguise yourself as a bystander. Only the murderer can use knives.=殺手:\n找到武器並殺死其他玩家\n如果你是唯一活著的人，你就獲勝了\n用"尋找線索"行為來混入旁觀者中\n只有殺手可以使用刀具
+LOCAL OPTIONS=本地設定
+One Unlock Only=一個線索武器
+Detective: You start with a revolver. Figure out which player is the murderer and shoot them before it's too late!=偵探:\n你開始的時候會擁有一把左輪手槍\n去查清楚哪一個玩家是殺手\n在一切還沒太晚之時槍殺他
+
+All clues vanish after someone collects enough=某人收集完所有線索,其他人將會失去線索
+World Created By:=這個世界的創造主：
+
+10+ Players Required for Duos=需要10名玩家以上來組隊
+Jar=Jar
+
+
+Shoot the Murderer=找到殺手並槍殺掉
+DETECTIVE=偵探
+♛ ABORT GAME=♛終止遊戲
+SPECTATE GAME IN PROGRESS=觀察正在進行的遊戲
+Click to Spectate=點擊來旁觀
+PlayerName=玩家名稱
+
+Something in the world is broken...=看來世界好像哪裡出錯了......
+You can help by sharing this code at:=你可以透過分享此代碼來獲取幫助：
+UDON ERROR=UDON 錯誤
+Re-Join the world to clear this error!=重新加入此是借來清除錯誤!
+
+BYSTANDER=旁觀者
+Collect 5 Clues=收集五個線索
+PREV=上一個
+Spectating:=正在旁觀:
+Map View=全地圖觀察
+
+NOBODY=沒有人
+VICTORY=勝利
+MURDERER=殺手
+KILLED BYSTANDER=殺到旁觀者
+Bedroom=臥室
+Grand Hall=大廳
+Dining Room=飯廳
+Cellar=地窖
+Kitchen=廚房
+Open=打開
+Lounge=接待廳
+Billard Room=撞球房
+Conservatory=温室
+Kill All Players=殺死所有玩家
+Clues Found=線索找到
+Garage=車庫
+Ballroom=舞廳
+Library=圖書館
+Lavatory=廁所
+Study=讀書室
+Clue=線索
+WEAPON\nUNLOCKED=已解鎖武器
+Time Remaining=剩餘時間
+DEAD=你死亡了
+BYSTANDERS=旁觀者
+Game starts in=遊戲開始 倒數:
+r:"The murderer was:"=殺手是:
+Say Cheese!=說起司!
+NO MORE\nCLUES=沒有線索

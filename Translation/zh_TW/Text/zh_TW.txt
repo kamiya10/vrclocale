@@ -1,7 +1,7 @@
 ﻿//
 // VRChat 繁體中文語言翻譯
 // 翻譯、維護: XoF_eLtTiL, Kamiya
-// 更新日期 2021/11/15
+// 更新日期 2022/2/26
 // License under Creative Commons BY-NC-SA
 //
 
@@ -31,7 +31,7 @@ GreenScreen=綠幕
 UI=使用者介面
 Lens Visibility=鏡頭可見度
 Blueprint=藍圖
-Ghost=半透明
+Ghost=鬼
 Solid=完全可見
 Filters=濾鏡
 BluePrint=藍圖
@@ -277,12 +277,12 @@ Instance Population=房間人數
 Friends in this instance=好友在此房間人數
 Rejoin World=重新加入
 Rejoin the current world instance=重新進入現在的世界房間
-Remove From Playlist=從遊玩清單移除
-Remove this world from a playlist=從遊玩清單中移除這個世界
-sr:"^Do you want to remove this world from '(.+)'\?$"=你確定要從 '$1' 移除這世界嗎?
 Create a new instance of this world=創立目前所在世界的新房間
 Add To Playlist=添加到\n遊玩清單
 Add this world to a playlist=把這個世界添加到遊玩清單裡
+Remove From Playlist=從遊玩清單移除
+Remove this world from a playlist=把這世界從遊玩清單移除
+sr:"^Do you want to remove this world from '(.+)'\?$"=你想從 '$1' 移除掉此世界嗎?
 Submit a report if this world contains inappropriate content=提交舉報假如這世界有不當的內容
 You are here=你在這裡
 invite=僅限邀請
@@ -324,6 +324,7 @@ VRChat experienced an internal error.=VRChat遇到內部錯誤
 ERROR=錯誤
 Could not log in. Please try again later.=無法登入，請重新稍後再嘗試
 Failed to connect to VRChat.=VRChat連線失敗
+Your connection to VRChat timed out.=你與VRChat連線超時
 
 // 其他房間
 Other Instances=其他房間
@@ -388,6 +389,9 @@ Avatars=角色
 Test This Avatar=測試這個角色
 AVATARS=角色
 My Creations=已上傳的角色
+r:"^Favorite Avatars \((\d+)/(\d+)\)$"=我的最愛  ($1/$2)
+Favorite Avatars (25/25)=我的最愛 (25/25)
+Get More Favorites=  獲得更多最愛欄
 Unfavorite Avatar=移除角色最愛
 Remove From Favorites=移除最愛
 Do you want to remove this avatar from your favorites?=你確定從角色最愛列表中移除此角色嗎?
@@ -395,9 +399,6 @@ Add To Favorites=新增至最愛
 Avatar added to favorites=角色已新增至最愛
 Remove From Avatar Favorites=從角色最愛列表移除
 Avatar removed from favorites=角色已從最愛移除
-r:"^Favorite Avatars \((\d+)/(\d+)\)$"=我的最愛  ($1/$2)
-Favorite Avatars (25/25)=我的最愛 (25/25)
-Get More Favorites=  獲得更多最愛欄
 Other=其他
 Legacy VRChat Avatars=VRChat 經典角色
 Avatar Worlds (Random) (Expand to Show)=角色世界 (隨機) (展開展示)
@@ -550,7 +551,8 @@ Reset=重置
 Use Avatar Image=使用角色圖片
 0/512 characters remaining...=已達字數上限
 r:"^(\d+)/\d+ characters remaining\.\.\.$"=還剩下 $1 個字元
-sr:"^Are you sure you want to initiate a vote to kick (.+)?$"=你確定要發起投票踢出 $1?
+sr:"^Are you sure you want to initiate a vote to kick (.+)?$"=你確定要發起投票踢出$1?
+this user=此玩家
 Moderation=管理玩家
 Unable to start a vote to kick=無法發起投票踢出
 sr:"^Are you sure you want to kick user: (.+)\? They will not be able to join this instance for one hour.$"=你確定要踢出玩家 $1 嗎? 他將會在一小時內無法進入此房間
@@ -571,6 +573,17 @@ History=紀錄
 Status History=狀態紀錄
 
 // ---------- VRChat+功能 ----------
+
+sr:"^VRC\+ Group (\d+) \((\d+)/25\)$"=VRC+ 角色第 $1 组 ($2/25)
+Photos are sorted into folders by year and month=照片會依照年月來分類到對應資料夾
+Gift VRChat+=贈送VRChat+
+Gift VRChat+ to this user=贈送VRChat+給此玩家
+This user already has an active VRChat+ Subscription.=此玩家已經有 VRChat+ 訂閱了
+Cannot Gift Sub=無法贈送訂閱
+This purchase grants the recipient a non-renewing VRChat+ Subscription for the specified time period.\n<color%3Dyellow>Gift purchases are non-refundable.</color>=這份禮物的接受者會有一段時間無法續訂 VRChat+ 訂閱服務\n<color%3Dyellow>一旦贈送後就無法退款了</color>
+Purchase Gift Sub for:=購買訂閱贈送給：
+<b>1 Month</b>\n<size%3D28>$9.99</size>=<b>1個月</b>\n<size%3D28>$9.99</size>
+<b>1 Year</b>\n<size%3D28>$99.99</size>=<b>1年</b>\n<size%3D28>$99.99</size>
 VRChat Plus=VRChat+
 $9.99 / month=$9.99/月
 Processing Transaction...=處理交易中......
@@ -664,7 +677,7 @@ SEND REQUEST=送出請求
 Request An Invite=請求邀請
 Send An Invite=送出邀請
 Select Gallery Image=選擇相簿圖片
-Early supporters earn me as a badge! =早期贊助者\n可獲得一個徽章!
+Early supporters earn me as a badge! =早期贊助者可獲得的徽章！
 Take New Photo=拍新照片
 You must be a VRC+ supporter to use this group.\n\nSelect an avatar and click Move to remove it from this group and add it to Favorite Avatars.=你必須是 VRC+ 贊助者來使用此組。\n\n選擇一個角色，然後單擊“移動”以從此組中刪除它，並將其添加到收藏的角色中。
 VRC+ Supporter Required=需要 VRC+ 贊助者
@@ -895,6 +908,11 @@ Fallback icon enabled=開啟後備圖標
 Fallback icon disabled=關閉後備圖標
 Show Fallback Icon=顯示後備圖標
 Hide Fallback Icon=隱藏後備圖標
+Comfort=運動舒適
+Comfort Mode=運動舒適模式
+Standard Comfort=預設模式
+Add a light tunneling effect while moving=在移動時限制一點視野
+Add a heavy tunneling effect while moving=在移動時限制大部分視野
 HUD enabled=開啟HUD
 HUD disabled=關閉HUD
 Show HUD icons=顯示HUD圖標
@@ -1146,7 +1164,7 @@ VRChat is supported by users like you!=VRCHAT需要像你這樣的贊助者！
 Go Back to the Quick Menu=返回快速選單
 CANCEL=取消
 Renew=更新
-Return to Home=回到家里
+Return to Home=回到家裡
 Hide Avatar=隱藏角色
 Use Safety\nSettings=使用安全\n設定
 Not\nBlocked=未封鎖
@@ -1197,6 +1215,7 @@ Logout=登出
 EXIT=離開
 Open Web Browser=開啟網頁瀏覽器
 Yep! Let's Go.=是的!出發~
+Safe Mode=安全模式
 Enable Safe Mode=啟動安全模式
 Disable Safe Mode=關閉安全模式
 Enable the current audio input device=開啟當前音頻輸入設備
@@ -1213,7 +1232,7 @@ Select User For More=選擇玩家查看更多
 Avatar cloned=角色已複製
 View more info about this world=查看更多關於這世界的資訊
 Thanks for being an Early Supporter! =感谢你當我們的早期支持者！ 
-Thank you for supporting VRChat!=感谢你支持VRCHAT！
+Thank you for supporting VRChat!=感谢你支持\nVRCHAT！
 Safe Mode Active=安全模式啟動
 Streamer Mode Active=直播模式啟動
 Open wings to see\nfriends and more=打開雙翼來查看朋友或是更多
@@ -1227,15 +1246,20 @@ Are you sure you would like to rejoin this world instance?=你確定你想要重
 DISABLE=關閉
 You already using this avatar=你已經正在使用這角色了
 View Photo=查看照片
+
+Mic Level=麥克風音量
+Unfavorite\nAvatar=移除角色最愛
+
+sr:"^This link will open in your web browser.\n\n(.+)$"=此連結會使用你的網路瀏覽器打開\n\n$1
+
+It looks like you’re supporting VRChat? Thanks! =看起來你已經贊助了VRChat? \n謝謝~！ 
 Author information is not available at this time.=目前看不到角色作者資訊
-Avatar details are not available at this time.=目前看不到角色作者資訊
-Link opened in web browser=連結已用瀏覽器打開
-Avatar Name=角色名稱
-PERFORMANCE=角色效能
-Vote To Kick User=投票踢出玩家
-1 Month=一個月
-1 Year=一年
-1 Month \n$9.99=一個月
-1 Year \n$99.99=一年
-This purchase grants the recipient a non-renewing \nVRChat+ Subscription for the specified time period. \nGift purchases are non-refundable.=此贈送的接收者在指定時間內是無法續訂的 VRChat+ 訂閱 贈送後事無法退款s的
-sr:"^Purchse Gift Sub for\: (.+)$"=贈送訂閱給:\n$1
+Avatar details are not available at this time.=目前看不到角色詳細資訊
+Sit / Stand=坐下/站立
+
+Changed to seated mode=切換成坐下模式
+Changed to standing mode=切換成站立模式
+
+sr:"^A vote kick has been iniated against (.+)\, do you agree?$"=有人發投票想踢除 $1 ,你同意嗎? 
+Safe Mode Enabled=安全模式啟動
+You have activated SAFE MODE.\nNon-friends will be muted, their avatars will be blocked,\nand all avatar features will be disabled.\nUse the SAFETY menu to revert to another Safety Mode.=你已經啟動了安全模式，\n非你的好友的玩家將會被禁音,\n他們的角色將會被關閉，包括他們的角色功能。\n使用安全選單來切換到另一個安全模式

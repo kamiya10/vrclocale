@@ -1,0 +1,98 @@
+//
+// VRChat 繁體中文語言翻譯: Prison Escape
+// 翻譯、維護: XoF_eLtTiL, Kamiya
+// 更新日期 2022/3/16
+// License under Creative Commons BY-NC-SA
+//
+
+Use  (Keycard  Required)=使用(需要鑰匙卡)
+WARNING=警告
+sr:"You  will  be  afk  killed  in\n(\d+)  seconds!"=你將在 $1 秒內被殺掉(AFK懲罰)
+
+Nobody Wins=沒有人獲勝
+The game was aborted=本回合被強制終止
+Overview=全地圖觀察
+ABORT  GAME=終止遊戲
+sr:"(\d+)  (Prisoners|Prisoner)"=$1 位囚犯
+sr:"(\d+)  (Guards|Guard)"=$1 位警衛
+HQ  Mirror=HQ 鏡子
+LQ  Mirror=LQ 鏡子
+Turn  Off  Mirror=關掉鏡子
+Turn  On  Mirror=打開镜子
+
+sr:"(\d+)  Minutes"=$1分鐘
+sr:"(.+)  (Per Guard|PER GUARD)"=$1位囚犯:1位警衛
+Round  starts  in=				遊戲即將開始:					
+You  are  a=你是一位
+Spectate   Game=旁觀遊戲
+by Ostinyo=由 Ostinyo 製作	
+Stop  the  prisoners  from  escaping=阻止囚犯們逃脫
+GUARD=警衛
+Prisoner=囚犯
+Use=使用
+sr:"(\d+)  Points"=$1 點
+The  guards  were  eliminated=所有警衛都被殲滅了
+Prisoners  Win!=囚犯獲勝！
+Player=玩家
+Points=點(金錢)
+Guard Kills=警衛擊殺數
+Wins=獲勝
+Pris. Kills=囚犯擊殺數
+Escapes=逃脱
+YOU  DIED=你死亡了
+sr:"Next  round  available  in  (\d+)  seconds"=在 $1 秒後可開始下一回合
+GAME  OPTIONS=遊戲修改項
+MASTER:=房主：
+Prisoner  Ratio=囚犯/警衛比例
+Time  Limit=時間限制
+sr:"Unlock  Crate\n\((\d+)  Points\)"=解鎖箱子($1點)
+sr:"Unlock  \((\d+) Points\)"=解鎖($1點)
+PRISONER=囚犯
+Find  a  way  to  escape=找到逃出監獄的方法
+Guard=警衛
+You  are  now=你現在是
+WANTED=通緝犯
+Guards  may  kill  you  on  sight!=警衛現在可能會追殺你！
+Take=拿走
+Enter Vent=進入通風管
+sr:"(.+)  escaped!"=$1 逃脱了！
+Open   (Locked)=開門(鎖住)
+CELL  BLOCK=牢房
+My  Worlds=我做的世界
+FRONT  ENTRANCE=前門
+Other  Worlds=其他作者的世界
+PRISONER  CELLS=囚犯牢房
+RESET  GAME=重置遊戲
+Gate\nControl=大門\n控制
+VISITOR  ROOM=訪客室
+VISITOR  CENTER=訪客中心
+HOW  TO  PLAY=如何遊玩
+CREDITS=感謝名單
+Patrons  get  2x  points!=贊助者可獲得雙倍點數！
+Music=音樂
+PATRONS=贊助者
+SCOREBOARD=記分板
+Double  Points=雙倍點數
+World  Options=世界修改項
+Not  enough\nplayers=玩家人數不夠
+GUARDS=警衛
+Use points to unlock rewards from prison crates!=點數可以用來開啟監獄裡的箱子！
+Licensed under Creative Commons: By Attribution 3.0 License\nhttp:%2F%2Fcreativecommons.org/licenses/by/3.0/=姓名標示3.0授權 http:%2F%2Fcreativecommons.org/licenses/by/3.0/
+Watch and eliminate any WANTED Prisoners.\nShooting innocent Prisoners will damage Guards.\nGuards start with a keycard to access locked doors.\n=觀察並殺掉被通緝的囚犯\n射殺無辜囚犯傷害會返回自身\n警衛開場有一張鑰匙卡可開啟被鎖住的區域
+Entering restricted areas, picking up weapons or keycards.=禁入限制區域、拿取武器或鑰匙卡。
+Golden  Guns=黃金武器
+CREATED  BY=這世界的創作者
+WINNING=獲勝
+Players are sorted into 2 teams, the Guards and the Prisoners.  The Prisoners try to escape while the Guards stop any escape attempts.=玩家將會被分成兩個隊伍，警衛和囚犯\n囚犯嘗試逃出監獄，警衛阻止它們逃脫
+The                     win if a Prisoner escapes or they eliminate all the Guards.\nThe                win if they eliminate all WANTED Prisoners or no Prisoners escape by the time limit.=                獲勝條件: 逃出監獄或殺掉所有警衛\n\n獲勝條件:								\n殲滅所有被通緝的囚犯或是在時間限制內無囚犯逃脫成功
+Prisoners=囚犯
+Guards=警衛
+PRISONERS=囚犯
+Escape the prison!  Prisoners may search for weapons and keycards.  Work together to open the front gate and escape through the tunnel.=逃出這座監獄！\n囚犯可以尋找武器和鑰匙卡\n共同合作努力突破並打開大門隧道。
+Music Credits\n"Spy Glass" & "Invariance" by Kevin Macleod=使用的音樂\n "Spy Glass" & "Invariance" 由 Kevin Macleod 創作
+BECOMING  WANTED=成为想要的
+Open  Gate=打開大門
+Climb=爬上
+Descend=往下
+Guards  Win!=警衛赢了！
+All  rebelling  prisoners  were  killed=所有叛亂的囚犯都被殺了
