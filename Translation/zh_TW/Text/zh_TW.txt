@@ -5,6 +5,35 @@
 // License under Creative Commons BY-NC-SA
 //
 
+
+
+
+// IK 2.0
+HUD Toggle=HUD開關
+Tracking and IK=追蹤和IK
+Avatar Measurement=角色測量模式
+IK: 2.0=IK：2.0
+Toggle FBT=開關全身追蹤
+FBT: Lock Hip=全身追蹤:腰部鎖定
+FBT: Lock Head=全身追蹤:頭部鎖定
+FBT: Lock All=全身追蹤:全部鎖定
+ Locomotion Animation=角色移動動畫
+Toggle avatar measurement between height-based and arm-based=切換角色測量模式在基於身高和基於手臂伸展長度來調整
+IK: Legacy=IK：舊版
+Now using old legacy IK=現在正在使用舊版IK
+Stats are enabled, click to disable the FPS and Ping display=統計數據已經開啟，點擊這裡關閉FPS和延遲顯示
+Now using new IK2.0=現在使用新版 IK 2.0
+Doesn't allow the head or hips to drift.=不允許頭部或腰部飄移
+Strict head tracking. Avoids odd spine angles by allowing the hips to drift.=嚴格的頭部追蹤。\n通過允許腰部飄移來避免脊椎出現畸形角度
+Strict hip tracking. Avoids odd spine angles by allowing the head to drift.=格的腰部追蹤。\n通過允許頭部飄移來避免脊椎出現畸形角度
+FBT locomotion animation is enabled, click to disable=開啟全身追蹤移動動畫，點擊這裡關閉
+FBT locomotion animation is disabled, click to enable=關閉全身追蹤移動動畫，點擊這裡開啟
+Full body tracking is now disabled=現在全身追蹤已關閉
+Full body tracking is now enabled=現在全身追蹤已開啟
+
+
+
+
 // 角色動態系統
 
 Interactions allowed for Friends. Click to pause ALL interactions, INCLUDING users you've overriden to allow.=朋友互动。\n单击以暂停所有交互，包括您允许的用户。
