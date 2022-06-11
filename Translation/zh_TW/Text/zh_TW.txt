@@ -5,8 +5,77 @@
 // License under Creative Commons BY-NC-SA
 //
 
-// 相機
 
+
+
+// IK 2.0
+HUD Toggle=HUD開關
+Tracking and IK=追蹤和IK
+Avatar Measurement=角色測量模式
+IK: 2.0=IK：2.0
+Toggle FBT=開關全身追蹤
+FBT: Lock Hip=全身追蹤:腰部鎖定
+FBT: Lock Head=全身追蹤:頭部鎖定
+FBT: Lock All=全身追蹤:全部鎖定
+ Locomotion Animation=角色移動動畫
+Toggle avatar measurement between height-based and arm-based=切換角色測量模式在基於身高和基於手臂伸展長度來調整
+IK: Legacy=IK：舊版
+Now using old legacy IK=現在正在使用舊版IK
+Stats are enabled, click to disable the FPS and Ping display=統計數據已經開啟，點擊這裡關閉FPS和延遲顯示
+Now using new IK2.0=現在使用新版 IK 2.0
+Doesn't allow the head or hips to drift.=不允許頭部或腰部飄移
+Strict head tracking. Avoids odd spine angles by allowing the hips to drift.=嚴格的頭部追蹤。\n通過允許腰部飄移來避免脊椎出現畸形角度
+Strict hip tracking. Avoids odd spine angles by allowing the head to drift.=格的腰部追蹤。\n通過允許頭部飄移來避免脊椎出現畸形角度
+FBT locomotion animation is enabled, click to disable=開啟全身追蹤移動動畫，點擊這裡關閉
+FBT locomotion animation is disabled, click to enable=關閉全身追蹤移動動畫，點擊這裡開啟
+Full body tracking is now disabled=現在全身追蹤已關閉
+Full body tracking is now enabled=現在全身追蹤已開啟
+
+
+
+
+// 角色動態系統
+
+Interactions allowed for Friends. Click to pause ALL interactions, INCLUDING users you've overriden to allow.=朋友互动。\n单击以暂停所有交互，包括您允许的用户。
+Some avatars are built with special interactions like adjustable hair or high-fives. The Avatar Interactions panel allows you to control who can interact with you and vice versa. <color%3D"yellow">Note that both you and the other user must have interaction permissions enabled to use this feature.</color>=有些角色有內建一些可以特殊互動像是去拉扯頭髮或是擊掌\n角色動態互動面板允許你控制誰可以跟你的角色互動\n<color%3D"yellow">請注意，你和其他玩家都需要請用角色動態互動權限才可以使用此功能</color>
+Learn More About Avatar Interactions=了解更多關於角色動態互動
+Self Interact=自我互動
+Allow/Pause\nInteractions=允許/暫停互動
+Nobody=没有人
+Avatar Interactions=角色動態互動
+Click to pause ALL interactions, INCLUDING users you've overriden to allow.=點擊可暫停所有互動，包括你已經使用覆蓋全域設定的玩家們
+Deny Avatar Interactions with everyone, except users you've overridden to allow.=拒絕與所有人的角色互動，除了你全域覆蓋允許的玩家外
+Allow Avatar Interactions with friends and users you've overridden to allow, except friends that you've overridden to deny.=允許與朋友和你已經套用全域覆蓋允許的朋友們互動，除了你全域覆蓋拒絕的朋友
+Allow Avatar Interactions with everyone, except users you've overridden to deny.=除了被你套用全域覆蓋拒絕的玩家們，每個人都可以跟你的角色互動
+Click to disable Self Interaction=點擊來關閉自我互動
+Click to enable Self Interaction=點擊來開啟自我互動
+Self Interaction enabled=自我互動已開啟
+Self Interaction disabled=自我互動已關閉
+The current interaction setting is shown here: Nobody, Friends, or Everyone=當前的互動設定會顯示在這裡：没有人，朋友或所有人
+Click to resume interactions and activate overrides.=點擊來恢復互動和啟動全域覆蓋
+Interaction with others paused=與其他玩家互動暫停
+Allowing Avatar Interactions With Everyone=允許與所有人角色動態互動
+Allowing Avatar Interactions With Friends=允許與朋友角色動態互動
+Denying Avatar Interactions With Everyone=拒絕與所有人角色動態互動
+Interaction with others active=與其他玩家互動啟用
+Interactions denied for Everyone. Click to pause ALL interactions, INCLUDING users you've overriden to allow.=拒絕所有人的角色動態互動人\n點擊暫停所有角色動態互動，包括你允許的玩家
+Interactions paused. Click to resume interactions and activate overrides.=角色動態互動已暫停\n點擊恢復所有角色動態互動
+<color%3D#FFFFFFFF>When Convert All is enabled, all Dynamic Bones and/or Colliders will be replaced by PhysBones. This applies to all avatars, including your own. Performance ratings will be applied after this replacement.</color>=<color%3D#FFFFFFFF>當自動轉換全部為物理骨骼開啟後，所有的動態骨骼和/或碰撞器都會被物理骨骼所取代。\n這個適用於所有角色上，包括你自己的。\n角色效能評分系統將會套用這個取代轉換</color>
+Convert All Dynamic Bones To Phys Bones=將所有動態骨骼轉到物理骨骼
+Use your current Avatar Interaction setting when interacting with this user=對此玩家使用你目前設定的角色動態互動設定
+Force Off=強制關閉
+Force On=強制開啟
+Use Current Setting=使用目前設定
+Avatar Interaction Override=角色動態互動覆蓋
+Disable interactions with this user regardless of your current setting=關閉與此玩家的角色動態互動，不管你當前的設定如何
+Enable interactions with this user regardless of your current setting=開啟與此玩家的角色動態互動，不管你當前的設定如何
+
+
+
+
+
+
+// 相機
 Aperture=光圈
 Focal Distance=焦距
 Anchor=位置固定
@@ -580,7 +649,8 @@ Gift VRChat+=贈送VRChat+
 Gift VRChat+ to this user=贈送VRChat+給此玩家
 This user already has an active VRChat+ Subscription.=此玩家已經有 VRChat+ 訂閱了
 Cannot Gift Sub=無法贈送訂閱
-This purchase grants the recipient a non-renewing VRChat+ Subscription for the specified time period.\n<color%3Dyellow>Gift purchases are non-refundable.</color>=這份禮物的接受者會有一段時間無法續訂 VRChat+ 訂閱服務\n<color%3Dyellow>一旦贈送後就無法退款了</color>
+This purchase grants the recipient a non-renewing VRChat+ Subscription for the specified time period.=這份禮物的接受者會\n有一段時間無法續訂 VRChat+ 訂閱服務
+Gift purchases are non-refundable.=一旦贈送後就無法退款了
 Purchase Gift Sub for:=購買訂閱贈送給：
 <b>1 Month</b>\n<size%3D28>$9.99</size>=<b>1個月</b>\n<size%3D28>$9.99</size>
 <b>1 Year</b>\n<size%3D28>$99.99</size>=<b>1年</b>\n<size%3D28>$99.99</size>
@@ -1069,7 +1139,7 @@ Legendary=早期玩家
 Legendary User=早期玩家
 Nuisance=公害
 Friend (Visitor)=好友 (訪客)
-Friend (New)=好友 (新玩家)ㄋ
+Friend (New)=好友 (新玩家)
 Friend (New User)=好友 (新玩家)
 Friend (User)=好友 (一般玩家)
 Friend (Known)=好友 (高級玩家)
@@ -1150,7 +1220,7 @@ On=開
 Back=返回
 Loading=載入中
 Terms & Conditions=服務條款和條件
-If you don’t see the Steam Transaction Overlay, try the following:\r\n=如果你沒有看到 Steam 交易疊層，請嘗試以下操作:\r\n
+If you don’t see the Steam Transaction Overlay, try the following:\r\n=如果你沒有看到 Steam 交易疊層，請嘗試以下操作:
 CLOSE=關閉
 $99.99 / year=$99.99/年
 Okay=好
@@ -1262,4 +1332,7 @@ Changed to standing mode=切換成站立模式
 
 sr:"^A vote kick has been iniated against (.+)\, do you agree?$"=有人發投票想踢除 $1 ,你同意嗎? 
 Safe Mode Enabled=安全模式啟動
-You have activated SAFE MODE.\nNon-friends will be muted, their avatars will be blocked,\nand all avatar features will be disabled.\nUse the SAFETY menu to revert to another Safety Mode.=你已經啟動了安全模式，\n非你的好友的玩家將會被禁音,\n他們的角色將會被關閉，包括他們的角色功能。\n使用安全選單來切換到另一個安全模式
+You have activated SAFE MODE.\nNon-friends will be muted, their avatars will be blocked,\nand all avatar features will be disabled.\nAvatar interactions will be paused.\nUse the SAFETY menu to revert to another Safety Mode.=你已經啟動了安全模式，\n非你的好友的玩家將會被禁音,\n他們的角色將會被關閉，包括他們的角色功能\n角色動態互動系統將會關閉\n使用安全選單來切換到另一個安全模式
+OK=好的
+
+- Check your VR headset if there is one connected.\n- Enable Steam Overlay in Steam > Settings > In-Game tab, \nthen restart VRChat.\n- Enable Steam Overlay in Steam Library > VRChat > Properties > General tab, then restart VRChat.\n- Be sure to launch VRChat from your Steam Library and not a shortcut.= - 檢查你的 VR 頭盔是否以連接\n - 在Steam>“設定”>“遊戲”分類中開啟Steam遊戲疊層，然後再重新啟動 VRChat\n - 在 Steam 遊戲庫> VRCHAT>內容>一般分類中開啟 Steam 遊戲疊層，然后重新啟動 VRCHAT\n - 確保你是從 Steam 遊戲庫中啟動 VRChat，而不適使用捷徑來啟動
