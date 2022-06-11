@@ -1,48 +1,45 @@
 ﻿//
 // VRChat 繁體中文語言翻譯
 // 翻譯、維護: XoF_eLtTiL, Kamiya
-// 更新日期 2022/2/26
+// 更新日期 2022/6/12
 // License under Creative Commons BY-NC-SA
 //
 
 
-
-
 // IK 2.0
+
 HUD Toggle=HUD開關
 Tracking and IK=追蹤和IK
 Avatar Measurement=角色測量模式
-IK: 2.0=IK：2.0
 Toggle FBT=開關全身追蹤
-FBT: Lock Hip=全身追蹤:腰部鎖定
-FBT: Lock Head=全身追蹤:頭部鎖定
-FBT: Lock All=全身追蹤:全部鎖定
- Locomotion Animation=角色移動動畫
-Toggle avatar measurement between height-based and arm-based=切換角色測量模式在基於身高和基於手臂伸展長度來調整
-IK: Legacy=IK：舊版
+FBT: Lock Hip=全身追蹤：腰部鎖定
+FBT: Lock Head=全身追蹤：頭部鎖定
+FBT: Lock All=全身追蹤：全部鎖定
+Locomotion Animation=角色移動動畫
+Toggle avatar measurement between height-based and arm-based=在基於身高或臂長之間切換角色測量模式
+IK: Legacy=IK: 舊版
 Now using old legacy IK=現在正在使用舊版IK
-Stats are enabled, click to disable the FPS and Ping display=統計數據已經開啟，點擊這裡關閉FPS和延遲顯示
+Stats are enabled, click to disable the FPS and Ping display=統計數據已經開啟，點擊這裡關閉幀數和延遲顯示
 Now using new IK2.0=現在使用新版 IK 2.0
 Doesn't allow the head or hips to drift.=不允許頭部或腰部飄移
-Strict head tracking. Avoids odd spine angles by allowing the hips to drift.=嚴格的頭部追蹤。\n通過允許腰部飄移來避免脊椎出現畸形角度
-Strict hip tracking. Avoids odd spine angles by allowing the head to drift.=格的腰部追蹤。\n通過允許頭部飄移來避免脊椎出現畸形角度
-FBT locomotion animation is enabled, click to disable=開啟全身追蹤移動動畫，點擊這裡關閉
-FBT locomotion animation is disabled, click to enable=關閉全身追蹤移動動畫，點擊這裡開啟
-Full body tracking is now disabled=現在全身追蹤已關閉
-Full body tracking is now enabled=現在全身追蹤已開啟
-
+Strict head tracking. Avoids odd spine angles by allowing the hips to drift.=嚴格頭部追蹤。\n通過允許腰部飄移來避免脊椎出現畸形角度
+Strict hip tracking. Avoids odd spine angles by allowing the head to drift.=嚴格腰部追蹤。\n通過允許頭部飄移來避免脊椎出現畸形角度
+FBT locomotion animation is enabled, click to disable=全身追蹤移動動畫已啟用，點擊這裡停用
+FBT locomotion animation is disabled, click to enable=全身追蹤移動動畫已停用，點擊這裡啟用
+Full body tracking is now disabled=已停用全身追蹤
+Full body tracking is now enabled=已啟用全身追蹤
 
 
 
 // 角色動態系統
 
-Interactions allowed for Friends. Click to pause ALL interactions, INCLUDING users you've overriden to allow.=朋友互动。\n单击以暂停所有交互，包括您允许的用户。
-Some avatars are built with special interactions like adjustable hair or high-fives. The Avatar Interactions panel allows you to control who can interact with you and vice versa. <color%3D"yellow">Note that both you and the other user must have interaction permissions enabled to use this feature.</color>=有些角色有內建一些可以特殊互動像是去拉扯頭髮或是擊掌\n角色動態互動面板允許你控制誰可以跟你的角色互動\n<color%3D"yellow">請注意，你和其他玩家都需要請用角色動態互動權限才可以使用此功能</color>
-Learn More About Avatar Interactions=了解更多關於角色動態互動
+Interactions allowed for Friends. Click to pause ALL interactions, INCLUDING users you've overriden to allow.=允許好友互動。\n點擊來暂停所有或棟，包括你允許的玩家。
+Some avatars are built with special interactions like adjustable hair or high-fives. The Avatar Interactions panel allows you to control who can interact with you and vice versa. <color%3D"yellow">Note that both you and the other user must have interaction permissions enabled to use this feature.</color>=有些角色有內建一些可以特殊互動像是去拉扯頭髮或是擊掌\n角色互動面板允許你控制誰可以跟你的角色互動\n<color%3D"yellow">請注意，你和其他玩家都需要請用角色互動權限才可以使用此功能</color>
+Learn More About Avatar Interactions=了解更多關於角色互動
 Self Interact=自我互動
 Allow/Pause\nInteractions=允許/暫停互動
-Nobody=没有人
-Avatar Interactions=角色動態互動
+Nobody=沒有人
+Avatar Interactions=角色互動
 Click to pause ALL interactions, INCLUDING users you've overriden to allow.=點擊可暫停所有互動，包括你已經使用覆蓋全域設定的玩家們
 Deny Avatar Interactions with everyone, except users you've overridden to allow.=拒絕與所有人的角色互動，除了你全域覆蓋允許的玩家外
 Allow Avatar Interactions with friends and users you've overridden to allow, except friends that you've overridden to deny.=允許與朋友和你已經套用全域覆蓋允許的朋友們互動，除了你全域覆蓋拒絕的朋友
@@ -51,27 +48,24 @@ Click to disable Self Interaction=點擊來關閉自我互動
 Click to enable Self Interaction=點擊來開啟自我互動
 Self Interaction enabled=自我互動已開啟
 Self Interaction disabled=自我互動已關閉
-The current interaction setting is shown here: Nobody, Friends, or Everyone=當前的互動設定會顯示在這裡：没有人，朋友或所有人
+The current interaction setting is shown here: Nobody, Friends, or Everyone=目前的互動設定會顯示在這裡：沒有人、朋友或所有人
 Click to resume interactions and activate overrides.=點擊來恢復互動和啟動全域覆蓋
-Interaction with others paused=與其他玩家互動暫停
-Allowing Avatar Interactions With Everyone=允許與所有人角色動態互動
-Allowing Avatar Interactions With Friends=允許與朋友角色動態互動
-Denying Avatar Interactions With Everyone=拒絕與所有人角色動態互動
-Interaction with others active=與其他玩家互動啟用
-Interactions denied for Everyone. Click to pause ALL interactions, INCLUDING users you've overriden to allow.=拒絕所有人的角色動態互動人\n點擊暫停所有角色動態互動，包括你允許的玩家
-Interactions paused. Click to resume interactions and activate overrides.=角色動態互動已暫停\n點擊恢復所有角色動態互動
+Interaction with others paused=與其他玩家角色互動暫停
+Allowing Avatar Interactions With Everyone=允許與所有人角色互動
+Allowing Avatar Interactions With Friends=允許與朋友角色互動
+Denying Avatar Interactions With Everyone=拒絕與所有人角色互動
+Interaction with others active=與其他玩家角色互動啟用
+Interactions denied for Everyone. Click to pause ALL interactions, INCLUDING users you've overriden to allow.=拒絕所有人的角色互動人\n點擊暫停所有角色互動，包括你允許的玩家
+Interactions paused. Click to resume interactions and activate overrides.=角色互動已暫停\n點擊恢復所有角色互動
 <color%3D#FFFFFFFF>When Convert All is enabled, all Dynamic Bones and/or Colliders will be replaced by PhysBones. This applies to all avatars, including your own. Performance ratings will be applied after this replacement.</color>=<color%3D#FFFFFFFF>當自動轉換全部為物理骨骼開啟後，所有的動態骨骼和/或碰撞器都會被物理骨骼所取代。\n這個適用於所有角色上，包括你自己的。\n角色效能評分系統將會套用這個取代轉換</color>
 Convert All Dynamic Bones To Phys Bones=將所有動態骨骼轉到物理骨骼
-Use your current Avatar Interaction setting when interacting with this user=對此玩家使用你目前設定的角色動態互動設定
+Use your current Avatar Interaction setting when interacting with this user=對此玩家使用你目前設定的角色互動設定
 Force Off=強制關閉
 Force On=強制開啟
 Use Current Setting=使用目前設定
-Avatar Interaction Override=角色動態互動覆蓋
-Disable interactions with this user regardless of your current setting=關閉與此玩家的角色動態互動，不管你當前的設定如何
-Enable interactions with this user regardless of your current setting=開啟與此玩家的角色動態互動，不管你當前的設定如何
-
-
-
+Avatar Interaction Override=角色互動覆蓋
+Disable interactions with this user regardless of your current setting=強制關閉和這位玩家的角色互動
+Enable interactions with this user regardless of your current setting=強制開啟和這位玩家的角色互動
 
 
 
@@ -81,10 +75,10 @@ Focal Distance=焦距
 Anchor=位置固定
 Default=預設
 Local=角色身邊
-Smoothed=平滑
-Look-At-Me=自動自拍
-Auto Level=自動高度固定
-Focus=聚焦
+Smoothed=防手震
+Look-At-Me=自拍校正
+Auto Level=水平校正
+Focus=對焦
 Full Auto=全自動
 Semi Auto=半自動
 Manual=手動
@@ -93,22 +87,22 @@ Pin 1=標籤 1
 Pin 2=標籤 2
 Pin 3=標籤 3
 Timed (5s)=計時器 (5秒)
-Mask=疊層
-Local Player=玩家本身
+Mask=遮罩
+Local Player=自己
 Remote Player=其他玩家
 GreenScreen=綠幕
-UI=使用者介面
+UI=介面
 Lens Visibility=鏡頭可見度
-Blueprint=藍圖
-Ghost=鬼
-Solid=完全可見
-Filters=濾鏡
 BluePrint=藍圖
-Glitch=電磁波
+Blueprint=藍圖
+Ghost=投影
+Solid=實體
+Filters=濾鏡
+Glitch=毛刺
 Speed=速度
 Hypno=龍捲
 Pixelate=像素
-Sketch=草圖
+Sketch=素描
 Sparkle=星星
 Trippy=迷幻
 Olde=老舊
@@ -124,9 +118,11 @@ LOGIN=登入
 Go!=前往！
 Go to default Home=前往預設的家
 
+
+
 // ---------- 登入頁面 ------------
 
-If you have a VR headset, remove it now.=如果你帶著VR頭盔,請下它
+If you have a VR headset, remove it now.=如果你帶著VR頭盔，請拿下它
 Please complete registration on the web page\nwe've just opened.=請在網頁上完成VRChat註冊步驟    \n我們才剛剛打開
 Login=登入
 Once you have completed registration and\nverified your email, come back here and select\n"Login".=當你完成了註冊並且\n         完成電子郵件認證\n                       再回來按下"登入"
@@ -144,7 +140,7 @@ Enter Password...=輸入密碼...
 Click Anywhere on this panel to close=點擊這面板任意處來關閉
 VRChat is a social VR platform for user generated content.  Most of what you'll see within was created by our wonderful community. For more information visit https:%2F%2FVRChat.com=VRChat是個可創作的VR社交平台。\n你能所看到大多數的創作都是由我們美好的社區創作的。\n更多信息，請參訪 https:%2F%2Fvrchat.com
 sr:"^Logging in as (.+)$"=正在以 $1 登入
-sr:"^Logging in through Steam as (.+)$"=正在透過Steam以 $1 登入
+sr:"^Logging in through Steam as (.+)$"=正在以 $1 透過Steam登入
 
 // ---------- Quick Menu ----------
 
@@ -162,7 +158,7 @@ Build=版本
 sr:"^Hi, (.+)$"=嗨，$1
 Ping=延遲
 FPS=幀數
-Pin FPS & Ping=效能顯示(上方)
+Pin FPS & Ping=效能顯示
 sr:"^(.+):(\d+) (.+)$"=$1:$2 $3
 
 //通知頁面
@@ -193,7 +189,7 @@ sr:"^(\d+) hour ago$"=$1小時前
 sr:"^(\d+) days ago$"=$1天前
 sr:"^(\d+) months ago$"=$1個月前
 sr:"^(\d+) years ago$"=$1年前
-Decline With Reply=拒絕並回復
+Decline With Reply=拒絕並回覆
 More Actions=更多動作
 
 // 分頁
@@ -299,7 +295,7 @@ TOGGLE (Known or Higher Trust Rank): Display Your Actual Trust Rank=切換 (已�
 
 // ---------- 世界 ----------
 
-Here=當前房間
+Here=目前房間
 You Are In=  你目前在
 sr:"^(.+) #(\d+) (.+)$"=$1 #$2 $3
 World not available=世界無法訪問
@@ -338,7 +334,7 @@ UPDATE=更新
 // 世界詳細
 INSTANCE DETAILS=房間資訊
 sr:"^#(\d+) - (.+)$"=#$1 - $2
-sr:"^Users - (\d+)$"=當前房間玩家 - $1人
+sr:"^Users - (\d+)$"=目前房間玩家 - $1人
 World Name=世界名稱
 World Author=世界作者
 Instance Region, Number, and Type=房間的地區、房號、和公開類型
@@ -449,8 +445,9 @@ Malicious=惡意
 Harrassing=騷擾
 Text=文本
 Harassing=騷擾
-Sexual=性方面暗示
-Chill=冷門(?)
+Sexual=性暗示
+Chill=放鬆
+
 
 // ---------- 角色 ----------
 
@@ -591,7 +588,6 @@ Force Microphone Off=強制關閉麥克風
 Are you sure you want to turn this user's microphone off?=你確定你想要關閉此玩家的麥克風嗎?
 Instance Moderator Actions=房主管理功能
 
-
 // 最愛
 CHOOSE A BOOKMARK=選擇一個最愛
 Change Bookmark Name=變更最愛名稱
@@ -640,6 +636,8 @@ Do Not Disturb: Hide location, hide join requests.=忙碌: 隱藏地點和加入
 Update=變更
 History=紀錄
 Status History=狀態紀錄
+
+
 
 // ---------- VRChat+功能 ----------
 
@@ -776,6 +774,8 @@ User Icon=玩家圖標
 Block=封鎖
 Unblock=取消封鎖
 
+
+
 // ---------- 安全 ----------
 
 Set Avatar Feature Shield Settings=角色功能遮蔽設定
@@ -845,9 +845,13 @@ Multisample Antialiasing smooths out the edges of geometry at the cost of increa
 <color%3D#FFFFFFFF>If limiting is enabled, all Dynamic Bones and/or Colliders will be removed if the limits are exceeded.  This limit is checked and applied per avatar.\r  If you wish to customize these limits, see our documentation below for editing the configuration file. </color>\n<color%3D#F0F000FF>Changes to the configuration file require a restart to take effect.</color>=<color%3D#FFFFFFFF>啟用限制後，將會移除超出限制的動態骨骼和碰撞器\n每個角色都會自動檢查並且套用限制設定\n如果想自訂這些限制，請參閱下面的文黨來編輯設定文件 </color>\n<color%3D#F0F000FF>變更設定文件後需要重起遊戲來套用</color>
 
 
+
 // ---------- 回家 ----------
 
 Do you want to go back to your home world?=你確定你要回家嗎？
+
+
+
 
 // ---------- 設定 ----------
 
@@ -859,7 +863,7 @@ Avatar Check=角色檢查
 Height Measurement=高度調整
 Streamer Mode=直播模式
 Controller Bindings=控制器按鍵設定
-Streamer Mode allows you to hide information about your location and your display name while using VRChat.\nIt also hides some methods users can get content on your screen, like images and thumbnails.\nThis can be useful for streaming.\n<color%3Dred>Streamer mode auto-declines friend requests.</color>=允許你遊玩VRChat時隱藏個人資訊和世界資訊\n它還隱藏一些用戶可以在你的螢幕上獲取內容的方法 像是圖片和縮略圖\n對直播主會很有幫助\n<color%3Dred>直播模式將會自動拒絕好友邀請</color>
+Streamer Mode allows you to hide information about your location and your display name while using VRChat.\nIt also hides some methods users can get content on your screen, like images and thumbnails.\nThis can be useful for streaming.\n<color%3Dred>Streamer mode auto-declines friend requests.</color>=允許你遊玩VRChat時隱藏個人資訊和世界資訊\n它還隱藏一些玩家可以在你的螢幕上獲取內容的方法 像是圖片和縮略圖\n對直播主會很有幫助\n<color%3Dred>直播模式將會自動拒絕好友邀請</color>
 
 
 // 舒適和安全
@@ -941,9 +945,9 @@ UPGRADE ACCOUNT=升級帳號
 Upgrade to a Full VRChat Account=升級成完整的VRChat帳號
 Upgrading from Steam to VRChat will allow you to create your own Avatars\nand Worlds once you reach the New User trust rank. Your friends and trust rank will be merged with your VRChat account. Upgrade now! It only\ntakes a few minutes.\nNote: This merges a Steam account and VRChat account.=從 Steam 升級到 VRChat 當你達到「新玩家」信任等級將允許你創建自己的角色和世界\n  你的朋友和信任等級將會合併到你的VRChat帳號\n         現在升級吧！只要花個幾分鐘就好了\n         注意：這將會合併Steam帳號與VRChat帳號
 
-Step 1 of 3:=第一步驟:
-Step 2 of 3:=第二步驟:
-Step 3 of 3:=第三步驟:
+Step 1 of 3:=第一步：
+Step 2 of 3:=第二步：
+Step 3 of 3:=第三步：
 •⚫  Select Generate to create \n    a merge token.\n•  Copy it to your clipboard.\n    You will paste it into the \n    website later. =•⚫點擊「產生」取得 合併驗證碼\n•點選「複製」將複製到剪貼簿，稍後貼到網頁上
 Generate=產生
 Copy=複製
@@ -1008,6 +1012,8 @@ HUD On=HUD 開啟
 HUD Off=HUD 關閉
 TOGGLE: Select to Turn the HUD Off=開關: 點擊來開關抬頭顯示
 
+
+
 // ---------- 相機 ----------
 
 Screenshot=螢幕截圖
@@ -1024,6 +1030,8 @@ Disable Camera=關閉相機
 Remove Your Camera=移除你的相機
 Icon Camera=玩家圖標相機
 Gallery Camera=相簿相機
+
+
 
 // ---------- 角色動畫 ----------
 
@@ -1043,6 +1051,8 @@ Die=死亡
 Dance=跳舞
 Sadness=傷心
 Backflip=後空翻
+
+
 
 // ---------- 表情符號 ----------
 
@@ -1124,6 +1134,8 @@ Create a Pineapple Emoji=創建一個鳳梨表情符號
 Create a Splash Emoji=創建水滴表情符號
 Create a Sun Lotion Emoji=創造防曬乳表情符號
 
+
+
 // ---------- 信任等級 ----------
 
 Visitor=訪客
@@ -1152,6 +1164,7 @@ Friend (Legendary)=好友 (早期玩家)
 Friend (Legendary User)=好友 (早期玩家)
 Friend (Nuisance)=好友 (公害)
 Friend (Nuisance User)=好友 (公害)
+
 
 
 // ---------- 動作選單 ----------
@@ -1202,7 +1215,9 @@ Fall=秋季
 Winter=冬季
 Summer=夏季
 
-// ---------- UNCATEGORIZED ----------
+
+
+// ---------- 未分類 ----------
 
 More features for VRC+ are coming soon! =VRC+將會推出更多功能!
 Search...=尋找...
@@ -1288,8 +1303,8 @@ Yep! Let's Go.=是的!出發~
 Safe Mode=安全模式
 Enable Safe Mode=啟動安全模式
 Disable Safe Mode=關閉安全模式
-Enable the current audio input device=開啟當前音頻輸入設備
-Disable the current audio input device=關閉當前音頻輸入設備
+Enable the current audio input device=開啟目前音訊輸入設備
+Disable the current audio input device=關閉目前音訊輸入設備
 Avatar Details=角色詳細
 Avatar Author=角色作者
 TAKE PHOPOH
@@ -1297,12 +1312,12 @@ Next User=下一個玩家
 Previous User=上一個玩家
 Show additional nameplate options in the Action Menu=在動作選單中顯示其他名牌設定
 Exit=離開
-Really exit VRChat?=你真的要離開VRChat?
+Really exit VRChat?=你真的要離開 VRChat 嗎？
 Select User For More=選擇玩家查看更多
 Avatar cloned=角色已複製
 View more info about this world=查看更多關於這世界的資訊
 Thanks for being an Early Supporter! =感谢你當我們的早期支持者！ 
-Thank you for supporting VRChat!=感谢你支持\nVRCHAT！
+Thank you for supporting VRChat!=感谢你支持\nVRChat！
 Safe Mode Active=安全模式啟動
 Streamer Mode Active=直播模式啟動
 Open wings to see\nfriends and more=打開雙翼來查看朋友或是更多
@@ -1320,9 +1335,9 @@ View Photo=查看照片
 Mic Level=麥克風音量
 Unfavorite\nAvatar=移除角色最愛
 
-sr:"^This link will open in your web browser.\n\n(.+)$"=此連結會使用你的網路瀏覽器打開\n\n$1
+sr:"^This link will open in your web browser.\n\n(.+)$"=這個連結將會在你的瀏覽器中開啟\n\n$1
 
-It looks like you’re supporting VRChat? Thanks! =看起來你已經贊助了VRChat? \n謝謝~！ 
+It looks like you’re supporting VRChat? Thanks! =看來你在贊助 VRChat ?\n謝謝～！ 
 Author information is not available at this time.=目前看不到角色作者資訊
 Avatar details are not available at this time.=目前看不到角色詳細資訊
 Sit / Stand=坐下/站立
@@ -1330,9 +1345,9 @@ Sit / Stand=坐下/站立
 Changed to seated mode=切換成坐下模式
 Changed to standing mode=切換成站立模式
 
-sr:"^A vote kick has been iniated against (.+)\, do you agree?$"=有人發投票想踢除 $1 ,你同意嗎? 
+sr:"^A vote kick has been iniated against (.+)\, do you agree?$"=有人發起投票踢除 $1 ,你同意嗎? 
 Safe Mode Enabled=安全模式啟動
-You have activated SAFE MODE.\nNon-friends will be muted, their avatars will be blocked,\nand all avatar features will be disabled.\nAvatar interactions will be paused.\nUse the SAFETY menu to revert to another Safety Mode.=你已經啟動了安全模式，\n非你的好友的玩家將會被禁音,\n他們的角色將會被關閉，包括他們的角色功能\n角色動態互動系統將會關閉\n使用安全選單來切換到另一個安全模式
+You have activated SAFE MODE.\nNon-friends will be muted, their avatars will be blocked,\nand all avatar features will be disabled.\nAvatar interactions will be paused.\nUse the SAFETY menu to revert to another Safety Mode.=你已經啟動了安全模式，\n非你的好友的玩家將會被禁音,\n他們的角色將會被關閉，包括他們的角色功能\n角色互動系統將會關閉\n使用安全選單來切換到另一個安全模式
 OK=好的
 
 - Check your VR headset if there is one connected.\n- Enable Steam Overlay in Steam > Settings > In-Game tab, \nthen restart VRChat.\n- Enable Steam Overlay in Steam Library > VRChat > Properties > General tab, then restart VRChat.\n- Be sure to launch VRChat from your Steam Library and not a shortcut.= - 檢查你的 VR 頭盔是否以連接\n - 在Steam>“設定”>“遊戲”分類中開啟Steam遊戲疊層，然後再重新啟動 VRChat\n - 在 Steam 遊戲庫> VRCHAT>內容>一般分類中開啟 Steam 遊戲疊層，然后重新啟動 VRCHAT\n - 確保你是從 Steam 遊戲庫中啟動 VRChat，而不適使用捷徑來啟動
