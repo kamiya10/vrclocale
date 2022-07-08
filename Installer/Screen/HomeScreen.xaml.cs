@@ -1,108 +1,121 @@
-﻿using Microsoft.Win32;
+﻿using MaterialDesignThemes.Wpf.Transitions;
 using Octokit;
 using System;
-using System.Diagnostics;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Forms;
 
 namespace VRCTC_Installer.Screen
 {
-    /// <summary>
-    /// HomeScreen.xaml 的互動邏輯
-    /// </summary>
-    public partial class HomeScreen : UserControl
+    public partial class HomeScreen : System.Windows.Controls.UserControl
     {
-        private System.Collections.Generic.IReadOnlyList<Release> releasesTag;
-        private string currentVersion;
+        private IReadOnlyList<Release> releaseList;
+
+        private bool canInstall
+        {
+            get
+            {
+                return !string.IsNullOrWhiteSpace(txtVRChatPath.Text) && !string.IsNullOrWhiteSpace(cbReleaseTag.SelectedItem?.ToString());
+            }
+        }
 
         public HomeScreen()
         {
             InitializeComponent();
-            fetchVersionTags();
+            initData();
         }
 
-        async private void fetchVersionTags()
+        private void setVRChatPath(string path)
         {
-            GitHubClient client = new GitHubClient(new ProductHeaderValue("vrclocale"));
-
-            releasesTag = await client.Repository.Release.GetAll("kamiya10", "vrclocale");
-            for (int i = 0; i < releasesTag.Count; i++)
+            txtVRChatPath.Text = path;
+            if (path != null)
             {
-                ComboBoxItem item = new ComboBoxItem();
-                item.Content = item.Tag = releasesTag[i].TagName;
-                releaseTag.Items.Add(item);
-            }
-        }
-
-        private void vrcPathBrowse_Click(object sender, RoutedEventArgs e)
-        {
-            string steamPath = string.Empty;
-
-            try
-            {
-                steamPath = Registry.GetValue(@"HKEY_LOCAL_MACHINE\Software\Valve\Steam", "InstallPath", null) as string;
-
-                if (string.IsNullOrEmpty(steamPath))
-                {
-                    steamPath = Registry.GetValue(@"HKEY_LOCAL_MACHINE\Software\Wow6432Node\Valve\Steam", "InstallPath", null) as string;
-
-                    if (string.IsNullOrEmpty(steamPath))
-                    {
-                        steamPath = Registry.GetValue(@"HKEY_CURRENT_USER\Software\Valve\Steam", "SteamPath", null) as string;
-                    }
-                }
-
-                if (!string.IsNullOrEmpty(steamPath))
-                {
-                    steamPath = steamPath.Trim().Replace('/', '\\');
-                }
-            }
-            catch (Exception err)
-            {
-                Debug.WriteLine(err.ToString());
-            }
-
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.InitialDirectory = steamPath + "\\SteamApps\\common";
-            openFileDialog.FileName = "VRChat.exe";
-            openFileDialog.Filter = "VRChat |VRChat.exe";
-            openFileDialog.FilterIndex = 1;
-            if (openFileDialog.ShowDialog() == true)
-            {
-                vrcPath.Text = openFileDialog.FileName;
                 try
                 {
-                    currentVersion = System.IO.File.ReadAllText(openFileDialog.FileName.Substring(0, openFileDialog.FileName.Length - 10) + "\\AutoTranslator\\Translation\\zh\\version.txt");
-                    for (int i = 0; i < releaseTag.Items.Count; i++)
+                    string currentVersion = InstallHelper.instance.readCurrentVersion();
+                    ItemCollection item = cbReleaseTag.Items;
+                    for (int i = 0; i < item.Count; ++i)
                     {
-                        if ((string)((ComboBoxItem)releaseTag.Items[i]).Content == currentVersion)
+                        if (item[i].ToString() == currentVersion)
                         {
-                            releaseTag.SelectedIndex = i;
-                            installBtnText.Text = "變更";
+                            cbReleaseTag.SelectedIndex = i;
+                            break;
                         }
                     }
                 }
-                catch (Exception) { }
-                releaseTag.IsEnabled = true;
+                catch
+                {
+                }
             }
         }
 
-        private void releaseTag_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void updateInstallButton()
         {
-
-            installBtn.IsEnabled = (string)((ComboBoxItem)releaseTag.Items[releaseTag.SelectedIndex]).Content != currentVersion;
-            releaseTagDescription.HereMarkdown = releasesTag[releaseTag.SelectedIndex].Body;
+            btnInstall.IsEnabled = canInstall;
         }
 
-        private void vrctc_Install(string version)
+        private async void initData()
         {
-
+            try
+            {
+                releaseList = await Task.Run(() => InstallHelper.fetchRelease());
+                foreach (Release release in releaseList)
+                {
+                    cbReleaseTag.Items.Add(release.TagName);
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Windows.MessageBox.Show($"無法取得版本資訊，請檢查網路連線是否正常 : {ex.Message}", "錯誤", MessageBoxButton.OK, MessageBoxImage.Error);
+                System.Windows.Application.Current.Shutdown();
+                return;
+            }
+            setVRChatPath(InstallHelper.instance.VRChatPath);
         }
 
-        private void installBtn_Click(object sender, RoutedEventArgs e)
+        private void btnBrowsePath_Click(object sender, RoutedEventArgs e)
         {
-            installBtnIcon.Visibility = Visibility.Hidden;
+            using (OpenFileDialog open = new OpenFileDialog()
+            {
+                Filter = "VRChat 執行檔案|VRChat.exe",
+                Title = "請選擇 VRChat 執行檔案"
+            })
+            {
+                if (open.ShowDialog() != DialogResult.OK)
+                {
+                    return;
+                }
+                setVRChatPath(open.FileName);
+            }
+        }
 
+        private void txtVRChatPath_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            updateInstallButton();
+        }
+
+        private void cbReleaseTag_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            try
+            {
+                mdReleaseTagDescription.Markdown = releaseList[cbReleaseTag.SelectedIndex].Body;
+            }
+            catch
+            {
+                mdReleaseTagDescription.Markdown = "讀取失敗";
+            }
+            updateInstallButton();
+        }
+
+        private void btnInstall_Click(object sender, RoutedEventArgs e)
+        {
+            InstallHelper helper = InstallHelper.instance;
+            helper.VRChatPath = txtVRChatPath.Text;
+            helper.installVersion = cbReleaseTag.SelectedItem.ToString();
+
+            btnInstall.Command = Transitioner.MoveNextCommand;
         }
     }
 }

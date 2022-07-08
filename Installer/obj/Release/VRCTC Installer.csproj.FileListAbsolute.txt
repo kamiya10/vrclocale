@@ -1,0 +1,32 @@
+F:\VSProject\VRCTC Installer\bin\Release\VRCTC Installer.exe.config
+F:\VSProject\VRCTC Installer\bin\Release\VRCTC Installer.exe
+F:\VSProject\VRCTC Installer\bin\Release\VRCTC Installer.pdb
+F:\VSProject\VRCTC Installer\bin\Release\ICSharpCode.AvalonEdit.dll
+F:\VSProject\VRCTC Installer\bin\Release\MaterialDesignColors.dll
+F:\VSProject\VRCTC Installer\bin\Release\MaterialDesignThemes.Wpf.dll
+F:\VSProject\VRCTC Installer\bin\Release\MdXaml.dll
+F:\VSProject\VRCTC Installer\bin\Release\Octokit.dll
+F:\VSProject\VRCTC Installer\bin\Release\ICSharpCode.AvalonEdit.xml
+F:\VSProject\VRCTC Installer\bin\Release\MaterialDesignColors.pdb
+F:\VSProject\VRCTC Installer\bin\Release\MaterialDesignThemes.Wpf.pdb
+F:\VSProject\VRCTC Installer\bin\Release\MaterialDesignThemes.Wpf.xml
+F:\VSProject\VRCTC Installer\bin\Release\Octokit.xml
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC Installer.csproj.AssemblyReference.cache
+F:\VSProject\VRCTC Installer\obj\Release\Screen\HomeScreen.baml
+F:\VSProject\VRCTC Installer\obj\Release\Screen\InstallScreen.baml
+F:\VSProject\VRCTC Installer\obj\Release\App.baml
+F:\VSProject\VRCTC Installer\obj\Release\MainWindow.g.cs
+F:\VSProject\VRCTC Installer\obj\Release\Screen\HomeScreen.g.cs
+F:\VSProject\VRCTC Installer\obj\Release\Screen\InstallScreen.g.cs
+F:\VSProject\VRCTC Installer\obj\Release\App.g.cs
+F:\VSProject\VRCTC Installer\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC Installer_MarkupCompile.cache
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC Installer_MarkupCompile.lref
+F:\VSProject\VRCTC Installer\obj\Release\MainWindow.baml
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC Installer.g.resources
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC_Installer.Properties.Resources.resources
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC Installer.csproj.GenerateResource.cache
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC Installer.csproj.CoreCompileInputs.cache
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC Installer.csproj.CopyComplete
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC Installer.exe
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC Installer.pdb
