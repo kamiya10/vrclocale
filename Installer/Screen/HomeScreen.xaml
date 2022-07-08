@@ -1,179 +1,125 @@
 ﻿<UserControl x:Class="VRCTC_Installer.Screen.HomeScreen"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:mdxam="clr-namespace:MdXaml;assembly=MdXaml"
              TextElement.Foreground="{DynamicResource MaterialDesignBody}"
              TextElement.FontWeight="Regular"
              TextElement.FontSize="13"
-             TextOptions.TextFormattingMode="Ideal" 
-             TextOptions.TextRenderingMode="Auto"        
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
              Background="{DynamicResource MaterialDesignPaper}"
              FontFamily="{DynamicResource MaterialDesignFont}"
-             xmlns:local="clr-namespace:VRCTC_Installer.Screen"
-             xmlns:vr="clr-namespace:VRCTC_Installer.Validation"
-             xmlns:origin="clr-namespace:VRCTC_Installer"
-             mc:Ignorable="d" 
-             d:DesignHeight="600"
-             d:DesignWidth="800">
-    <UserControl.Resources>
-        <origin:InstallationData x:Key="installData"/>
-    </UserControl.Resources>
+             mc:Ignorable="d"
+             Height="600"
+             Width="800">
     <Grid>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition Height="6*"/>
-            </Grid.RowDefinitions>
+        <md:ColorZone Mode="PrimaryMid"
+                      Height="80">
+            <TextBlock Text="VRChat 繁體中文翻譯安裝器"
+                       Style="{StaticResource MaterialDesignHeadline2TextBlock}"
+                       FontFamily="{StaticResource MaterialDesignFont}"
+                       FontWeight="Normal"
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Left"
+                       Margin="25,25,0,0"
+                       Foreground="{DynamicResource MaterialDesignDarkForeground}"
+                       FontSize="30" />
+        </md:ColorZone>
 
-            <md:ColorZone Mode="PrimaryMid"
-                          Padding="7"
-                          Height="82" Margin="0,0,-0.4,0" Grid.RowSpan="2">
+        <mdxam:MarkdownScrollViewer Name="mdReleaseTagDescription"
+                                    VerticalAlignment="Top"
+                                    HorizontalAlignment="Left"
+                                    IsSelectionEnabled="false"
+                                    MarkdownStyleName="GithubLike"
+                                    Height="265"
+                                    Margin="20,265,0,0"
+                                    Width="760" />
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="VRChat 繁體中文翻譯安裝器"
-                               Style="{StaticResource MaterialDesignHeadline2TextBlock}"
-                               FontFamily="{StaticResource MaterialDesignFont}"
-                               FontWeight="Normal"
-                               VerticalAlignment="Center"
-                               Margin="25,0,0,0"
-                               Foreground="{DynamicResource MaterialDesignDarkForeground}"
-                               FontSize="28"/>
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="20,555,0,0"
+                   Text="注意 : 安裝前請先關閉 VRChat，以免造成存取被拒"
+                   VerticalAlignment="Top"
+                   FontFamily="{StaticResource MaterialDesignFont}"
+                   FontWeight="Normal"
+                   Style="{StaticResource MaterialDesignTextBlock}"
+                   Foreground="{DynamicResource MaterialDesignDarkForeground}" />
 
-                </StackPanel>
-            </md:ColorZone>
-
-            <StackPanel Grid.Row="1"
-                        Margin="25,25,25,0">
-                <StackPanel Orientation="Horizontal">
-                    <md:PackIcon Kind="File"
-                                 VerticalAlignment="Center"
-                                 Width="32"
-                                 Height="32"/>
-                    <TextBox Name="vrcPath"
-                             IsReadOnly="True"
-                             Style="{StaticResource MaterialDesignOutlinedTextBox}"
-                             Foreground="{DynamicResource MaterialDesignDarkForeground}"
-                             FontSize="16"
-                             Margin="15"
-                             HorizontalAlignment="Left"
-                             md:HintAssist.Hint="VRChat 安裝位置"
-                             md:TextFieldAssist.HasClearButton="True" MinWidth="359" MaxWidth="600">
-                        <!--
-                            <TextBox.Text>
-                            <Binding Path="vrcPath" Source="{StaticResource installData}"
-                                     UpdateSourceTrigger="PropertyChanged">
-                                <Binding.ValidationRules>
-                                    <vr:NotEmptyValidationRule/>
-                                    <vr:FilePathValidationRule/>
-                                </Binding.ValidationRules>
-                            </Binding>
-                        </TextBox.Text>
-                        -->
-                    </TextBox>
-                    <Button Style="{StaticResource MaterialDesignFlatButton}"
-                            Content="瀏覽"
-                            x:Name="vrcPathBrowse" Click="vrcPathBrowse_Click"/>
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal">
-                    <md:PackIcon Kind="Tag"
-                                 VerticalAlignment="Center"
-                                 Width="32"
-                                 Height="32"/>
-                    <ComboBox Name="releaseTag"
-                              IsEnabled="False"
-                              Style="{StaticResource MaterialDesignOutlinedComboBox}"
-                              Foreground="{DynamicResource MaterialDesignDarkForeground}"
-                              FontSize="16"
-                              Width="180"
-                              Margin="15"
-                              HorizontalAlignment="Left"
-                              md:HintAssist.Hint="安裝版本"
-                              SelectionChanged="releaseTag_SelectionChanged">
-                        <ComboBox.SelectedItem>
-                            <Binding Path="versionTag" Source="{StaticResource installData}"
-                                     UpdateSourceTrigger="PropertyChanged">
-                                <Binding.ValidationRules>
-                                    <vr:NotEmptyValidationRule/>
-                                </Binding.ValidationRules>
-                            </Binding>
-                        </ComboBox.SelectedItem>
-                    </ComboBox>
-                </StackPanel>
-
-                <mdxam:MarkdownScrollViewer  Name="releaseTagDescription"
-                                             IsSelectionEnabled="False"
-                                             MarkdownStyleName="GithubLike"
-                                             ClickAction="OpenBrowser"
-                                             Height="270">
-                    <mdxam:MarkdownScrollViewer.MarkdownStyle>
-                        <Style TargetType="FlowDocument"
-                               BasedOn="{x:Static mdxam:MarkdownStyle.GithubLike}">
-                            <Style.Resources>
-                                <Style TargetType="Paragraph">
-                                    <Style.Triggers>
-                                        <Trigger Property="Tag" Value="Heading1">
-                                            <Setter Property="FontSize"   Value="34" />
-                                            <Setter Property="Foreground" Value="{DynamicResource MaterialDesignDarkForeground}" />
-                                            <Setter Property="FontWeight" Value="Regular" />
-                                        </Trigger>
-
-                                        <Trigger Property="Tag" Value="Heading2">
-                                            <Setter Property="FontSize"   Value="24" />
-                                            <Setter Property="Foreground" Value="{DynamicResource MaterialDesignDarkForeground}" />
-                                            <Setter Property="FontWeight" Value="Regular" />
-                                        </Trigger>
-
-                                        <Trigger Property="Tag" Value="Heading3">
-                                            <Setter Property="FontSize"   Value="20" />
-                                            <Setter Property="Foreground" Value="{DynamicResource MaterialDesignDarkForeground}" />
-                                            <Setter Property="FontWeight" Value="Regular" />
-                                        </Trigger>
-
-                                        <Trigger Property="Tag" Value="CodeBlock">
-                                            <Setter Property="FontFamily"      Value="Courier New"/>
-                                            <Setter Property="Foreground"      Value="{DynamicResource MaterialDesignDarkSeparatorBackground}"/>
-                                            <Setter Property="Background"      Value="{DynamicResource MaterialDesignDarkBackground}"/>
-                                            <Setter Property="Margin"          Value="5,0,5,0"/>
-                                        </Trigger>
-                                    </Style.Triggers>
-                                </Style>
-                                <Style TargetType="Hyperlink">
-                                    <Setter Property="TextDecorations" Value="None" />
-                                    <Setter Property="Foreground"      Value="{DynamicResource PrimaryHueMidBrush}"/>
-                                </Style>
-                            </Style.Resources>
-                        </Style>
-                    </mdxam:MarkdownScrollViewer.MarkdownStyle>
-                </mdxam:MarkdownScrollViewer>
-            </StackPanel>
-
-
-        </Grid>
-        <Button Name="installBtn"
-                IsEnabled="True"
+        <Button Name="btnInstall"
+                IsEnabled="false"
                 Style="{StaticResource MaterialDesignRaisedButton}"
                 Foreground="{DynamicResource MaterialDesignDarkForeground}"
+                FontWeight="Normal"
                 FontSize="16"
                 md:ButtonAssist.CornerRadius="5"
                 Height="40"
-                Margin="0,0,20,20"
-                HorizontalAlignment="Right"
-                VerticalAlignment="Bottom"
-                Click="installBtn_Click"
-                Command="{x:Static md:Transitioner.MoveNextCommand}">
+                Margin="690,545,0,0"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Click="btnInstall_Click"
+                Cursor="Hand"
+                Width="90">
             <StackPanel Orientation="Horizontal">
-                <md:PackIcon Name="installBtnIcon"
-                             Kind="ContentSave"
+                <md:PackIcon Kind="ContentSave"
                              Width="20"
-                             Height="20" VerticalAlignment="Center"/>
-                <TextBlock Name="installBtnText"
-                           Text="安裝"
-                           Margin="8 0 0 0" VerticalAlignment="Center"/>
+                             Height="20" />
+
+                <TextBlock Text="安裝"
+                           Margin="5 0 0 0" />
             </StackPanel>
         </Button>
+
+        <md:PackIcon Kind="Tag"
+                     VerticalAlignment="Top"
+                     HorizontalAlignment="Left"
+                     Width="32"
+                     Height="32"
+                     Margin="20,200,0,0" />
+
+        <ComboBox Name="cbReleaseTag"
+                  Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                  Foreground="{DynamicResource MaterialDesignDarkForeground}"
+                  FontSize="16"
+                  Width="180"
+                  Margin="85,190,0,0"
+                  VerticalAlignment="Top"
+                  HorizontalAlignment="Left"
+                  md:HintAssist.Hint="安裝版本"
+                  SelectionChanged="cbReleaseTag_SelectionChanged"
+                  Height="55" />
+
+        <md:PackIcon Kind="File"
+                     VerticalAlignment="Top"
+                     HorizontalAlignment="Left"
+                     Width="32"
+                     Height="32"
+                     Margin="20,120,0,0" />
+
+        <TextBox Name="txtVRChatPath"
+                 IsReadOnly="true"
+                 Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                 Foreground="{DynamicResource MaterialDesignDarkForeground}"
+                 FontSize="16"
+                 Margin="85,110,0,0"
+                 TextChanged="txtVRChatPath_TextChanged"
+                 VerticalAlignment="Top"
+                 HorizontalAlignment="Left"
+                 md:HintAssist.Hint="VRChat 安裝位置"
+                 md:TextFieldAssist.HasClearButton="true"
+                 Width="600"
+                 Height="55" />
+
+        <Button Style="{StaticResource MaterialDesignFlatButton}"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Content="瀏覽"
+                FontWeight="Normal"
+                Click="btnBrowsePath_Click"
+                Cursor="Hand"
+                Width="60"
+                Height="25"
+                Margin="700,125,0,0" />
     </Grid>
 </UserControl>
