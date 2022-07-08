@@ -46,6 +46,12 @@ namespace VRCTC_Installer.Screen
             Application.Current.Shutdown();
         }
 
+        private static double getProgressBarPercentage(int progress)
+        {
+            const double max = 7;
+            return progress / max * 100;
+        }
+
         private async void startInstall()
         {
             const string MELON_LOADER_ZIP = "MelonLoader.zip";
@@ -57,7 +63,7 @@ namespace VRCTC_Installer.Screen
             {
                 appendText("移除先前版本");
                 await Task.Run(() => helper.removeOldVersion());
-                progressInstall.Value = 1;
+                progressInstall.setPercent(getProgressBarPercentage(1));
 
                 appendText("下載並解壓 Melon Loader");
                 await Task.Run(() =>
@@ -65,7 +71,7 @@ namespace VRCTC_Installer.Screen
                     helper.downloadTempFile(InstallHelper.MELON_LOADER_URL, MELON_LOADER_ZIP);
                     helper.extractZIPTemp(MELON_LOADER_ZIP);
                 });
-                progressInstall.Value = 2;
+                progressInstall.setPercent(getProgressBarPercentage(2));
 
                 appendText("下載並解壓 X Unity 自動翻譯插件");
                 await Task.Run(() =>
@@ -73,7 +79,7 @@ namespace VRCTC_Installer.Screen
                     helper.downloadTempFile(InstallHelper.getLatestAutoTranslatorURL(), AUTO_TRANSLATOR_ZIP);
                     helper.extractZIPTemp(AUTO_TRANSLATOR_ZIP);
                 });
-                progressInstall.Value = 3;
+                progressInstall.setPercent(getProgressBarPercentage(3));
 
                 appendText("下載並解壓繁體中文化文本");
                 await Task.Run(() =>
@@ -81,11 +87,11 @@ namespace VRCTC_Installer.Screen
                     helper.downloadTempFile(helper.getTCURL(), VRCTC_ZIP);
                     helper.extractZIPTemp(VRCTC_ZIP);
                 });
-                progressInstall.Value = 4;
+                progressInstall.setPercent(getProgressBarPercentage(4));
 
                 appendText("移除無用檔案");
                 await Task.Run(() => helper.removeUselessTempFile());
-                progressInstall.Value = 5;
+                progressInstall.setPercent(getProgressBarPercentage(5));
 
                 appendText("清理壓縮檔案");
                 await Task.Run(() =>
@@ -94,11 +100,11 @@ namespace VRCTC_Installer.Screen
                     helper.deleteTempFile(AUTO_TRANSLATOR_ZIP);
                     helper.deleteTempFile(VRCTC_ZIP);
                 });
-                progressInstall.Value = 6;
+                progressInstall.setPercent(getProgressBarPercentage(6));
 
                 appendText("安裝所有檔案");
                 await Task.Run(() => helper.moveTempDirectory());
-                progressInstall.Value = 7;
+                progressInstall.setPercent(getProgressBarPercentage(7));
 
                 tbTitle.Text = "安裝完成";
                 appendText("安裝完成", Brushes.LightGreen);

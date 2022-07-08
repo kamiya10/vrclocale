@@ -36,8 +36,7 @@
                      Margin="35,160,0,0"
                      Style="{StaticResource MaterialDesignLinearProgressBar}"
                      VerticalAlignment="Top"
-                     Width="725"
-                     Maximum="7" />
+                     Width="725" />
 
         <Button Name="btnConfirm"
                 Click="btnConfirm_Click"

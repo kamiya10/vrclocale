@@ -1,35 +1,3 @@
-F:\VSProject\Installer\bin\Release\VRCTC Installer.exe.config
-F:\VSProject\Installer\bin\Release\VRCTC Installer.exe
-F:\VSProject\Installer\bin\Release\VRCTC Installer.pdb
-F:\VSProject\Installer\bin\Release\ICSharpCode.AvalonEdit.dll
-F:\VSProject\Installer\bin\Release\MaterialDesignColors.dll
-F:\VSProject\Installer\bin\Release\MaterialDesignThemes.Wpf.dll
-F:\VSProject\Installer\bin\Release\MdXaml.dll
-F:\VSProject\Installer\bin\Release\Octokit.dll
-F:\VSProject\Installer\bin\Release\ICSharpCode.AvalonEdit.xml
-F:\VSProject\Installer\bin\Release\MaterialDesignColors.pdb
-F:\VSProject\Installer\bin\Release\MaterialDesignThemes.Wpf.pdb
-F:\VSProject\Installer\bin\Release\MaterialDesignThemes.Wpf.xml
-F:\VSProject\Installer\bin\Release\Octokit.xml
-F:\VSProject\Installer\obj\Release\VRCTC Installer.csproj.AssemblyReference.cache
-F:\VSProject\Installer\obj\Release\Screen\HomeScreen.baml
-F:\VSProject\Installer\obj\Release\Screen\InstallScreen.baml
-F:\VSProject\Installer\obj\Release\App.baml
-F:\VSProject\Installer\obj\Release\MainWindow.g.cs
-F:\VSProject\Installer\obj\Release\Screen\HomeScreen.g.cs
-F:\VSProject\Installer\obj\Release\Screen\InstallScreen.g.cs
-F:\VSProject\Installer\obj\Release\App.g.cs
-F:\VSProject\Installer\obj\Release\GeneratedInternalTypeHelper.g.cs
-F:\VSProject\Installer\obj\Release\VRCTC Installer_MarkupCompile.cache
-F:\VSProject\Installer\obj\Release\VRCTC Installer_MarkupCompile.lref
-F:\VSProject\Installer\obj\Release\MainWindow.baml
-F:\VSProject\Installer\obj\Release\VRCTC Installer.g.resources
-F:\VSProject\Installer\obj\Release\VRCTC_Installer.Properties.Resources.resources
-F:\VSProject\Installer\obj\Release\VRCTC Installer.csproj.GenerateResource.cache
-F:\VSProject\Installer\obj\Release\VRCTC Installer.csproj.CoreCompileInputs.cache
-F:\VSProject\Installer\obj\Release\VRCTC Installer.csproj.CopyComplete
-F:\VSProject\Installer\obj\Release\VRCTC Installer.exe
-F:\VSProject\Installer\obj\Release\VRCTC Installer.pdb
 F:\VSProject\VRCTC Installer\bin\Release\VRCTC Installer.exe.config
 F:\VSProject\VRCTC Installer\bin\Release\VRCTC Installer.exe
 F:\VSProject\VRCTC Installer\bin\Release\VRCTC Installer.pdb
@@ -43,6 +11,7 @@ F:\VSProject\VRCTC Installer\bin\Release\MaterialDesignColors.pdb
 F:\VSProject\VRCTC Installer\bin\Release\MaterialDesignThemes.Wpf.pdb
 F:\VSProject\VRCTC Installer\bin\Release\MaterialDesignThemes.Wpf.xml
 F:\VSProject\VRCTC Installer\bin\Release\Octokit.xml
+F:\VSProject\VRCTC Installer\obj\Release\VRCTC Installer.csproj.AssemblyReference.cache
 F:\VSProject\VRCTC Installer\obj\Release\Screen\HomeScreen.baml
 F:\VSProject\VRCTC Installer\obj\Release\Screen\InstallScreen.baml
 F:\VSProject\VRCTC Installer\obj\Release\App.baml
