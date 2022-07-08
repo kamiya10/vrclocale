@@ -32,7 +32,7 @@
 
         <ProgressBar Name="progressInstall"
                      HorizontalAlignment="Left"
-                     Height="35"
+                     Height="20"
                      Margin="35,160,0,0"
                      Style="{StaticResource MaterialDesignLinearProgressBar}"
                      VerticalAlignment="Top"
