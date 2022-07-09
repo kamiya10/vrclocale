@@ -1,38 +1,32 @@
 ﻿<Window x:Class="VRCTC_Installer.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
-        xmlns:mdxam="clr-namespace:MdXaml;assembly=MdXaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:s="clr-namespace:VRCTC_Installer.Screen"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         TextElement.FontWeight="Regular"
         TextElement.FontSize="13"
-        TextOptions.TextFormattingMode="Ideal" 
-        TextOptions.TextRenderingMode="Auto"        
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
-        xmlns:local="clr-namespace:VRCTC_Installer"
-        xmlns:s="clr-namespace:VRCTC_Installer.Screen"
         mc:Ignorable="d"
-        Title="MainWindow"
-        Height="600"
-        Width="800"
+        Title="VRChat 繁體中文翻譯安裝器"
+        Height="640"
+        Width="810"
         ResizeMode="NoResize">
     <Grid>
         <md:Transitioner SelectedIndex="0">
-            <md:Transitioner.InputBindings>
-                <KeyBinding Key="Left" Command="{x:Static md:Transitioner.MovePreviousCommand}" />
-                <KeyBinding Key="Right" Command="{x:Static md:Transitioner.MoveNextCommand}" />
-            </md:Transitioner.InputBindings>
+            <s:HomeScreen />
 
-            <s:HomeScreen/>
-            
             <md:TransitionerSlide>
                 <md:TransitionerSlide.BackwardWipe>
-                    <md:CircleWipe/>
+                    <md:CircleWipe />
                 </md:TransitionerSlide.BackwardWipe>
-                <s:InstallScreen/>
+
+                <s:InstallScreen />
             </md:TransitionerSlide>
         </md:Transitioner>
     </Grid>
